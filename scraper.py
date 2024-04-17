@@ -1,9 +1,15 @@
-import re
-from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 
-def scraper(url, resp, seed_urls):
+import re
+from urllib.parse import urlparse, urlunparse
+
+def scraper(url, resp, seed_url_auths):
     links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link, seed_urls)]
+    
+    url_parsed = urlparse(url)
+    
+    # Return all unabbreviated and valid links
+    return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
 
 def extract_next_links(url, resp):
     # Implementation required.
@@ -15,24 +21,65 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
+    if resp.status == 200 and resp.raw_response:
+        try:
+            # Create BS4 page
+            page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
-    return list()
+            # Find all pages with links
+            links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
+            
+            # Return the links
+            return [link['href'] for link in links]
+        except:
+            return []
+    else:
+        print(f'{resp.status}: {resp.error}')
 
-def is_valid(url, seed_urls):
+    return []
+
+def complete_url(extracted, src_parsed):
+    """Unabbreviates an abbreviated URL found in the website and removes fragment"""
+    extracted_parsed = urlparse(extracted)
+
+    # Add scheme if missing
+    if not extracted_parsed.scheme:
+        extracted_parsed = extracted_parsed._replace(scheme=src_parsed.scheme)
+
+    # Adds authority if missing
+    if not extracted_parsed.netloc:
+        extracted_parsed = extracted_parsed._replace(netloc=src_parsed.netloc)
+
+    # Adds fragment if missing
+    if extracted_parsed.fragment:
+        extracted_parsed = extracted_parsed._replace(fragment='')
+
+    return urlunparse(extracted_parsed)
+
+def is_valid(url, seed_url_auths):
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
-        if parsed.scheme not in {"http", "https"}:
+
+        # Check if URL doesn't have a non-http scheme
+        if parsed.scheme not in {"http", "https", ''}:
             return False
 
-        for auth in seed_urls:
-            if parsed.netloc.endswith(auth):
-                break
-        else:
+        # Check if authority is within required domains
+        if parsed.netloc:
+            for auth in seed_url_auths:
+                if parsed.netloc.endswith(auth):
+                    break
+            else:
+                return False
+
+        # Check if URL is not only a fragment
+        if not any(getattr(parsed, component) for component in ('scheme', 'netloc', 'path', 'params', 'query')):
             return False
 
+        # Check if URL does not have a file extension not corresponding to a webpage
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"

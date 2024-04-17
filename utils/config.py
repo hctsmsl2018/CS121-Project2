@@ -1,4 +1,5 @@
 import re
+from urllib.parse import urlparse
 
 
 class Config(object):
@@ -14,6 +15,16 @@ class Config(object):
         self.port = int(config["CONNECTION"]["PORT"])
 
         self.seed_urls = config["CRAWLER"]["SEEDURL"].split(",")
+
+        self.seed_url_auths = []
+
+        for url in self.seed_urls:
+            parsed = urlparse(url)
+
+            auth_split = parsed.netloc.split('.', maxsplit=1)
+
+            self.seed_url_auths.append(auth_split[1])
+
         self.time_delay = float(config["CRAWLER"]["POLITENESS"])
 
         self.cache_server = None
