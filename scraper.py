@@ -5,15 +5,16 @@ from urllib.parse import urlparse, urlunparse
 
 
 def scraper(url, resp, seed_url_auths):
-    links = extract_next_links(url, resp)
+    page = BeautifulSoup(resp.raw_response.content, "html.parser")
+    links = extract_next_links(url, resp, page)
 
     url_parsed = urlparse(url)
-
+    extract_text(url, resp, page)
     # Return all unabbreviated and valid links
     return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
 
 
-def extract_next_links(url, resp):
+def extract_next_links(url, resp, page):
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -27,7 +28,7 @@ def extract_next_links(url, resp):
     if resp.status == 200 and resp.raw_response:
         try:
             # Create BS4 page
-            page = BeautifulSoup(resp.raw_response.content, "html.parser")
+            # page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
             # Find all pages with links
             links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
@@ -42,24 +43,40 @@ def extract_next_links(url, resp):
     return []
 
 
-def extract_text(url, response):
+def extract_text(url, response, page):
+    # Commonly used tags for text in HTML, may be more
     text_tags = ['p', 'div', 'span', 'li']
+    # Creates path to where the downloaded page text should be stored
     cache_dir = str(Path.cwd()) + '/downloaded_pages'
     try:
+        # This will create the directory if there is not one already there
         Path(cache_dir).mkdir(parents=True, exist_ok=True)
-        out_file = open(cache_dir + '/' + url, 'w', encoding='utf-8')
-    except:
-        print('oh no thats not good ;3')
+        # Checks for https
+        if url[:8] == "https://":
+            url = url.replace('/', '-')
+            #  https link, will truncate the https:// accordingly for the page
+            out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
+        else:
+            url = url.replace('/', '-')
+            # Does the same but for http links
+            out_file = open(cache_dir + '/' + url[7:-1], 'w', encoding='utf-8')
+    except Exception as e:
+        print(e)
+        return None
     else:
         if response.status == 200 and response.raw_response:
             try:
-                page = BeautifulSoup(response.raw_response.content, "html.parser")
+                # page = BeautifulSoup(response.raw_response.content, "html.parser")
+                # Finds all content with the defined HTML tags
                 for con in page.find_all(text_tags):
+                    # Writes the content to a file
                     out_file.write(con.text)
-            except:
-                print("uh oh that wasn't supposed to happen :3")
+            except Exception as e:
+                print(e)
+                return None
         else:
             print(f'{response.status}: {response.error}')
+    out_file.close()
 
 
 def complete_url(extracted, src_parsed):
