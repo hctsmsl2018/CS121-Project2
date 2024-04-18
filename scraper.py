@@ -1,21 +1,24 @@
 from bs4 import BeautifulSoup
-
+from pathlib import Path
 import re
 from urllib.parse import urlparse, urlunparse
 
+
 def scraper(url, resp, seed_url_auths):
     links = extract_next_links(url, resp)
-    
+
     url_parsed = urlparse(url)
-    
+
     # Return all unabbreviated and valid links
     return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
+
 
 def extract_next_links(url, resp):
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
-    # resp.status: the status code returned by the server. 200 is OK, you got the page. Other numbers mean that there was some kind of problem.
+    # resp.status: the status code returned by the server. 200 is OK, you got the page. Other numbers mean that there
+    # was some kind of problem.
     # resp.error: when status is not 200, you can check the error here, if needed.
     # resp.raw_response: this is where the page actually is. More specifically, the raw_response has two parts:
     #         resp.raw_response.url: the url, again
@@ -28,7 +31,7 @@ def extract_next_links(url, resp):
 
             # Find all pages with links
             links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
-            
+
             # Return the links
             return [link['href'] for link in links]
         except:
@@ -37,6 +40,27 @@ def extract_next_links(url, resp):
         print(f'{resp.status}: {resp.error}')
 
     return []
+
+
+def extract_text(url, response):
+    text_tags = ['p', 'div', 'span', 'li']
+    cache_dir = str(Path.cwd()) + '/downloaded_pages'
+    try:
+        Path(cache_dir).mkdir(parents=True, exist_ok=True)
+        out_file = open(cache_dir + '/' + url, 'w', encoding='utf-8')
+    except:
+        print('oh no thats not good ;3')
+    else:
+        if response.status == 200 and response.raw_response:
+            try:
+                page = BeautifulSoup(response.raw_response.content, "html.parser")
+                for con in page.find_all(text_tags):
+                    out_file.write(con.text)
+            except:
+                print("uh oh that wasn't supposed to happen :3")
+        else:
+            print(f'{response.status}: {response.error}')
+
 
 def complete_url(extracted, src_parsed):
     """Unabbreviates an abbreviated URL found in the website and removes fragment"""
@@ -55,6 +79,7 @@ def complete_url(extracted, src_parsed):
         extracted_parsed = extracted_parsed._replace(fragment='')
 
     return urlunparse(extracted_parsed)
+
 
 def is_valid(url, seed_url_auths):
     # Decide whether to crawl this url or not. 
@@ -91,5 +116,5 @@ def is_valid(url, seed_url_auths):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
-        print ("TypeError for ", parsed)
+        print("TypeError for ", parsed)
         raise
