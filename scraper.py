@@ -48,35 +48,30 @@ def extract_text(url, response, page):
     text_tags = ['p', 'div', 'span', 'li']
     # Creates path to where the downloaded page text should be stored
     cache_dir = str(Path.cwd()) + '/downloaded_pages'
-    try:
-        # This will create the directory if there is not one already there
-        Path(cache_dir).mkdir(parents=True, exist_ok=True)
-        # Checks for https
-        if url[:8] == "https://":
-            url = url.replace('/', '-')
-            #  https link, will truncate the https:// accordingly for the page
-            out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
-        else:
-            url = url.replace('/', '-')
-            # Does the same but for http links
-            out_file = open(cache_dir + '/' + url[7:-1], 'w', encoding='utf-8')
-    except Exception as e:
-        print(e)
-        return None
+    if response.status == 200 and response.raw_response:
+        try:
+            Path(cache_dir).mkdir(parents=True, exist_ok=True)
+            # Checks for https
+            if url[:8] == "https://":
+                url = url.replace('/', '-')
+                #  https link, will truncate the https:// accordingly for the page
+                out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
+            else:
+                url = url.replace('/', '-')
+                # Does the same but for http links
+                out_file = open(cache_dir + '/' + url[7:-1], 'w', encoding='utf-8')
+            # page = BeautifulSoup(response.raw_response.content, "html.parser")
+            # Finds all content with the defined HTML tags
+            for con in page.find_all(text_tags):
+                # Writes the content to a file
+                out_file.write(con.text)
+            out_file.close()
+        except Exception as e:
+            print(e)
+            return None
     else:
-        if response.status == 200 and response.raw_response:
-            try:
-                # page = BeautifulSoup(response.raw_response.content, "html.parser")
-                # Finds all content with the defined HTML tags
-                for con in page.find_all(text_tags):
-                    # Writes the content to a file
-                    out_file.write(con.text)
-            except Exception as e:
-                print(e)
-                return None
-        else:
-            print(f'{response.status}: {response.error}')
-    out_file.close()
+        print(f'{response.status}: {response.error}')
+
 
 
 def complete_url(extracted, src_parsed):
