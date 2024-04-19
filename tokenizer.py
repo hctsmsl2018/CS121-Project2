@@ -1,32 +1,13 @@
 import sys
 
 
-# O(n) where n is the length of the word
-# UPdATE 4/9/24 not needed anymore keeping it just for reference
-def multiSplit(word: str) -> list:
-    alpha_numeric = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-                     'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    split_word = []
-    start = 0
-    end = 0
-    for c in word:
-        if c not in alpha_numeric:
-            split_word.append(word[start:end])
-            start = end + 1
-            end += 1
-        else:
-            end += 1
-    split_word.append(word[start:end])
-    split_word = list(filter(None, split_word))
-    return split_word
-
-
 # O(n) where n is amount of characters in the file
 def tokenize(TextFilePath: str) -> list:
     tokens = []
     alpha_numeric = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
                      'u', 'v', 'w', 'x', 'y',
                      'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    stop_words = stop_word_gen()
     try:
         file = open(TextFilePath, "r")
     except FileNotFoundError:
@@ -42,14 +23,23 @@ def tokenize(TextFilePath: str) -> list:
             elif not c:
                 break
             else:
-                if token:
+                if token and token not in stop_words and len(token) > 2:
                     tokens.append(token)
                 token = ""
-        if token:
+        if token and token not in stop_words and len(token) > 2:
             tokens.append(token)
         file.close()
 
     return tokens
+
+
+def stop_word_gen():
+    file = open('stop_words', 'r')
+    stop_words = []
+    for word in file:
+        stop_words.append(word[:-1])
+    file.close()
+    return stop_words
 
 
 # O(n + 2(m * log(m)) where n is the tokens in the file and m being the length of the ending dictionary

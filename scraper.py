@@ -53,7 +53,9 @@ def extract_text(url, response, page):
             Path(cache_dir).mkdir(parents=True, exist_ok=True)
             # Checks for https
             if url[:8] == "https://":
-                url = url.replace('/', '-')
+                #  This is here because the '/' character messes with the file path, changed it to
+                #  '|' as this is a character not used in urls
+                url = url.replace('/', '|')
                 #  https link, will truncate the https:// accordingly for the page
                 out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
             else:
