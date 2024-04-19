@@ -59,8 +59,8 @@ def main():
     for filename in os.listdir(os.getcwd() + '/downloaded_pages'):
         file_names.append(filename)
     file_tokens = pre_process(file_names)
-    report.write('Number of unique pages - ' + str(len(file_names)) + '\n')
-    report.write('Longest page by word count: ' + longest_page(file_tokens))
+    report.write('Number of unique pages - ' + str(len(file_names)) + '\n\n')
+    report.write('Longest page by word count:\n ' + longest_page(file_tokens) + '\n')
     write_common_words(common_words(file_tokens), report)
     write_unique_sub_domains(unique_sub_domains(file_names), report)
     report.close()
