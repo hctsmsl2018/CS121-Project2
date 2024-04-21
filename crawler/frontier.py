@@ -1,5 +1,7 @@
 import os
 import shelve
+import glob
+from pathlib import Path
 
 from threading import Thread, RLock
 from queue import Queue, Empty
@@ -26,6 +28,7 @@ class Frontier(object):
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
         if restart:
+            self.reset_downloaded()
             for url in self.config.seed_urls:
                 self.add_url(url)
         else:
@@ -35,6 +38,15 @@ class Frontier(object):
                 for url in self.config.seed_urls:
                     self.add_url(url)
 
+
+    def reset_downloaded(self):
+        cache_dir = str(Path.cwd()) + '/downloaded_pages/*'
+        files = glob.glob(cache_dir)
+        for f in files:
+            os.remove(f)
+            print('Removed: ' + f)
+
+            
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
         total_count = len(self.save)

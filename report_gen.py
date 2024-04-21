@@ -33,14 +33,14 @@ def write_common_words(com_words, file):
 
 
 def extract_domain(url):
-    first_slash = url.find('/')
-    return url[:first_slash]
+    end_of_domain = url.find('ics.uci.edu')
+    return url[:end_of_domain + 11]
 
 
 def unique_sub_domains(urls):
     sub_domains = []
     for url in urls:
-        if url.find('ics.uci.edu') != -1:
+        if url.find('ics.uci.edu') != -1 and url.find('informatics.uci.edu') == -1:
             url = url.replace('|', '/')
             domain = extract_domain(url)
             sub_domains.append(domain)

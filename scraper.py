@@ -51,17 +51,8 @@ def extract_text(url, response, page):
     if response.status == 200 and response.raw_response:
         try:
             Path(cache_dir).mkdir(parents=True, exist_ok=True)
-            # Checks for https
-            if url[:8] == "https://":
-                #  This is here because the '/' character messes with the file path, changed it to
-                #  '|' as this is a character not used in urls
-                url = url.replace('/', '|')
-                #  https link, will truncate the https:// accordingly for the page
-                out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
-            else:
-                url = url.replace('/', '-')
-                # Does the same but for http links
-                out_file = open(cache_dir + '/' + url[7:-1], 'w', encoding='utf-8')
+            url = url.replace('/', '|')
+            out_file = open(cache_dir + '/' + url, 'w', encoding='utf-8')
             # page = BeautifulSoup(response.raw_response.content, "html.parser")
             # Finds all content with the defined HTML tags
             for con in page.find_all(text_tags):
