@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 import re
 from urllib.parse import urlparse, urlunparse
+import urllib.robotparser
 
 
 def scraper(url, resp, seed_url_auths):
     page = BeautifulSoup(resp.raw_response.content, "html.parser")
     links = extract_next_links(url, resp, page)
-
     url_parsed = urlparse(url)
     extract_text(url, resp, page)
     # Return all unabbreviated and valid links
@@ -33,6 +33,11 @@ def extract_next_links(url, resp, page):
             # Find all pages with links
             links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
 
+            #  Remove links that are not allowed in robots.txt
+
+            for link in links:
+                if not parse_robots(link['href']):
+                    links.remove(link)
             # Return the links
             return [link['href'] for link in links]
         except:
@@ -53,7 +58,6 @@ def extract_text(url, response, page):
             Path(cache_dir).mkdir(parents=True, exist_ok=True)
             url = url.replace('/', '|')
             out_file = open(cache_dir + '/' + url, 'w', encoding='utf-8')
-            # page = BeautifulSoup(response.raw_response.content, "html.parser")
             # Finds all content with the defined HTML tags
             for con in page.find_all(text_tags):
                 # Writes the content to a file
@@ -64,7 +68,6 @@ def extract_text(url, response, page):
             return None
     else:
         print(f'{response.status}: {response.error}')
-
 
 
 def complete_url(extracted, src_parsed):
@@ -108,7 +111,6 @@ def is_valid(url, seed_url_auths):
         # Check if URL is not only a fragment
         if not any(getattr(parsed, component) for component in ('scheme', 'netloc', 'path', 'params', 'query')):
             return False
-
         # Check if URL does not have a file extension not corresponding to a webpage
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -123,3 +125,8 @@ def is_valid(url, seed_url_auths):
     except TypeError:
         print("TypeError for ", parsed)
         raise
+
+
+def parse_robots(url):
+    rp = urllib.robotparser.RobotFileParser()
+    return rp.can_fetch('*', url)

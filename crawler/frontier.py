@@ -9,12 +9,21 @@ from queue import Queue, Empty
 from utils import get_logger, get_urlhash, normalize
 from scraper import is_valid
 
+
+def reset_downloaded():
+    cache_dir = str(Path.cwd()) + '/downloaded_pages/*'
+    files = glob.glob(cache_dir)
+    for f in files:
+        os.remove(f)
+        print('Removed: ' + f)
+
+
 class Frontier(object):
     def __init__(self, config, restart):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
-        
+
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
             self.logger.info(
@@ -28,7 +37,7 @@ class Frontier(object):
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
         if restart:
-            self.reset_downloaded()
+            reset_downloaded()
             for url in self.config.seed_urls:
                 self.add_url(url)
         else:
@@ -38,15 +47,6 @@ class Frontier(object):
                 for url in self.config.seed_urls:
                     self.add_url(url)
 
-
-    def reset_downloaded(self):
-        cache_dir = str(Path.cwd()) + '/downloaded_pages/*'
-        files = glob.glob(cache_dir)
-        for f in files:
-            os.remove(f)
-            print('Removed: ' + f)
-
-            
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
         total_count = len(self.save)
@@ -72,7 +72,7 @@ class Frontier(object):
             self.save[urlhash] = (url, False)
             self.save.sync()
             self.to_be_downloaded.append(url)
-    
+
     def mark_url_complete(self, url):
         urlhash = get_urlhash(url)
         if urlhash not in self.save:
