@@ -3,18 +3,14 @@ import tokenizer as tk
 from pathlib import Path
 import itertools
 
-
-def pre_process(file_names) -> dict:
-    file_tokens = dict()
-    for file_name in file_names:
-        tokens = tk.tokenize(str(Path.cwd()) + '/downloaded_pages/' + file_name)
-        file_tokens[file_name] = tokens
-    return file_tokens
+def pre_process(shelf_path) -> dict:
+    with shelve.open(shelf_path) as shelf:
+        return dict(shelf)
 
 
 def longest_page(file_tokens):
     page = max(k for k, v in file_tokens.items() if v != 0)
-    page = page.replace('|', '/')
+
     return page
 
 
@@ -54,11 +50,8 @@ def write_unique_sub_domains(sub_domains, file):
 
 
 def main():
-    file_names = []
     report = open('report.txt', 'w')
-    for filename in os.listdir(os.getcwd() + '/downloaded_pages'):
-        file_names.append(filename)
-    file_tokens = pre_process(file_names)
+    file_tokens = pre_process(Path("test.shelve"))
     report.write('Number of unique pages - ' + str(len(file_names)) + '\n\n')
     report.write('Longest page by word count:\n ' + longest_page(file_tokens) + '\n')
     write_common_words(common_words(file_tokens), report)
