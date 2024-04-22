@@ -16,3 +16,14 @@ https://www.ics.uci.edu/resources.php
 php and html files do this
 
 404 not found
+
+https://uci.edu/visit/maps.php
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/jvnguye5/PycharmProjects/CS121-Project2/crawler/worker.py", line 32, in run
+    for scraped_url in scraped_urls:
+TypeError: 'NoneType' object is not iterable
+jvnguye5@circinus-13:~/PycharmProjects/CS121-Project2
