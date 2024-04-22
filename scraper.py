@@ -4,18 +4,18 @@ import re
 from urllib.parse import urlparse, urlunparse
 
 
-def scraper(url, resp, config, simhash):
-    page = BeautifulSoup(resp.raw_response.content, "html.parser")
-    links = extract_next_links(url, resp, page)
+def scraper(url, resp, seed_url_auths):
+    if resp.raw_response is not None:
+        page = BeautifulSoup(resp.raw_response.content, "html.parser")
+        links = extract_next_links(url, resp, page)
 
-    url_parsed = urlparse(url)
-    path = extract_text(url, resp, page)
+        url_parsed = urlparse(url)
+        extract_text(url, resp, page)
+        # Return all unabbreviated and valid links
+        return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
+    else:
+        return []
 
-    if not simhash.add_page(url, path, config):
-        path.unlink()
-
-    # Return all unabbreviated and valid links
-    return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
 
 def extract_next_links(url, resp, page):
     # Implementation required.
