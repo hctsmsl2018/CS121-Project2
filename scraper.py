@@ -6,12 +6,16 @@ import urllib.robotparser
 
 
 def scraper(url, resp, seed_url_auths):
-    page = BeautifulSoup(resp.raw_response.content, "html.parser")
-    links = extract_next_links(url, resp, page)
-    url_parsed = urlparse(url)
-    extract_text(url, resp, page)
-    # Return all unabbreviated and valid links
-    return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
+    try:
+        page = BeautifulSoup(resp.raw_response.content, "html.parser")
+    except AttributeError:
+        ...
+    else:
+        links = extract_next_links(url, resp, page)
+        url_parsed = urlparse(url)
+        extract_text(url, resp, page)
+        # Return all unabbreviated and valid links
+        return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
 
 
 def extract_next_links(url, resp, page):
@@ -27,19 +31,31 @@ def extract_next_links(url, resp, page):
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     if resp.status == 200 and resp.raw_response:
         try:
-            # Create BS4 page
-            # page = BeautifulSoup(resp.raw_response.content, "html.parser")
+            if url[-4:] == '.xml':
+                links = []
+                xml_dict = parse_sitemap(resp.raw_response)
+                for link in xml_dict:
+                    if check_freshness(xml_dict[link]):
+                        links.append(link)
+                return links
+            else:
+                rp = urllib.robotparser.RobotFileParser()
+                # Find all pages with links
+                links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
 
-            # Find all pages with links
-            links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
+                # Retrieves sitemap
+                rp.set_url(url + '/robots.txt')
+                rp.read()
+                site_map = rp.site_maps()
 
             #  Remove links that are not allowed in robots.txt
-
             for link in links:
                 if not parse_robots(link['href']):
                     links.remove(link)
             # Return the links
-            return [link['href'] for link in links]
+            links = [link['href'] for link in links]
+            links += site_map
+            return links
         except:
             return []
     else:
@@ -63,6 +79,7 @@ def extract_text(url, response, page):
                 # Writes the content to a file
                 out_file.write(con.text)
             out_file.close()
+
         except Exception as e:
             print(e)
             return None
@@ -130,3 +147,17 @@ def is_valid(url, seed_url_auths):
 def parse_robots(url):
     rp = urllib.robotparser.RobotFileParser()
     return rp.can_fetch('*', url)
+
+
+def parse_sitemap(resp):
+    xml_dict = {}
+    xml = resp.content
+    xml_page = BeautifulSoup(xml, 'html.parser')
+    sitemap_tags = xml_page.find_all('sitemap')
+    for tag in sitemap_tags:
+        xml_dict.update({tag.findNext('loc').text: tag.findNext('lastmod').text})
+    return xml_dict
+
+
+def check_freshness(date):
+    return int(date[:4]) >= 2020
