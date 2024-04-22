@@ -2,7 +2,6 @@ from pathlib import Path
 from hashlib import sha256
 from collections import defaultdict
 import shelve
-from utils import get_urlhash
 from tokenizer import tokenize, computeWordFrequencies
 
 class Simhash:
@@ -26,7 +25,7 @@ class Simhash:
                 hash_for_component >>= self._BUCKET_SIZE
 
             with shelve.open(config.tokens_file) as shelf:
-                shelf[get_urlhash(url)] = tokens
+                shelf[url] = tokens
 
             return True
         

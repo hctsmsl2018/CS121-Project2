@@ -23,6 +23,7 @@ class Frontier(object):
             self.logger.info(
                 f"Found save file {self.config.save_file}, deleting it.")
             os.remove(self.config.save_file)
+            os.remove(f"../{self.config.tokens_file}")
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
         if restart:
@@ -40,7 +41,7 @@ class Frontier(object):
         total_count = len(self.save)
         tbd_count = 0
         for url, completed in self.save.values():
-            if not completed and is_valid(url, self.config.seed_url_auths):
+            if not completed and is_valid(url, self.config):
                 self.to_be_downloaded.append(url)
                 tbd_count += 1
         self.logger.info(

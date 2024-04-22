@@ -1,7 +1,9 @@
 import os
 import tokenizer as tk
+from urllib.parse import urlparse
 from pathlib import Path
 import itertools
+import shelve
 
 def pre_process(shelf_path) -> dict:
     with shelve.open(shelf_path) as shelf:
@@ -29,15 +31,14 @@ def write_common_words(com_words, file):
 
 
 def extract_domain(url):
-    first_slash = url.find('/')
-    return url[:first_slash]
+    return urlparse(url).netloc
 
 
 def unique_sub_domains(urls):
     sub_domains = []
+
     for url in urls:
-        if url.find('ics.uci.edu') != -1:
-            url = url.replace('|', '/')
+        if url.find('uci.edu') != -1:
             domain = extract_domain(url)
             sub_domains.append(domain)
     return tk.computeWordFrequencies(sub_domains)
@@ -51,11 +52,11 @@ def write_unique_sub_domains(sub_domains, file):
 
 def main():
     report = open('report.txt', 'w')
-    file_tokens = pre_process(Path("test.shelve"))
-    report.write('Number of unique pages - ' + str(len(file_names)) + '\n\n')
+    file_tokens = pre_process("tokens.shelve")
+    report.write('Number of unique pages - ' + str(len(file_tokens)) + '\n\n')
     report.write('Longest page by word count:\n ' + longest_page(file_tokens) + '\n')
     write_common_words(common_words(file_tokens), report)
-    write_unique_sub_domains(unique_sub_domains(file_names), report)
+    write_unique_sub_domains(unique_sub_domains(file_tokens.keys()), report)
     report.close()
 
 

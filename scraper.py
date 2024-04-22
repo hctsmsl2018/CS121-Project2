@@ -4,15 +4,18 @@ import re
 from urllib.parse import urlparse, urlunparse
 
 
-def scraper(url, resp, seed_url_auths):
+def scraper(url, resp, config, simhash):
     page = BeautifulSoup(resp.raw_response.content, "html.parser")
     links = extract_next_links(url, resp, page)
 
     url_parsed = urlparse(url)
-    extract_text(url, resp, page)
-    # Return all unabbreviated and valid links
-    return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
+    path = extract_text(url, resp, page)
 
+    if not simhash.add_page(url, path, config):
+        path.unlink()
+
+    # Return all unabbreviated and valid links
+    return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
 
 def extract_next_links(url, resp, page):
     # Implementation required.
@@ -57,17 +60,21 @@ def extract_text(url, response, page):
                 #  '|' as this is a character not used in urls
                 url = url.replace('/', '|')
                 #  https link, will truncate the https:// accordingly for the page
-                out_file = open(cache_dir + '/' + url[8:-1], 'w', encoding='utf-8')
+                path = Path(cache_dir + '/' + url[8:-1])
             else:
                 url = url.replace('/', '-')
                 # Does the same but for http links
-                out_file = open(cache_dir + '/' + url[7:-1], 'w', encoding='utf-8')
+                path = Path(cache_dir + '/' + url[7:-1])
             # page = BeautifulSoup(response.raw_response.content, "html.parser")
             # Finds all content with the defined HTML tags
+            out_file = path.open('w', encoding='utf-8')
+
             for con in page.find_all(text_tags):
                 # Writes the content to a file
                 out_file.write(con.text)
             out_file.close()
+
+            return path
         except Exception as e:
             print(e)
             return None
@@ -95,7 +102,7 @@ def complete_url(extracted, src_parsed):
     return urlunparse(extracted_parsed)
 
 
-def is_valid(url, seed_url_auths):
+def is_valid(url, config):
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
@@ -108,7 +115,7 @@ def is_valid(url, seed_url_auths):
 
         # Check if authority is within required domains
         if parsed.netloc:
-            for auth in seed_url_auths:
+            for auth in config.seed_url_auths:
                 if parsed.netloc.endswith(auth):
                     break
             else:
