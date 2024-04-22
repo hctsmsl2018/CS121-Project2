@@ -1,0 +1,99 @@
+ICS 33 Spring 2024 | News | Course Reference | Schedule | Project Guide | Notes and Examples | Reinforcement Exercises | Grade Calculator | About Alex
+
+ICS 33 Spring 2024
+Reinforcement Exercises
+
+What are these reinforcement exercises for?
+
+To allow you to engage with the details of the lecture material as we encounter it and it's fresh in your mind, we'll have eight sets of reinforcement exercises in this course. About once a week, I'll be posting a set of reinforcement exercises. Those exercises will generally be due about a week after they're posted, though circumstances may require us to modify that norm slightly as the quarter progresses. Each set focuses on recently covered material.
+
+The best way to think about the reinforcement exercises is like this: If you've attended recent lectures, watched pre-recorded videos (if any), read the notes, and have engaged with the material along the way, these are questions you should be able to answer or tasks you should be able to complete. Going forward, if you take courses for which this one is a prerequisite, these are things your instructor will assume you already understand, which means an inability to understand them will make that upcoming coursework problematic for you. If someday you list Python on your resume among the knowledge and skills you claim to have when you're applying for a job, these are questions that could arise in an interview that you ought to be able to answer, and whose answer you ought to be able to explain in detail. (When you list something on your resume, you're making the claim that you know about it; it's not uncommon for an interviewer to ask questions that verify that knowledge, even for people with a lot of prior experience, but maybe especially for candidates who are just starting out.)
+
+You'll find that some of the exercises ask for things that are straightforward, while others are more open-ended, but that many of them ask you for a justification of your answer. While we aren't looking for unnecessarily long-winded responses, and while a lot of the goal here is holding yourself accountable, we do want you to be able to explain yourselves, as you would need to in a job interview or other circumstance where you're trying to convince someone that you've obtained knowledge and skills. As in a job interview, the necessary depth without unnecessary BS is the name of the game here. As this is not a course about memorizing facts, but instead about understanding why things are the way they are — why we use Python language features the way we do, why Python is different from other languages you may have learned in the past, and so on — then the best self-assessment tool I can give you, in my view, is one that makes you ask yourself that all-important question: Why? So, a lot of these questions will focus on that.
+
+It should go without saying, but sadly can't, that we expect these exercises to be completed solely by you. They are not group activities. They are subject to the same academic honesty policies as everything else in the course, which you can find described in detail in the Course Reference.
+
+How will these be graded?
+
+Each problem will have a stated point value, and the total points for an exercise set will be weighted to 2% of your overall course grade, as stated in the Course Reference, even if the point value for one exercise set is different from another; the sets are all equally weighted, ultimately.
+
+At least half of the credit on every problem will be given to someone who made an honest attempt to solve it and justified what they did with an explanation, even if the solution turns out to be misguided. We reserve the right to determine what an "honest attempt" is and this is non-negotiable, though the general idea is that an honest attempt requires demonstrating an understanding of the question asked and making an engaged attempt to solve it. Thinking about the spectrum of possibilities, a fully correct solution is obviously an honest attempt, while saying "I don't know!", writing about something completely unrelated, or misunderstanding the question such that the problem solved is the wrong problem are obviously not honest attempts. The line is drawn at a reasonable point in between, which we'll decide when we grade them, but will not be willing to split hairs over afterward.
+
+For some of the problems, we'll grade the other half of the credit more carefully; for others, frankly, we may not have the time (and an honest attempt will be worth full credit), though we will do our best to provide as much feedback as we can.
+
+Notably, we will not under any circumstances reveal ahead of time which of the problems we'll be grading more thoroughly than the others, so please don't ask; this is not a system to be gamed, but an opportunity to assess your own learning and progress in the course, which is your foremost goal here. We also will not pre-grade your work; while we're happy to answer questions, generally, we won't be willing to definitively verify that your solutions will receive full credit or that they constitute "honest attempts" before the work is actually graded after it's due.
+
+Will you provide solutions?
+
+Yes. Solutions will be provided after the due dates have passed.
+
+How do I organize my answers?
+
+You'll be best off creating a new directory for each exercise set, then doing your work within that directory. Each exercise set will make clear which files will need to be submitted and precisely what their names must be, requirements you'll need to follow if you want to receive credit. For each question we ask, you'll submit a separate file (or, occasionally, more than one; the instructions for each exercise set will make this clear).
+
+The files you submit will be in one of two formats.
+
+Python scripts (.py files)
+
+These are files that contain Python code. When we ask you to write code, we'll ask you to submit it in Python scripts, so we'll have the option to test them automatically.
+
+PDF documents (.pdf files)
+
+Many of the questions will require a written answer rather than Python code. These will be required to be submitted in a format called PDF. Note that PDF is a file format, not just a naming convention — so, for example, if you submit a text file renamed with a .pdf extension, that's not a PDF.
+
+Your answers are required to be primarily typed into a word processor, as opposed to written down and scanned (or printed out and scanned), such that we're able to read them (and also programmatically extract the text from them) easily. If all you submit is a PDF containing a scanned image, no credit will be offered. You may occasionally draw a diagram, which you can certainly include as an image within your document, but the prose that you write will need to be typed. There will be no exceptions to this rule.
+
+Most word processors are capable of saving files in PDF format; they may instead call this feature exporting or (in the case of an online word processor, such as Google Docs) downloading. Make sure that you look up how to do this using the word processor you choose, so you don't run up against this problem just before the deadline, by which time it'll be too late to fix it and you won't be able to receive credit.
+
+File naming matters
+
+To reiterate something said above that is vitally important, there will always be a requirement about the precise names that must be given to your files and a precise way that they must be submitted. You must follow these requirements completely and correctly — note that spelling, capitalization, and spacing count here — in order to receive credit for your answer to each question.
+
+Canvas will sometimes modify your filenames when you submit them (e.g., by adding a numbering scheme like -1 or a long sequence of hexadecimal digits to its name). In general, this is fine; as long as the file you submitted has the correct name prior to submission, we'll be able to obtain it with that same name, even if Canvas adjusts it.
+
+Do not copy the question into your answer
+
+TAs and readers will be reading hundreds of submissions that all answer the same question, so copying the question into your answer simply slows us down, because we then have to fish around looking for which part of what you submitted actually needs to be graded. Do not copy the question into your answer.
+
+No credit if submission instructions are not followed
+
+You can submit your solution to each problem into the corresponding Canvas dropbox — you'll find one dropbox per problem. You'll need to follow the instructions listed here, including file naming and formats, or you will receive no credit and we will not be reconsidering this decision. These instructions don't take much effort to follow, but save us an enormous amount of time in grading, which we're neither willing nor able to spend, so we're giving you the tools to do this right, but ultimately placing the onus on you to get it right.
+
+Where do I submit these?
+
+Submit your work to Canvas, just like your projects. You'll find one dropbox on Canvas for each problem. Each problem will describe in more detail what you'll need to submit, and there is a section titled Deliverables at the end of each write-up that describes more about the submission requirements that need to be followed.
+
+Will the late policy apply to these?
+
+No. The objective of these exercises is to keep you up-to-date on what we've been doing in class, so you don't find yourself midway through the quarter having fallen deeply behind. There's a lot of value — for you — in being sure that you've done them on time, so we're requiring them to be done and submitted on time. (Besides that, we'll be posting solutions not long after each set is due.)
+
+At the end of the quarter, your lowest total reinforcement exercise score for any given week will be replaced with the median total score of the others (including only those you actually submitted) in any other week, which means that you can indeed skip one of them (or struggle on one of them) without impact. For example, suppose that these are your scores at the end of the quarter:
+
+Set 1: 10
+Set 2: 8
+Set 3: 0
+Set 4: 9
+Set 5: 7
+Set 6: 10
+Set 7: 7
+Set 8: 7
+The lowest score is on Set 3. There are seven other submissions, the median score of which is 8 — because, among the submitted weeks other than Set 3, there are three higher scores than that and three lower scores than that. So, when performing the final grade calculation, Set 3's score will be adjusted to 8 accordingly. (Note that you will not see this adjustment on Canvas.)
+
+Beyond that, since each one has a relatively small value (2% of your grade), there's not a dramatic impact if you fail to submit another of them, or if you submit one of them that's only partially done.
+
+What if I have a question about how these were graded?
+
+As exercises are graded, you will receive scores and feedback on each of them via Canvas. If you believe that you've been graded unfairly, your first move is to contact specifically the person (e.g., a TA or a reader) who graded the work and discuss the issue with him or her directly, as that person is more familiar with the details of the grading ofy our work than I would be — the first thing I usually do is contact the TA or reader, anyway. Most issues are resolved this way. Note that we will not reconsider the rubric used to grade your work afterward, but if it was applied unfairly or incorrectly, we can consider an adjustment. Note, too, that the word "unfair" is not defined as "Not the way I would have preferred it to be done, so that my score would be higher," nor "Not the way I would have done it if I had noticed the requirement that led to a deduction." It is not unreasonable for us to expect that you've read and understood each exercise in its entirety before completing and submitting it.
+
+Do not post comments on Canvas in response to the scores you've received, as we receive no notification when those comments are made, so we have no way to know that they're waiting for a response. Do not discuss grading-related matters of any kind on Ed Discussion, as that involves every student in the course in your own personal issue, which does not respect their time. Email is the right way to reach out about issues like this, so that we can speak directly to your specific issues.
+
+If, after you've contacted the TA or reader and had a conversation about it that reached a resolution, you still believe that you haven't been treated fairly, you are welcome to raise the issue with me and I can arbitrate, though I should point out that it is relatively rare that I overrule a TA's or reader's judgment. I've communicated a fair amount with the TAs and readrs about grading ahead of time, so they're generally acting on my instructions, which means that I don't find very often that I think a TA or reader has graded work unfairly. Once an exercise has been graded for everyone, we will not be willing to renegotiate the rubric and then regrade everyone's work accordingly, much less solely yours on such a basis.
+
+Note, also, that we will not be willing to regrade your work by having you demosntrate it on your own laptop or device, or by sending videos or screenshots of it. We are only willing to grade what was submitted before the deadline, and we are only willing to grade your work in the way that we graded everyone else's, which means we must retain control over what files we grade and in what environment we grade them.
+
+The exercise sets
+
+Set	Exercises	Solutions
+Set 1	Exercises	Solutions
+Set 2	Exercises	Solutions
+Set 3	Exercises	
