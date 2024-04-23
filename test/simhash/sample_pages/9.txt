@@ -1,0 +1,51 @@
+Key documents about the course:
+Everything begins with the syllabus. Among other things, this document tells you what you can expect from me for the class.
+The following Common Policy Documents are referenced in the syllabus and are incorporated into it by reference:
+Exam Rules. Note that all exams this quarter are in-person and there will not be a remote option.
+Artifact Submission and Grading Policies. The lab manual (below) covers submitting programming assignments.
+Academic Honesty Guide
+We also have a Projected Schedule, complete with exam dates as well as due dates for problem sets and programming assignments.
+Students enrolled should also have access to the course Canvas page, which will be used sparingly, and an EdDiscussion board, which will be used frequently. Annotated slides, homework solutions, and lecture supplements will appear on the resources page there. Click the downward-facing arrow in the top-right of the EdDiscussion window to access those.
+Lecture Handouts:
+The following are digital copies of handouts that I plan to provide in lecture. I recommend you have a printed copy (which will likely be provided in the first lecture on each topic) and take notes in pen or pencil (not digitally).
+01-03 - Recursion
+04-05 - Intro to Graphs
+06 - Graph Reductions -- this was an in-class activity.
+07 - Algorithm Analysis
+08 - Skip Lists
+09-12 - Hashing
+Extra Practice
+13-16 - Binary Trees covers binary trees, binary search trees, and AVL (balanced) binary search trees.
+Extra Practice
+17 - Priority Queues, as implemented by binary min heaps.
+Extra Practice
+18 - Dijkstra's Algorithm also reviews Priority Queues.
+19 - Elementary Graph Algorithms.
+Extra Practice : Shortest paths, MSTs, and Topological Sorts.
+20 - Graph Reductions II -- this was an in-class activity.
+22-26 - Sorting
+Extra Practice : Sorting.
+Problem Sets:
+PS0 is not going to be collected. It is a review of a few non-programming concepts you may have seen in prerequisites, whether high school math or ICS 30-series / ICS 45C. If you could use a quick reminder of O notation, counting, probability, or series, this is a good starting point.
+PS1 is due October 3. Instructions for submitting are in the assignment document and in the syllabus.
+PS2 is due October 10.
+PS3 is due October 21.
+PS4 is due October 31, but don't let that scare you!
+PS5 is due November 16.
+PS6 is due December 2.
+Programming Projects:
+First, please read the ICS 46 Lab Manual.
+
+If you are submitting late (within the period allowed), or otherwise do not want your last commit pushed prior to the deadline to be graded, please use this form. You will need to be signed in to your UCI account to access this.
+Project 0 is about getting to know the VM. It is due Friday September 30.
+Project 1 is about combinatorial puzzles. It is due Monday, October 10, although it is eligible for late submissions.
+Project 2 is about skip lists. It is due Wednesday, October 19, although it is eligible for late submissions.
+Project 3 is about Cuckoo Hashing and includes a puzzle from Lewis Carroll. It is due October 26, although it is eligible for late submissions.
+Project 4 covers AVL Trees and is due November 7. There is a checkpoint due sooner. The main project is eligible for late submissions but the checkpoint is not.
+Project 5 covers priority queues and is due November 16, although it is eligible for late submissions.
+Project 6 is the last project. You might find reading the project description via the README in Gitlab to be more convenient than this PDF.
+Diagnostic Exams:
+I recommend taking these in as close to exam-like circumstances as you can. Avoid reading them until you're ready to begin and print double-sided with a staple in the top-left corner.
+Diagnostic Exam 1 corresponds to the midterm on October 12.
+Diagnostic Exam 2 corresponds to the midterm on November 2.
+Diagnostic Exam 3 corresponds to the midterm on November 18.

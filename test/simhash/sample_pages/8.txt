@@ -1,0 +1,86 @@
+Key Documents | Handouts | Problem Sets | Projects | Annotated Slides | Diagnostic Exams
+Announcements
+Date	Announcement
+January 26	Seating assignments for tomorrow's exam are posted in GradeScope. If your assignment has a problem, you must alert me by using their "regrade" feature by 8PM tonight.
+
+Remember to bring your UCI ID to the exam tomorrow.
+January 17	Friday's lecture slides were accidentally labeled as a second "Lecture 2." The error has been fixed.
+January 9	There was a typo in the syllabus for the Zybooks code; the code is UCII&CSCI46ShindlerWinter2023
+January 9	Welcome to ICS 46 for Winter 2023! Be sure to read the syllabus and the related common policy documents.
+Key documents about the course:
+Everything begins with the syllabus. Among other things, this document tells you what you can expect from me for the class.
+The following Common Policy Documents are referenced in the syllabus and are incorporated into it by reference:
+Exam Rules. Note that all exams this quarter are in-person and there will not be a remote option.
+Artifact Submission and Grading Policies. The lab manual (below) covers submitting programming assignments.
+Academic Honesty Guide
+We also have a Projected Schedule, complete with exam dates as well as due dates for problem sets and programming assignments.
+Students enrolled should also have access to the EdDiscussion board for the class, which will be used frequently. Homework solutions and lecture supplements will appear on the resources page there. Click the downward-facing arrow in the top-right of the EdDiscussion window to access those.
+Lecture Handouts:
+The following are digital copies of handouts that I plan to provide in lecture. I recommend you have a printed copy (which will likely be provided in the first lecture on each topic) and take notes in pen or pencil (not digitally).
+02-03 - Recursion
+04 - Graph Traversals / Intro to Graphs
+05-06 - Asymptotic Analysis
+07 - Skip Lists
+08-10 - Hashing
+Supplemental practice problems related to Cuckoo Hashing.
+11 - Binary Trees
+Supplemental practice problems related to Tree Traversals.
+12-14 - Level-Balanced Trees -- this is a form of balanced binary search tree. Updated 2/10
+15 - Binary Heaps
+16 - Dijkstra's Algorithm -- this is an in-class exercise, based on the reading due the morning of this lecture.
+17 - Using Graphs I -- this is an in-class exercise.
+18 - Intro MST and Topological Sort -- this is an in-class exercise.
+Supplemental practice problems related to Dijkstra's Algorithm, MST, and Topological Sort.
+19 - Using Graphs II -- this is an in-class exercise.
+21-22 - Fundamentals of Sorting
+Supplemental practice problems related to the four sorting algorithms we will cover before quiz 3.
+23 - QuickSort -- this is out of order relative to the reading.
+Problem Sets:
+Problem Sets are typically due on Wednesdays. Problem Sets are always to be submitted to GradeScope. For instructions on how to get access to the course GradeScope, consult the syllabus, linked above. Be sure to also read carefully the section about artifact submission policies and the section about academic honesty; you are responsible for following those.
+Problem Set 0 is not going to be collected. It is a review of a few non-programming concepts you may have seen in prerequisites, whether high school math or ICS 30-series / ICS 45C. If you could use a quick reminder of O notation, counting, probability, or series, this is a good starting point.
+Problem Set 1 is due Wednesday, January 18. Instructions for submitting are in the assignment document and in the syllabus.
+Problem Set 2 is due January 25.
+Problem Set 3 is due February 8.
+Problem Set 4 is due February 15
+Problem Set 5 is due March 1.
+Problem Set 6 is due March 8.
+Problem Set 7 is due March 17. This is a Friday, not a Wednesday.
+Programming Projects:
+First, please read the ICS 46 Lab Manual.
+
+If you are submitting late (within the period allowed), or otherwise do not want your last commit pushed prior to the deadline to be graded, please use this form. You will need to be signed in to your UCI account to access this. The plan is that projects will always be due on a Friday. Projects other than project 0 are eligible to be submitted up to 99 hours late, as described in the lab manual.
+Project 0 is about getting to know the VM. It is due Friday January 20.
+Project 1 is about combinatorial puzzles. It is due Friday January 27, although it is eligible for late submissions.
+Project 2 is about skip lists. It is due February 3, although it is eligible for late submissions.
+Project 3 is about Cuckoo Hashing and includes a puzzle from Lewis Carroll. It is due February 10, although it is eligible for late submissions.
+Project 4 covers binary search trees and is due February 24. Note that February 17 is an exam.
+Project 5 covers priority queues and is due March 3. The due time is extended to 3:30 PM on the due date for this project only and this is the last project for which late hours will count against your grade.
+Project 6 is the last project and is due March 17. You might find reading the project description via the README in Gitlab to be more convenient than this PDF.
+Annotated Slides
+Lecture number	8am slides	9am slides	Lecture topic
+Lecture 2	8am	9am	Recursion (soda cans, triominoes)
+Lecture 3	8am	9am	Recursion (triominoes, n-queens)
+Lecture 4	8am	9am	Graph Traversals (DFS, BFS)
+Lecture 5	8am	9am	Analysis of Algorithms I
+Lecture 6	8am	9am	Analysis of Algorithms II
+Lecture 7	8am	9am	Skip Lists
+Lecture 8	8am	9am	Introduction to Hashing
+Lecture 9	8am	9am	Hashing II
+Lecture 10	8am	9am	Hashing III: Cuckoo Hashing
+Lecture 11	8am	9am	Introduction to Binary Search Trees
+Lecture 12	8am	9am	Introduction to Level-Balanced Binary Search Trees.
+Lecture 13	8am	9am	Level-Balanced Binary Search Trees II.
+Lecture 14	8am	9am	Level-Balanced Binary Search Trees III.
+Lecture 15	8am	9am	Heaps
+Lecture 16	8am	9am	Dijkstra's Algorithm
+Lecture 17	8am	9am	Using Graphs to Solve Problems
+Lecture 18	8am	9am	Intro MST and Topological Sort
+Lecture 19	8am	9am	Using Graphs to Solve Problems Part 2
+Lecture 21	8am	9am	Sorting Part 1
+Lecture 22	8am	9am	Sorting Part 2
+Lecture 23	8am	9am	Sorting Part 3 (QuickSort)
+Diagnostic Exams:
+I recommend taking these in as close to exam-like circumstances as you can. Avoid reading them until you're ready to begin. Print double-sided with a staple in the top-left corner.
+Diagnostic Exam 1 corresponds to the midterm on January 27.
+Diagnostic Exam 2 corresponds to the midterm on February 17.
+Diagnostic Exam 3 corresponds to the midterm on March 10.

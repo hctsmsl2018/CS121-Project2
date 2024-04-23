@@ -1,5 +1,7 @@
 import os
 import shelve
+import glob
+from pathlib import Path
 
 from threading import Thread, RLock
 from queue import Queue, Empty
@@ -7,12 +9,21 @@ from queue import Queue, Empty
 from utils import get_logger, get_urlhash, normalize
 from scraper import is_valid
 
+
+def reset_downloaded():
+    cache_dir = str(Path.cwd()) + '/downloaded_pages/*'
+    files = glob.glob(cache_dir)
+    for f in files:
+        os.remove(f)
+        print('Removed: ' + f)
+
+
 class Frontier(object):
     def __init__(self, config, restart):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
-        
+
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
             self.logger.info(
@@ -23,9 +34,11 @@ class Frontier(object):
             self.logger.info(
                 f"Found save file {self.config.save_file}, deleting it.")
             os.remove(self.config.save_file)
+            os.remove(self.config.tokens_file)
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
         if restart:
+            reset_downloaded()
             for url in self.config.seed_urls:
                 self.add_url(url)
         else:
@@ -40,7 +53,7 @@ class Frontier(object):
         total_count = len(self.save)
         tbd_count = 0
         for url, completed in self.save.values():
-            if not completed and is_valid(url, self.config.seed_url_auths):
+            if not completed and is_valid(url, self.config):
                 self.to_be_downloaded.append(url)
                 tbd_count += 1
         self.logger.info(
@@ -60,7 +73,7 @@ class Frontier(object):
             self.save[urlhash] = (url, False)
             self.save.sync()
             self.to_be_downloaded.append(url)
-    
+
     def mark_url_complete(self, url):
         urlhash = get_urlhash(url)
         if urlhash not in self.save:

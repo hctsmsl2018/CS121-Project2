@@ -1,21 +1,38 @@
 from bs4 import BeautifulSoup
-
+from pathlib import Path
 import re
 from urllib.parse import urlparse, urlunparse
+import urllib.robotparser
 
-def scraper(url, resp, seed_url_auths):
-    links = extract_next_links(url, resp)
-    
-    url_parsed = urlparse(url)
-    
-    # Return all unabbreviated and valid links
-    return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
 
-def extract_next_links(url, resp):
+def scraper(url, resp, config, simhash):
+    try:
+        page = BeautifulSoup(resp.raw_response.content, "html.parser")
+    except AttributeError:
+        return []
+    else:
+        path = extract_text(url, resp, page)
+
+        if path == None:
+            return []
+
+        if not simhash.add_page(url, path, config):
+            path.unlink()
+            return []
+
+        links = extract_next_links(url, resp, page)
+        url_parsed = urlparse(url)
+
+        # Return all unabbreviated and valid links
+        return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
+
+
+def extract_next_links(url, resp, page):
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
-    # resp.status: the status code returned by the server. 200 is OK, you got the page. Other numbers mean that there was some kind of problem.
+    # resp.status: the status code returned by the server. 200 is OK, you got the page. Other numbers mean that there
+    # was some kind of problem.
     # resp.error: when status is not 200, you can check the error here, if needed.
     # resp.raw_response: this is where the page actually is. More specifically, the raw_response has two parts:
     #         resp.raw_response.url: the url, again
@@ -23,20 +40,65 @@ def extract_next_links(url, resp):
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     if resp.status == 200 and resp.raw_response:
         try:
-            # Create BS4 page
-            page = BeautifulSoup(resp.raw_response.content, "html.parser")
+            if url[-4:] == '.xml':
+                links = []
+                xml_dict = parse_sitemap(resp.raw_response)
+                for link in xml_dict:
+                    if check_freshness(xml_dict[link]):
+                        links.append(link)
+                return links
+            else:
+                rp = urllib.robotparser.RobotFileParser()
+                # Find all pages with links
+                links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
 
-            # Find all pages with links
-            links = page.find_all(lambda tag: tag.name == "a" and tag.has_attr("href"))
-            
+                # Retrieves sitemap
+                rp.set_url(url + '/robots.txt')
+                rp.read()
+                site_map = rp.site_maps()
+
+            #  Remove links that are not allowed in robots.txt
+            for link in links:
+                if not parse_robots(link['href']):
+                    links.remove(link)
             # Return the links
-            return [link['href'] for link in links]
+            links = [link['href'] for link in links]
+            links += site_map
+            return links
         except:
             return []
     else:
         print(f'{resp.status}: {resp.error}')
 
     return []
+
+
+def extract_text(url, response, page):
+    # Commonly used tags for text in HTML, may be more
+    text_tags = ['p', 'div', 'span', 'li']
+    # Creates path to where the downloaded page text should be stored
+    cache_dir = str(Path.cwd()) + '/downloaded_pages'
+    if response.status == 200 and response.raw_response:
+        try:
+            Path(cache_dir).mkdir(parents=True, exist_ok=True)
+            # Checks for https
+            url = url.replace('/', '|')
+            path = Path(cache_dir + '/' + url)
+            
+            out_file = path.open('w', encoding='utf-8')
+
+            for con in page.find_all(text_tags):
+                # Writes the content to a file
+                out_file.write(con.text)
+            out_file.close()
+
+            return path
+        except Exception as e:
+            print(e)
+            return None
+    else:
+        print(f'{response.status}: {response.error}')
+
 
 def complete_url(extracted, src_parsed):
     """Unabbreviates an abbreviated URL found in the website and removes fragment"""
@@ -56,7 +118,8 @@ def complete_url(extracted, src_parsed):
 
     return urlunparse(extracted_parsed)
 
-def is_valid(url, seed_url_auths):
+
+def is_valid(url, config):
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
@@ -69,7 +132,7 @@ def is_valid(url, seed_url_auths):
 
         # Check if authority is within required domains
         if parsed.netloc:
-            for auth in seed_url_auths:
+            for auth in config.seed_url_auths:
                 if parsed.netloc.endswith(auth):
                     break
             else:
@@ -78,7 +141,6 @@ def is_valid(url, seed_url_auths):
         # Check if URL is not only a fragment
         if not any(getattr(parsed, component) for component in ('scheme', 'netloc', 'path', 'params', 'query')):
             return False
-
         # Check if URL does not have a file extension not corresponding to a webpage
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -91,5 +153,24 @@ def is_valid(url, seed_url_auths):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
-        print ("TypeError for ", parsed)
+        print("TypeError for ", parsed)
         raise
+
+
+def parse_robots(url):
+    rp = urllib.robotparser.RobotFileParser()
+    return rp.can_fetch('*', url)
+
+
+def parse_sitemap(resp):
+    xml_dict = {}
+    xml = resp.content
+    xml_page = BeautifulSoup(xml, 'html.parser')
+    sitemap_tags = xml_page.find_all('sitemap')
+    for tag in sitemap_tags:
+        xml_dict.update({tag.findNext('loc').text: tag.findNext('lastmod').text})
+    return xml_dict
+
+
+def check_freshness(date):
+    return int(date[:4]) >= 2020
