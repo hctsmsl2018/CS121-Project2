@@ -49,12 +49,13 @@ def extract_next_links(url, resp, page):
                 site_map = rp.site_maps()
 
             #  Remove links that are not allowed in robots.txt
-            for link in links:
-                if not parse_robots(link['href']):
-                    links.remove(link)
-            # Return the links
             links = [link['href'] for link in links]
             links += site_map
+            #for link in links:
+            #    if not parse_robots(link):
+            #        links.remove(link)
+            # Return the links
+
             return links
         except:
             return []
@@ -69,7 +70,7 @@ def extract_text(url, response, page):
     text_tags = ['p', 'div', 'span', 'li']
     # Creates path to where the downloaded page text should be stored
     cache_dir = str(Path.cwd()) + '/downloaded_pages'
-    if response.status == 200 and response.raw_response:
+    if response.status == 200 and response.raw_response and url[-4:] != '.xml':
         try:
             Path(cache_dir).mkdir(parents=True, exist_ok=True)
             url = url.replace('/', '|')
