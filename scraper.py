@@ -6,16 +6,15 @@ import urllib.robotparser
 
 
 def scraper(url, resp, seed_url_auths):
-    try:
+    if resp.raw_response is not None and resp.raw_response.content is not None:
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
-    except AttributeError:
-        ...
-    else:
         links = extract_next_links(url, resp, page)
         url_parsed = urlparse(url)
         extract_text(url, resp, page)
         # Return all unabbreviated and valid links
         return [complete_url(link, url_parsed) for link in links if is_valid(link, seed_url_auths)]
+    else:
+        return []
 
 
 def extract_next_links(url, resp, page):
@@ -35,8 +34,8 @@ def extract_next_links(url, resp, page):
                 links = []
                 xml_dict = parse_sitemap(resp.raw_response)
                 for link in xml_dict:
-                    if check_freshness(xml_dict[link]):
-                        links.append(link)
+                    #if check_freshness(xml_dict[link]):
+                    links.append(link)
                 return links
             else:
                 rp = urllib.robotparser.RobotFileParser()
@@ -50,13 +49,14 @@ def extract_next_links(url, resp, page):
 
             #  Remove links that are not allowed in robots.txt
             links = [link['href'] for link in links]
-            links += site_map
+            if site_map:
+                links += site_map
             #for link in links:
             #    if not parse_robots(link):
             #        links.remove(link)
             # Return the links
-
             return links
+
         except:
             return []
     else:
