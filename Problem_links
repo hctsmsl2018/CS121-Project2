@@ -27,3 +27,13 @@ Traceback (most recent call last):
     for scraped_url in scraped_urls:
 TypeError: 'NoneType' object is not iterable
 jvnguye5@circinus-13:~/PycharmProjects/CS121-Project2
+
+2024-04-22 17:51:39,672 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu/sandy-irani-and-sameer-singh-receive-distinguished-faculty-awards, status <601>, using cache ('styx.ics.uci.edu', 9007).
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/jvnguye5/PycharmProjects/CS121-Project2/crawler/worker.py", line 32, in run
+    for scraped_url in scraped_urls:
+TypeError: 'NoneType' object is not iterable
+

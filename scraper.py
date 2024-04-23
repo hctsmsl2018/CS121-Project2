@@ -6,11 +6,9 @@ import urllib.robotparser
 
 
 def scraper(url, resp, config, simhash):
-    try:
+    if resp.raw_response is not None and resp.raw_response.content is not None:
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
-    except AttributeError:
-        return []
-    else:
+
         path = extract_text(url, resp, page)
 
         if path == None:
@@ -23,9 +21,9 @@ def scraper(url, resp, config, simhash):
         links = extract_next_links(url, resp, page)
         url_parsed = urlparse(url)
 
-        # Return all unabbreviated and valid links
         return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
-
+    else:
+        return []
 
 def extract_next_links(url, resp, page):
     # Implementation required.
@@ -44,8 +42,8 @@ def extract_next_links(url, resp, page):
                 links = []
                 xml_dict = parse_sitemap(resp.raw_response)
                 for link in xml_dict:
-                    if check_freshness(xml_dict[link]):
-                        links.append(link)
+                    #if check_freshness(xml_dict[link]):
+                    links.append(link)
                 return links
             else:
                 rp = urllib.robotparser.RobotFileParser()
@@ -58,13 +56,15 @@ def extract_next_links(url, resp, page):
                 site_map = rp.site_maps()
 
             #  Remove links that are not allowed in robots.txt
-            for link in links:
-                if not parse_robots(link['href']):
-                    links.remove(link)
-            # Return the links
             links = [link['href'] for link in links]
-            links += site_map
+            if site_map:
+                links += site_map
+            #for link in links:
+            #    if not parse_robots(link):
+            #        links.remove(link)
+            # Return the links
             return links
+
         except:
             return []
     else:
@@ -78,7 +78,7 @@ def extract_text(url, response, page):
     text_tags = ['p', 'div', 'span', 'li']
     # Creates path to where the downloaded page text should be stored
     cache_dir = str(Path.cwd()) + '/downloaded_pages'
-    if response.status == 200 and response.raw_response:
+    if response.status == 200 and response.raw_response and url[-4:] != '.xml':
         try:
             Path(cache_dir).mkdir(parents=True, exist_ok=True)
             # Checks for https
