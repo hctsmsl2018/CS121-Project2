@@ -1,4 +1,3 @@
-import shelve
 from tokenizer import tokenize, computeWordFrequencies
 
 class Simhash:
