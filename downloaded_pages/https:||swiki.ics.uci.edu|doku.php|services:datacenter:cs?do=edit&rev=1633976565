@@ -1,0 +1,422 @@
+
+skip to content
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+===== Required for ICS Managed Systems =====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should provide complete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33" or less.
+
+=== Additional Requirements for Managed Equipment ===
+
+ICS Computing support can manage equipment that comes complete with minimal warranty.   We cannot support self assembled or DIY builds.  ICS faculty are welcome to house these systems in the ICS data center, but they must be self managed.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+===== Property Tags =====
+
+We can look up purchase orders in KFS to determine what equipment a property tag is meant for:
+
+  - Login to https://portal.uci.edu
+  - Click on "Finances/KFS" menu link and then the KFS Homepage under the "Tools & Support" section.
+    * {{:services:datacenter:proptag_1.jpg?200 |}}
+  - Click on "Custom Document Search" and click on "Search - Purchase Orders".
+    * {{:services:datacenter:proptag_2.jpg?200 |}}
+    * Click on the heart icon to make it a favorite so you can see the it from the Home link.
+    * {{:services:datacenter:proptag_3.jpg?200 |}}
+  - For the search, just enter the purchase order number in the "Purchase Order #" field.
+    * {{:services:datacenter:proptag_4.jpg?200 |}} 
+  - The search results will be at the bottom of the page.
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1633976565.txt.gz · Last modified: 2021/10/11 11:22 by dutran 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+===== Required for ICS Managed Systems =====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should provide complete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33" or less.
+
+=== Additional Requirements for Managed Equipment ===
+
+ICS Computing support can manage equipment that comes complete with minimal warranty.   We cannot support self assembled or DIY builds.  ICS faculty are welcome to house these systems in the ICS data center, but they must be self managed.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+===== Property Tags =====
+
+We can look up purchase orders in KFS to determine what equipment a property tag is meant for:
+
+  - Login to https://portal.uci.edu
+  - Click on "Finances/KFS" menu link and then the KFS Homepage under the "Tools & Support" section.
+    * {{:services:datacenter:proptag_1.jpg?200 |}}
+  - Click on "Custom Document Search" and click on "Search - Purchase Orders".
+    * {{:services:datacenter:proptag_2.jpg?200 |}}
+    * Click on the heart icon to make it a favorite so you can see the it from the Home link.
+    * {{:services:datacenter:proptag_3.jpg?200 |}}
+  - For the search, just enter the purchase order number in the "Purchase Order #" field.
+    * {{:services:datacenter:proptag_4.jpg?200 |}} 
+  - The search results will be at the bottom of the page.
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1633976565.txt.gz · Last modified: 2021/10/11 11:22 by dutran 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+          [[✎ ICS Primary Data Center]]
+        
+Support Wiki 
+Trace: Trace:
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+Show page 
+Recent ChangesSitemapLog In 
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+===== Required for ICS Managed Systems =====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should provide complete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33" or less.
+
+=== Additional Requirements for Managed Equipment ===
+
+ICS Computing support can manage equipment that comes complete with minimal warranty.   We cannot support self assembled or DIY builds.  ICS faculty are welcome to house these systems in the ICS data center, but they must be self managed.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+===== Property Tags =====
+
+We can look up purchase orders in KFS to determine what equipment a property tag is meant for:
+
+  - Login to https://portal.uci.edu
+  - Click on "Finances/KFS" menu link and then the KFS Homepage under the "Tools & Support" section.
+    * {{:services:datacenter:proptag_1.jpg?200 |}}
+  - Click on "Custom Document Search" and click on "Search - Purchase Orders".
+    * {{:services:datacenter:proptag_2.jpg?200 |}}
+    * Click on the heart icon to make it a favorite so you can see the it from the Home link.
+    * {{:services:datacenter:proptag_3.jpg?200 |}}
+  - For the search, just enter the purchase order number in the "Purchase Order #" field.
+    * {{:services:datacenter:proptag_4.jpg?200 |}} 
+  - The search results will be at the bottom of the page.
+
+
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+===== Required for ICS Managed Systems =====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should provide complete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33" or less.
+
+=== Additional Requirements for Managed Equipment ===
+
+ICS Computing support can manage equipment that comes complete with minimal warranty.   We cannot support self assembled or DIY builds.  ICS faculty are welcome to house these systems in the ICS data center, but they must be self managed.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+===== Property Tags =====
+
+We can look up purchase orders in KFS to determine what equipment a property tag is meant for:
+
+  - Login to https://portal.uci.edu
+  - Click on "Finances/KFS" menu link and then the KFS Homepage under the "Tools & Support" section.
+    * {{:services:datacenter:proptag_1.jpg?200 |}}
+  - Click on "Custom Document Search" and click on "Search - Purchase Orders".
+    * {{:services:datacenter:proptag_2.jpg?200 |}}
+    * Click on the heart icon to make it a favorite so you can see the it from the Home link.
+    * {{:services:datacenter:proptag_3.jpg?200 |}}
+  - For the search, just enter the purchase order number in the "Purchase Order #" field.
+    * {{:services:datacenter:proptag_4.jpg?200 |}} 
+  - The search results will be at the bottom of the page.
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1633976565.txt.gz · Last modified: 2021/10/11 11:22 by dutran 
+
+
+services/datacenter/cs.1633976565.txt.gz · Last modified: 2021/10/11 11:22 by dutran 
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+Show pageOld revisions 
+Media ManagerBack to top 
+
+
+
+
+

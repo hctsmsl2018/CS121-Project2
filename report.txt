@@ -1,0 +1,79 @@
+Number of unique pages - 1753
+
+Longest page by word count:
+ https://www.stat.uci.edu/yahoo-news-data-glitch-confounds-coronavirus-totals-in-orange-county-state-vladimir-minin-quoted
+
+50 Most common words:
+<Word> - <Frequency>
+1 <public> - <87340>
+2 <new> - <67095>
+3 <return> - <66775>
+4 <calls> - <54380>
+5 <import> - <54322>
+6 <heros> - <51427>
+7 <fact> - <49959>
+8 <method> - <46966>
+9 <cfn> - <44810>
+10 <committed> - <43651>
+11 <johannes> - <42615>
+12 <bodden> - <37594>
+13 <flow> - <36882>
+14 <lerch> - <36744>
+15 <edge> - <34859>
+16 <lineto> - <34512>
+17 <field> - <34233>
+18 <java> - <33632>
+19 <stmt> - <33193>
+20 <class> - <33057>
+21 <string> - <30351>
+22 <authored> - <30267>
+23 <set> - <29869>
+24 <eric> - <28421>
+25 <file> - <26412>
+26 <2015> - <26355>
+27 <fieldref> - <25707>
+28 <2013> - <24855>
+29 <null> - <24315>
+30 <accesspath> - <23890>
+31 <private> - <23481>
+32 <void> - <22165>
+33 <repository> - <22084>
+34 <solver> - <21929>
+35 <final> - <21276>
+36 <override> - <20850>
+37 <2014> - <20724>
+38 <false> - <20322>
+39 <extends> - <20096>
+40 <commits> - <19640>
+41 <succ> - <18760>
+42 <soot> - <18546>
+43 <gitlab> - <18526>
+44 <statement> - <18311>
+45 <merge> - <17866>
+46 <value> - <17362>
+47 <result> - <17075>
+48 <help> - <16872>
+49 <key> - <16293>
+50 <source> - <16208>
+
+Unique subdomains in ics.uci.edu
+<Subdomain> - <frequency>
+<gitlab.ics.uci.edu> - <1471>
+<swiki.ics.uci.edu> - <161>
+<www.stat.uci.edu> - <107>
+<checkin.ics.uci.edu> - <3>
+<pgadmin.ics.uci.edu> - <2>
+<phpmyadmin.ics.uci.edu> - <2>
+<www.ics.uci.edu> - <2>
+<helpdesk.ics.uci.edu> - <1>
+<hub.ics.uci.edu> - <1>
+<pastebin.ics.uci.edu> - <1>
+<rstudio-hub.ics.uci.edu> - <1>
+<speedtest.ics.uci.edu> - <1>
+
+Smallest Content Size: 3428
+Largest Content Size: 8634003
+Sum of all: 303725751
+Average Content Size: 173260.55
+# below 10,000: 50	 Percentage of Total: 3%
+# Above 200,000: 117	 Percentage of Total: 7%

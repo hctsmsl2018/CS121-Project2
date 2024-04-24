@@ -1,0 +1,569 @@
+
+skip to content
+
+
+
+
+
+          [[VirtualBox]]
+        
+
+Support Wiki 
+
+
+Trace: • VirtualBox 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+
+Table of Contents
+
+
+VirtualBox
+
+External Documentation
+Installation at ICS
+Running VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+
+
+
+
+
+
+VirtualBox
+
+
+External Documentation
+
+
+The best documentation on learning and using VirtualBpx is going to be at the VirtualBox website.
+
+
+Installation at ICS
+
+
+VirtualBox 6.1 is installed on ICS Openlab Linux systems.  It can be added to any research Linux system as well. VirtualBox is not installed in the ICS Windows computing labs as  VMware is used for certain ICS courses. 
+
+
+Running VirtualBox
+
+
+There are no special privileges required but you must have a local Xserver running.
+
+
+From any managed Linux host where virtualbox is installed, you may run `virtualbox`.  
+
+
+Hub@ICS
+
+
+Or via Jupyterhbu@ICS in your preferred browser.
+
+
+Login with your ICS username and password. 
+
+
+There will be 3 options of servers to start.  It doesn’t matter which one you choose.
+
+
+From the Launcher: select Desktop.
+
+
+Within the desktop open a Terminal.   
+
+
+You can then ssh to openlab from there: 
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Off campus access requires the UCI VPN.
+
+
+Apple/Macintosh
+
+
+Prerequisite:  Local Xserver via software such as XQuartz.
+
+
+You can connect via terminal from your Mac with XQuartz running.  Use the -Y option to enable X11 tunneling to your localhost:
+
+
+The syntax is:
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+
+
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Microsoft Windows
+
+
+Use an ssh client that has an embedded Xserver such as MobaXterm
+
+
+MobaXterm
+
+
+If you are using MobaXterm, create an ssh session to openlab.ics.uci.edu by clicking on the “Session” icon and then “SSH”.
+
+
+Basic SSH Settings:
+
+
+ Remotehost:  openlab.ics.uci.edu
+
+ Specify username:  YOUR USERNAME
+
+
+
+Advanced SSH Settings:
+
+
+ X11-Forwarding:  checked
+
+
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Other Client
+
+
+If you are running another X11 server and SSH client, you can tunnel X11 vis ssh by logging into openlab this way:
+
+ssh -Y USERNAME@openlab.ics.uci.edu
+
+
+
+
+
+
+
+virtual_environments/virtualbox.txt · Last modified: 2022/09/30 08:30 by pnimsomb 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [[VirtualBox]]
+        
+
+Support Wiki 
+
+
+Trace: • VirtualBox 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+
+Table of Contents
+
+
+VirtualBox
+
+External Documentation
+Installation at ICS
+Running VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+
+
+
+
+
+
+VirtualBox
+
+
+External Documentation
+
+
+The best documentation on learning and using VirtualBpx is going to be at the VirtualBox website.
+
+
+Installation at ICS
+
+
+VirtualBox 6.1 is installed on ICS Openlab Linux systems.  It can be added to any research Linux system as well. VirtualBox is not installed in the ICS Windows computing labs as  VMware is used for certain ICS courses. 
+
+
+Running VirtualBox
+
+
+There are no special privileges required but you must have a local Xserver running.
+
+
+From any managed Linux host where virtualbox is installed, you may run `virtualbox`.  
+
+
+Hub@ICS
+
+
+Or via Jupyterhbu@ICS in your preferred browser.
+
+
+Login with your ICS username and password. 
+
+
+There will be 3 options of servers to start.  It doesn’t matter which one you choose.
+
+
+From the Launcher: select Desktop.
+
+
+Within the desktop open a Terminal.   
+
+
+You can then ssh to openlab from there: 
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Off campus access requires the UCI VPN.
+
+
+Apple/Macintosh
+
+
+Prerequisite:  Local Xserver via software such as XQuartz.
+
+
+You can connect via terminal from your Mac with XQuartz running.  Use the -Y option to enable X11 tunneling to your localhost:
+
+
+The syntax is:
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+
+
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Microsoft Windows
+
+
+Use an ssh client that has an embedded Xserver such as MobaXterm
+
+
+MobaXterm
+
+
+If you are using MobaXterm, create an ssh session to openlab.ics.uci.edu by clicking on the “Session” icon and then “SSH”.
+
+
+Basic SSH Settings:
+
+
+ Remotehost:  openlab.ics.uci.edu
+
+ Specify username:  YOUR USERNAME
+
+
+
+Advanced SSH Settings:
+
+
+ X11-Forwarding:  checked
+
+
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Other Client
+
+
+If you are running another X11 server and SSH client, you can tunnel X11 vis ssh by logging into openlab this way:
+
+ssh -Y USERNAME@openlab.ics.uci.edu
+
+
+
+
+
+
+
+virtual_environments/virtualbox.txt · Last modified: 2022/09/30 08:30 by pnimsomb 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+          [[VirtualBox]]
+        
+
+Support Wiki 
+
+          [[VirtualBox]]
+        
+Support Wiki 
+Trace: • VirtualBox Trace:•VirtualBox
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+Show pagesource 
+Recent ChangesSitemapLog In 
+Search Search
+Table of Contents
+
+
+VirtualBox
+
+External Documentation
+Installation at ICS
+Running VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+
+
+
+
+
+
+VirtualBox
+
+External Documentation
+Installation at ICS
+Running VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+
+
+
+VirtualBox
+
+External Documentation
+Installation at ICS
+Running VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+
+VirtualBoxExternal DocumentationExternal DocumentationInstallation at ICSInstallation at ICSRunning VirtualBox
+
+Hub@ICS
+Apple/Macintosh
+Microsoft Windows
+Running VirtualBoxHub@ICSHub@ICSApple/MacintoshApple/MacintoshMicrosoft WindowsMicrosoft Windows
+
+
+The best documentation on learning and using VirtualBpx is going to be at the VirtualBox website.
+
+
+The best documentation on learning and using VirtualBpx is going to be at the VirtualBox website.
+
+
+VirtualBox 6.1 is installed on ICS Openlab Linux systems.  It can be added to any research Linux system as well. VirtualBox is not installed in the ICS Windows computing labs as  VMware is used for certain ICS courses. 
+
+
+VirtualBox 6.1 is installed on ICS Openlab Linux systems.  It can be added to any research Linux system as well. VirtualBox is not installed in the ICS Windows computing labs as  VMware is used for certain ICS courses. 
+
+
+There are no special privileges required but you must have a local Xserver running.
+
+
+From any managed Linux host where virtualbox is installed, you may run `virtualbox`.  
+
+
+There are no special privileges required but you must have a local Xserver running.
+
+From any managed Linux host where virtualbox is installed, you may run `virtualbox`.  
+
+
+Or via Jupyterhbu@ICS in your preferred browser.
+
+
+Login with your ICS username and password. 
+
+
+There will be 3 options of servers to start.  It doesn’t matter which one you choose.
+
+
+From the Launcher: select Desktop.
+
+
+Within the desktop open a Terminal.   
+
+
+You can then ssh to openlab from there: 
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Off campus access requires the UCI VPN.
+
+
+Or via Jupyterhbu@ICS in your preferred browser.
+
+Login with your ICS username and password. 
+
+There will be 3 options of servers to start.  It doesn’t matter which one you choose.
+
+From the Launcher: select Desktop.
+
+Within the desktop open a Terminal.   
+
+You can then ssh to openlab from there: 
+
+Off campus access requires the UCI VPN.
+
+
+Prerequisite:  Local Xserver via software such as XQuartz.
+
+
+You can connect via terminal from your Mac with XQuartz running.  Use the -Y option to enable X11 tunneling to your localhost:
+
+
+The syntax is:
+
+ssh -Y  USERNAME@openlab.ics.uci.edu
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+
+
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Prerequisite:  Local Xserver via software such as XQuartz.
+
+You can connect via terminal from your Mac with XQuartz running.  Use the -Y option to enable X11 tunneling to your localhost:
+
+The syntax is:
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+Use an ssh client that has an embedded Xserver such as MobaXterm
+
+
+Use an ssh client that has an embedded Xserver such as MobaXterm
+
+
+If you are using MobaXterm, create an ssh session to openlab.ics.uci.edu by clicking on the “Session” icon and then “SSH”.
+
+
+Basic SSH Settings:
+
+
+ Remotehost:  openlab.ics.uci.edu
+
+ Specify username:  YOUR USERNAME
+
+
+
+Advanced SSH Settings:
+
+
+ X11-Forwarding:  checked
+
+
+
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+If you are using MobaXterm, create an ssh session to openlab.ics.uci.edu by clicking on the “Session” icon and then “SSH”.
+
+Basic SSH Settings:
+ Remotehost:  openlab.ics.uci.edu
+ Remotehost:  openlab.ics.uci.edu Specify username:  YOUR USERNAME
+ Specify username:  YOUR USERNAME
+Advanced SSH Settings:
+ X11-Forwarding:  checked
+ X11-Forwarding:  checked
+Once you sign in with your ICS username and password, VirtualBox is available from /usr/bin/virtualbox.
+Off campus access requires ssh keys unless you are using the UCI VPN.
+
+
+If you are running another X11 server and SSH client, you can tunnel X11 vis ssh by logging into openlab this way:
+
+ssh -Y USERNAME@openlab.ics.uci.edu
+
+If you are running another X11 server and SSH client, you can tunnel X11 vis ssh by logging into openlab this way:
+
+
+
+
+virtual_environments/virtualbox.txt · Last modified: 2022/09/30 08:30 by pnimsomb 
+
+
+virtual_environments/virtualbox.txt · Last modified: 2022/09/30 08:30 by pnimsomb 
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+Show pagesourceOld revisions 
+Media ManagerBack to top 
+
+
+
+
+

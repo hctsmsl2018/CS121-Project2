@@ -1,0 +1,443 @@
+
+skip to content
+
+
+
+
+
+          [[ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: • ICS Primary Data Center 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+This is an old revision of the document!
+
+
+
+
+Table of Contents
+
+
+Information and Computer Science Primary Data Center
+
+
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+
+
+
+
+
+
+Information and Computer Science Primary Data Center
+
+
+Vital Statistics:
+
+
+ Size:  1600 sqft
+
+ HVAC:  3 Units
+
+ Cabinets:
+
+ Draw:
+
+
+
+Required for ICS Managed Systems
+
+
+ICS Operating System Support
+
+
+Requirements for Equipment
+
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+
+ Rack mountable:  The equipment must rack neatly and securely into a standard 19“ cabinet.
+
+ Advanced Out of Band Management:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+
+ Airflow:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+
+ Proper Form Factor:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.
+
+
+
+Provided
+
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+
+ Up to 2 120V or 240V power connections per host.
+
+ Up to 2 1Gb/s per node plus 1 OOB connections.
+
+ Space in cabinet limited by availability and heat restrictions.
+
+
+
+Recommended
+
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+
+ RAID 10/5/6 support.
+
+ Redundant PSU
+
+ 10Gb/s Network
+
+ 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1629217247.txt.gz · Last modified: 2021/08/17 09:20 by Hans 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [[ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: • ICS Primary Data Center 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+This is an old revision of the document!
+
+
+
+
+Table of Contents
+
+
+Information and Computer Science Primary Data Center
+
+
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+
+
+
+
+
+
+Information and Computer Science Primary Data Center
+
+
+Vital Statistics:
+
+
+ Size:  1600 sqft
+
+ HVAC:  3 Units
+
+ Cabinets:
+
+ Draw:
+
+
+
+Required for ICS Managed Systems
+
+
+ICS Operating System Support
+
+
+Requirements for Equipment
+
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+
+ Rack mountable:  The equipment must rack neatly and securely into a standard 19“ cabinet.
+
+ Advanced Out of Band Management:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+
+ Airflow:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+
+ Proper Form Factor:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.
+
+
+
+Provided
+
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+
+ Up to 2 120V or 240V power connections per host.
+
+ Up to 2 1Gb/s per node plus 1 OOB connections.
+
+ Space in cabinet limited by availability and heat restrictions.
+
+
+
+Recommended
+
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+
+ RAID 10/5/6 support.
+
+ Redundant PSU
+
+ 10Gb/s Network
+
+ 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1629217247.txt.gz · Last modified: 2021/08/17 09:20 by Hans 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+          [[ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+          [[ICS Primary Data Center]]
+        
+Support Wiki 
+Trace: • ICS Primary Data Center Trace:•ICS Primary Data Center
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+Show pagesource 
+Recent ChangesSitemapLog In 
+Search Search
+This is an old revision of the document!
+
+Table of Contents
+
+
+Information and Computer Science Primary Data Center
+
+
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+
+
+
+
+
+
+Information and Computer Science Primary Data Center
+
+
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+
+
+
+Information and Computer Science Primary Data Center
+
+
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+
+Information and Computer Science Primary Data Center
+
+Required for ICS Managed Systems
+Requirements for Equipment
+Provided
+Recommended
+Required for ICS Managed SystemsRequired for ICS Managed SystemsRequirements for EquipmentRequirements for EquipmentProvidedProvidedRecommendedRecommended
+
+Vital Statistics:
+
+
+ Size:  1600 sqft
+
+ HVAC:  3 Units
+
+ Cabinets:
+
+ Draw:
+
+
+
+Vital Statistics:
+ Size:  1600 sqft
+ Size:  1600 sqft HVAC:  3 Units
+ HVAC:  3 Units Cabinets:
+ Cabinets: Draw:
+ Draw:
+
+ICS Operating System Support
+
+
+ICS Operating System Support
+
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+
+ Rack mountable:  The equipment must rack neatly and securely into a standard 19“ cabinet.
+
+ Advanced Out of Band Management:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+
+ Airflow:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+
+ Proper Form Factor:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.
+
+
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+ Rack mountable:  The equipment must rack neatly and securely into a standard 19“ cabinet.
+ Rack mountable:  The equipment must rack neatly and securely into a standard 19“ cabinet. Advanced Out of Band Management:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+ Advanced Out of Band Management:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console.. Airflow:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+ Airflow:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle.  Proper Form Factor:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.
+ Proper Form Factor:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+
+ Up to 2 120V or 240V power connections per host.
+
+ Up to 2 1Gb/s per node plus 1 OOB connections.
+
+ Space in cabinet limited by availability and heat restrictions.
+
+
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+ Up to 2 120V or 240V power connections per host.
+ Up to 2 120V or 240V power connections per host. Up to 2 1Gb/s per node plus 1 OOB connections.
+ Up to 2 1Gb/s per node plus 1 OOB connections. Space in cabinet limited by availability and heat restrictions.
+ Space in cabinet limited by availability and heat restrictions.
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+
+ RAID 10/5/6 support.
+
+ Redundant PSU
+
+ 10Gb/s Network
+
+ 5 year NBD warranty
+
+
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+ RAID 10/5/6 support.
+ RAID 10/5/6 support. Redundant PSU
+ Redundant PSU 10Gb/s Network
+ 10Gb/s Network 5 year NBD warranty
+ 5 year NBD warranty
+
+
+
+services/datacenter/cs.1629217247.txt.gz · Last modified: 2021/08/17 09:20 by Hans 
+
+
+services/datacenter/cs.1629217247.txt.gz · Last modified: 2021/08/17 09:20 by Hans 
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+Show pagesourceOld revisions 
+Media ManagerBack to top 
+
+
+
+
+

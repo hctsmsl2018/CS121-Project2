@@ -1,0 +1,1387 @@
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+Toggle navigation
+
+Menu
+
+
+
+
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+Toggle navigation
+
+Menu
+
+
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+GitLab
+
+
+
+
+
+
+GitLab
+
+
+
+
+Menu
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+Menu
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+Help
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+Help
+
+Support
+
+Community forum
+
+
+Keyboard shortcuts
+?
+
+
+Submit feedback
+
+Contribute to GitLab
+
+
+
+Sign in
+
+
+Sign in
+Toggle navigation
+Menu
+
+Menu
+
+
+
+
+
+
+
+Help
+
+Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milestones (FREE)
+
+Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
+
+Milestones as releases
+Milestones can be used to track releases. To do so:
+
+Set the milestone due date to represent the release date of your release and leave the milestone start date blank.
+Set the milestone title to the version of your release, such as Version 9.4.
+Add an issue to your release by associating the desired milestone from the issue's right-hand sidebar.
+
+Additionally, you can integrate milestones with the Releases feature.
+
+Project milestones and group milestones
+A milestone can belong to project or group.
+You can assign project milestones to issues or merge requests in that project only.
+You can assign group milestones to any issue or merge request of any project in that group.
+For information about project and group milestones API, see:
+
+Project Milestones API
+Group Milestones API
+
+
+View project or group milestones
+To view the milestone list:
+
+On the top bar, select Menu > Projects and find your project or
+Menu > Groups and find your group.
+Select Issues > Milestones.
+
+In a project, GitLab displays milestones that belong to the project.
+In a group, GitLab displays milestones that belong to the group and all projects in the group.
+
+View all milestones
+You can view all the milestones you have access to in the entire GitLab namespace.
+You might not see some milestones because they're in projects or groups you're not a member of.
+To do so, on the top bar select Menu > Milestones.
+
+Create a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+You can create a milestone either in a project or a group.
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To create a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+On the left sidebar, select Issues > Milestones.
+Select New milestone.
+Enter the title.
+Optional. Enter description, start date, and due date.
+Select New milestone.
+
+
+
+Edit a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Edit.
+Edit the title, start date, due date, or description.
+Select Save changes.
+
+
+Delete a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Delete.
+Select Delete milestone.
+
+
+Promote a project milestone to a group milestone
+If you are expanding the number of projects in a group, you might want to share the same milestones
+among this group's projects. You can also promote project milestones to group milestones to
+make them available to other projects in the same group.
+Promoting a milestone merges all project milestones across all projects in this group with the same
+name into a single group milestone.
+All issues and merge requests that were previously assigned to one of these project
+milestones become assigned to the new group milestone.
+WARNING:
+This action cannot be reversed and the changes are permanent.
+Prerequisites:
+
+You must have at least the Reporter role for the group.
+
+To promote a project milestone:
+
+On the top bar, select Menu > Projects and find your project.
+Either:
+
+Select Promote to Group Milestone ({level-up}).
+Select the milestone title, and then select Promote.
+
+
+Select Promote Milestone.
+
+
+Assign a milestone to an issue or merge request
+Every issue and merge request can be assigned one milestone.
+The milestones are visible on every issue and merge request page, on the right sidebar.
+They are also visible in the issue board.
+To assign or unassign a milestone:
+
+View an issue or a merge request.
+On the right sidebar, next to Milestones, select Edit.
+In the Assign milestone list, search for a milestone by typing its name.
+You can select from both project and group milestones.
+Select the milestone you want to assign.
+
+You can also use the /assign quick action in a comment.
+
+Filtering issues and merge requests by milestone
+
+Filtering in list pages
+From the project and group issue/merge request list pages, you can filter by both group and project milestones.
+
+Filtering in issue boards
+From project issue boards, you can filter by both group milestones and project
+milestones in:
+
+Search and filter bar
+Issue board configuration
+
+From group issue boards, you can filter by only group milestones in:
+
+Search and filter bar
+Issue board configuration
+
+
+Special milestone filters
+When filtering by milestone, in addition to choosing a specific project milestone or group milestone, you can choose a special milestone filter.
+
+
+None: Show issues or merge requests with no assigned milestone.
+
+Any: Show issues or merge requests that have an assigned milestone.
+
+Upcoming: Show issues or merge requests that have been assigned the open milestone and has the nearest due date in the future.
+
+Started: Show issues or merge requests that have an open assigned milestone with a start date that is before today.
+
+
+Milestone view
+The milestone view shows the title and description.
+There are also tabs below these that show the following:
+
+
+Issues: Shows all issues assigned to the milestone. These are displayed in three columns named:
+
+Unstarted Issues (open and unassigned)
+Ongoing Issues (open and assigned)
+Completed Issues (closed)
+
+
+
+Merge Requests: Shows all merge requests assigned to the milestone. These are displayed in four columns named:
+
+Work in progress (open and unassigned)
+Waiting for merge (open and assigned)
+Rejected (closed)
+Merged
+
+
+
+Participants: Shows all assignees of issues assigned to the milestone.
+
+Labels: Shows all labels that are used in issues assigned to the milestone.
+
+
+Burndown Charts
+The milestone view contains a burndown and burnup chart,
+showing the progress of completing a milestone.
+
+
+Milestone sidebar
+The milestone sidebar on the milestone view shows the following:
+
+Percentage complete, which is calculated as number of closed issues divided by total number of issues.
+The start date and due date.
+The total time spent on all issues and merge requests assigned to the milestone.
+The total issue weight of all issues assigned to the milestone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milestones (FREE)
+
+Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
+
+Milestones as releases
+Milestones can be used to track releases. To do so:
+
+Set the milestone due date to represent the release date of your release and leave the milestone start date blank.
+Set the milestone title to the version of your release, such as Version 9.4.
+Add an issue to your release by associating the desired milestone from the issue's right-hand sidebar.
+
+Additionally, you can integrate milestones with the Releases feature.
+
+Project milestones and group milestones
+A milestone can belong to project or group.
+You can assign project milestones to issues or merge requests in that project only.
+You can assign group milestones to any issue or merge request of any project in that group.
+For information about project and group milestones API, see:
+
+Project Milestones API
+Group Milestones API
+
+
+View project or group milestones
+To view the milestone list:
+
+On the top bar, select Menu > Projects and find your project or
+Menu > Groups and find your group.
+Select Issues > Milestones.
+
+In a project, GitLab displays milestones that belong to the project.
+In a group, GitLab displays milestones that belong to the group and all projects in the group.
+
+View all milestones
+You can view all the milestones you have access to in the entire GitLab namespace.
+You might not see some milestones because they're in projects or groups you're not a member of.
+To do so, on the top bar select Menu > Milestones.
+
+Create a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+You can create a milestone either in a project or a group.
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To create a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+On the left sidebar, select Issues > Milestones.
+Select New milestone.
+Enter the title.
+Optional. Enter description, start date, and due date.
+Select New milestone.
+
+
+
+Edit a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Edit.
+Edit the title, start date, due date, or description.
+Select Save changes.
+
+
+Delete a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Delete.
+Select Delete milestone.
+
+
+Promote a project milestone to a group milestone
+If you are expanding the number of projects in a group, you might want to share the same milestones
+among this group's projects. You can also promote project milestones to group milestones to
+make them available to other projects in the same group.
+Promoting a milestone merges all project milestones across all projects in this group with the same
+name into a single group milestone.
+All issues and merge requests that were previously assigned to one of these project
+milestones become assigned to the new group milestone.
+WARNING:
+This action cannot be reversed and the changes are permanent.
+Prerequisites:
+
+You must have at least the Reporter role for the group.
+
+To promote a project milestone:
+
+On the top bar, select Menu > Projects and find your project.
+Either:
+
+Select Promote to Group Milestone ({level-up}).
+Select the milestone title, and then select Promote.
+
+
+Select Promote Milestone.
+
+
+Assign a milestone to an issue or merge request
+Every issue and merge request can be assigned one milestone.
+The milestones are visible on every issue and merge request page, on the right sidebar.
+They are also visible in the issue board.
+To assign or unassign a milestone:
+
+View an issue or a merge request.
+On the right sidebar, next to Milestones, select Edit.
+In the Assign milestone list, search for a milestone by typing its name.
+You can select from both project and group milestones.
+Select the milestone you want to assign.
+
+You can also use the /assign quick action in a comment.
+
+Filtering issues and merge requests by milestone
+
+Filtering in list pages
+From the project and group issue/merge request list pages, you can filter by both group and project milestones.
+
+Filtering in issue boards
+From project issue boards, you can filter by both group milestones and project
+milestones in:
+
+Search and filter bar
+Issue board configuration
+
+From group issue boards, you can filter by only group milestones in:
+
+Search and filter bar
+Issue board configuration
+
+
+Special milestone filters
+When filtering by milestone, in addition to choosing a specific project milestone or group milestone, you can choose a special milestone filter.
+
+
+None: Show issues or merge requests with no assigned milestone.
+
+Any: Show issues or merge requests that have an assigned milestone.
+
+Upcoming: Show issues or merge requests that have been assigned the open milestone and has the nearest due date in the future.
+
+Started: Show issues or merge requests that have an open assigned milestone with a start date that is before today.
+
+
+Milestone view
+The milestone view shows the title and description.
+There are also tabs below these that show the following:
+
+
+Issues: Shows all issues assigned to the milestone. These are displayed in three columns named:
+
+Unstarted Issues (open and unassigned)
+Ongoing Issues (open and assigned)
+Completed Issues (closed)
+
+
+
+Merge Requests: Shows all merge requests assigned to the milestone. These are displayed in four columns named:
+
+Work in progress (open and unassigned)
+Waiting for merge (open and assigned)
+Rejected (closed)
+Merged
+
+
+
+Participants: Shows all assignees of issues assigned to the milestone.
+
+Labels: Shows all labels that are used in issues assigned to the milestone.
+
+
+Burndown Charts
+The milestone view contains a burndown and burnup chart,
+showing the progress of completing a milestone.
+
+
+Milestone sidebar
+The milestone sidebar on the milestone view shows the following:
+
+Percentage complete, which is calculated as number of closed issues divided by total number of issues.
+The start date and due date.
+The total time spent on all issues and merge requests assigned to the milestone.
+The total issue weight of all issues assigned to the milestone.
+
+
+
+
+
+
+
+
+
+
+Help
+
+Help
+
+
+
+
+
+
+
+
+
+Help
+
+Help
+
+
+
+
+
+
+Help
+
+Help
+
+
+Help
+Help
+
+
+
+
+
+
+Milestones (FREE)
+
+Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
+
+Milestones as releases
+Milestones can be used to track releases. To do so:
+
+Set the milestone due date to represent the release date of your release and leave the milestone start date blank.
+Set the milestone title to the version of your release, such as Version 9.4.
+Add an issue to your release by associating the desired milestone from the issue's right-hand sidebar.
+
+Additionally, you can integrate milestones with the Releases feature.
+
+Project milestones and group milestones
+A milestone can belong to project or group.
+You can assign project milestones to issues or merge requests in that project only.
+You can assign group milestones to any issue or merge request of any project in that group.
+For information about project and group milestones API, see:
+
+Project Milestones API
+Group Milestones API
+
+
+View project or group milestones
+To view the milestone list:
+
+On the top bar, select Menu > Projects and find your project or
+Menu > Groups and find your group.
+Select Issues > Milestones.
+
+In a project, GitLab displays milestones that belong to the project.
+In a group, GitLab displays milestones that belong to the group and all projects in the group.
+
+View all milestones
+You can view all the milestones you have access to in the entire GitLab namespace.
+You might not see some milestones because they're in projects or groups you're not a member of.
+To do so, on the top bar select Menu > Milestones.
+
+Create a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+You can create a milestone either in a project or a group.
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To create a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+On the left sidebar, select Issues > Milestones.
+Select New milestone.
+Enter the title.
+Optional. Enter description, start date, and due date.
+Select New milestone.
+
+
+
+Edit a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Edit.
+Edit the title, start date, due date, or description.
+Select Save changes.
+
+
+Delete a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Delete.
+Select Delete milestone.
+
+
+Promote a project milestone to a group milestone
+If you are expanding the number of projects in a group, you might want to share the same milestones
+among this group's projects. You can also promote project milestones to group milestones to
+make them available to other projects in the same group.
+Promoting a milestone merges all project milestones across all projects in this group with the same
+name into a single group milestone.
+All issues and merge requests that were previously assigned to one of these project
+milestones become assigned to the new group milestone.
+WARNING:
+This action cannot be reversed and the changes are permanent.
+Prerequisites:
+
+You must have at least the Reporter role for the group.
+
+To promote a project milestone:
+
+On the top bar, select Menu > Projects and find your project.
+Either:
+
+Select Promote to Group Milestone ({level-up}).
+Select the milestone title, and then select Promote.
+
+
+Select Promote Milestone.
+
+
+Assign a milestone to an issue or merge request
+Every issue and merge request can be assigned one milestone.
+The milestones are visible on every issue and merge request page, on the right sidebar.
+They are also visible in the issue board.
+To assign or unassign a milestone:
+
+View an issue or a merge request.
+On the right sidebar, next to Milestones, select Edit.
+In the Assign milestone list, search for a milestone by typing its name.
+You can select from both project and group milestones.
+Select the milestone you want to assign.
+
+You can also use the /assign quick action in a comment.
+
+Filtering issues and merge requests by milestone
+
+Filtering in list pages
+From the project and group issue/merge request list pages, you can filter by both group and project milestones.
+
+Filtering in issue boards
+From project issue boards, you can filter by both group milestones and project
+milestones in:
+
+Search and filter bar
+Issue board configuration
+
+From group issue boards, you can filter by only group milestones in:
+
+Search and filter bar
+Issue board configuration
+
+
+Special milestone filters
+When filtering by milestone, in addition to choosing a specific project milestone or group milestone, you can choose a special milestone filter.
+
+
+None: Show issues or merge requests with no assigned milestone.
+
+Any: Show issues or merge requests that have an assigned milestone.
+
+Upcoming: Show issues or merge requests that have been assigned the open milestone and has the nearest due date in the future.
+
+Started: Show issues or merge requests that have an open assigned milestone with a start date that is before today.
+
+
+Milestone view
+The milestone view shows the title and description.
+There are also tabs below these that show the following:
+
+
+Issues: Shows all issues assigned to the milestone. These are displayed in three columns named:
+
+Unstarted Issues (open and unassigned)
+Ongoing Issues (open and assigned)
+Completed Issues (closed)
+
+
+
+Merge Requests: Shows all merge requests assigned to the milestone. These are displayed in four columns named:
+
+Work in progress (open and unassigned)
+Waiting for merge (open and assigned)
+Rejected (closed)
+Merged
+
+
+
+Participants: Shows all assignees of issues assigned to the milestone.
+
+Labels: Shows all labels that are used in issues assigned to the milestone.
+
+
+Burndown Charts
+The milestone view contains a burndown and burnup chart,
+showing the progress of completing a milestone.
+
+
+Milestone sidebar
+The milestone sidebar on the milestone view shows the following:
+
+Percentage complete, which is calculated as number of closed issues divided by total number of issues.
+The start date and due date.
+The total time spent on all issues and merge requests assigned to the milestone.
+The total issue weight of all issues assigned to the milestone.
+
+
+
+
+
+
+
+Milestones (FREE)
+
+Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.
+Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
+
+Milestones as releases
+Milestones can be used to track releases. To do so:
+
+Set the milestone due date to represent the release date of your release and leave the milestone start date blank.
+Set the milestone title to the version of your release, such as Version 9.4.
+Add an issue to your release by associating the desired milestone from the issue's right-hand sidebar.
+
+Additionally, you can integrate milestones with the Releases feature.
+
+Project milestones and group milestones
+A milestone can belong to project or group.
+You can assign project milestones to issues or merge requests in that project only.
+You can assign group milestones to any issue or merge request of any project in that group.
+For information about project and group milestones API, see:
+
+Project Milestones API
+Group Milestones API
+
+
+View project or group milestones
+To view the milestone list:
+
+On the top bar, select Menu > Projects and find your project or
+Menu > Groups and find your group.
+Select Issues > Milestones.
+
+In a project, GitLab displays milestones that belong to the project.
+In a group, GitLab displays milestones that belong to the group and all projects in the group.
+
+View all milestones
+You can view all the milestones you have access to in the entire GitLab namespace.
+You might not see some milestones because they're in projects or groups you're not a member of.
+To do so, on the top bar select Menu > Milestones.
+
+Create a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+You can create a milestone either in a project or a group.
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To create a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+On the left sidebar, select Issues > Milestones.
+Select New milestone.
+Enter the title.
+Optional. Enter description, start date, and due date.
+Select New milestone.
+
+
+
+Edit a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Edit.
+Edit the title, start date, due date, or description.
+Select Save changes.
+
+
+Delete a milestone
+
+Changed the minimum user role from Developer to Reporter in GitLab 15.0.
+
+Prerequisites:
+
+You must have at least the Reporter role for the project or group the milestone belongs to.
+
+To edit a milestone:
+
+On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.
+Select a milestone's title.
+Select Delete.
+Select Delete milestone.
+
+
+Promote a project milestone to a group milestone
+If you are expanding the number of projects in a group, you might want to share the same milestones
+among this group's projects. You can also promote project milestones to group milestones to
+make them available to other projects in the same group.
+Promoting a milestone merges all project milestones across all projects in this group with the same
+name into a single group milestone.
+All issues and merge requests that were previously assigned to one of these project
+milestones become assigned to the new group milestone.
+WARNING:
+This action cannot be reversed and the changes are permanent.
+Prerequisites:
+
+You must have at least the Reporter role for the group.
+
+To promote a project milestone:
+
+On the top bar, select Menu > Projects and find your project.
+Either:
+
+Select Promote to Group Milestone ({level-up}).
+Select the milestone title, and then select Promote.
+
+
+Select Promote Milestone.
+
+
+Assign a milestone to an issue or merge request
+Every issue and merge request can be assigned one milestone.
+The milestones are visible on every issue and merge request page, on the right sidebar.
+They are also visible in the issue board.
+To assign or unassign a milestone:
+
+View an issue or a merge request.
+On the right sidebar, next to Milestones, select Edit.
+In the Assign milestone list, search for a milestone by typing its name.
+You can select from both project and group milestones.
+Select the milestone you want to assign.
+
+You can also use the /assign quick action in a comment.
+
+Filtering issues and merge requests by milestone
+
+Filtering in list pages
+From the project and group issue/merge request list pages, you can filter by both group and project milestones.
+
+Filtering in issue boards
+From project issue boards, you can filter by both group milestones and project
+milestones in:
+
+Search and filter bar
+Issue board configuration
+
+From group issue boards, you can filter by only group milestones in:
+
+Search and filter bar
+Issue board configuration
+
+
+Special milestone filters
+When filtering by milestone, in addition to choosing a specific project milestone or group milestone, you can choose a special milestone filter.
+
+
+None: Show issues or merge requests with no assigned milestone.
+
+Any: Show issues or merge requests that have an assigned milestone.
+
+Upcoming: Show issues or merge requests that have been assigned the open milestone and has the nearest due date in the future.
+
+Started: Show issues or merge requests that have an open assigned milestone with a start date that is before today.
+
+
+Milestone view
+The milestone view shows the title and description.
+There are also tabs below these that show the following:
+
+
+Issues: Shows all issues assigned to the milestone. These are displayed in three columns named:
+
+Unstarted Issues (open and unassigned)
+Ongoing Issues (open and assigned)
+Completed Issues (closed)
+
+
+
+Merge Requests: Shows all merge requests assigned to the milestone. These are displayed in four columns named:
+
+Work in progress (open and unassigned)
+Waiting for merge (open and assigned)
+Rejected (closed)
+Merged
+
+
+
+Participants: Shows all assignees of issues assigned to the milestone.
+
+Labels: Shows all labels that are used in issues assigned to the milestone.
+
+
+Burndown Charts
+The milestone view contains a burndown and burnup chart,
+showing the progress of completing a milestone.
+
+
+Milestone sidebar
+The milestone sidebar on the milestone view shows the following:
+
+Percentage complete, which is calculated as number of closed issues divided by total number of issues.
+The start date and due date.
+The total time spent on all issues and merge requests assigned to the milestone.
+The total issue weight of all issues assigned to the milestone.
+
+
+Milestones in GitLab are a way to track issues and merge requests created to achieve a broader goal in a certain period of time.Milestones allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.Milestones can be used to track releases. To do so:Set the milestone due date to represent the release date of your release and leave the milestone start date blank.Set the milestone title to the version of your release, such as Version 9.4.Add an issue to your release by associating the desired milestone from the issue's right-hand sidebar.Additionally, you can integrate milestones with the Releases feature.A milestone can belong to project or group.You can assign project milestones to issues or merge requests in that project only.
+You can assign group milestones to any issue or merge request of any project in that group.For information about project and group milestones API, see:Project Milestones APIGroup Milestones APITo view the milestone list:On the top bar, select Menu > Projects and find your project or
+Menu > Groups and find your group.Select Issues > Milestones.In a project, GitLab displays milestones that belong to the project.
+In a group, GitLab displays milestones that belong to the group and all projects in the group.You can view all the milestones you have access to in the entire GitLab namespace.
+You might not see some milestones because they're in projects or groups you're not a member of.To do so, on the top bar select Menu > Milestones.Changed the minimum user role from Developer to Reporter in GitLab 15.0.You can create a milestone either in a project or a group.Prerequisites:You must have at least the Reporter role for the project or group the milestone belongs to.To create a milestone:On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.On the left sidebar, select Issues > Milestones.Select New milestone.Enter the title.Optional. Enter description, start date, and due date.Select New milestone.Changed the minimum user role from Developer to Reporter in GitLab 15.0.Prerequisites:You must have at least the Reporter role for the project or group the milestone belongs to.To edit a milestone:On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.Select a milestone's title.Select Edit.Edit the title, start date, due date, or description.Select Save changes.Changed the minimum user role from Developer to Reporter in GitLab 15.0.Prerequisites:You must have at least the Reporter role for the project or group the milestone belongs to.To edit a milestone:On the top bar, select Menu > Projects and find your project or Menu > Groups and find your group.Select a milestone's title.Select Delete.Select Delete milestone.If you are expanding the number of projects in a group, you might want to share the same milestones
+among this group's projects. You can also promote project milestones to group milestones to
+make them available to other projects in the same group.Promoting a milestone merges all project milestones across all projects in this group with the same
+name into a single group milestone.
+All issues and merge requests that were previously assigned to one of these project
+milestones become assigned to the new group milestone.WARNING:
+This action cannot be reversed and the changes are permanent.Prerequisites:You must have at least the Reporter role for the group.To promote a project milestone:On the top bar, select Menu > Projects and find your project.Either:
+
+Select Promote to Group Milestone ({level-up}).
+Select the milestone title, and then select Promote.
+
+Select Promote to Group Milestone ({level-up}).Select the milestone title, and then select Promote.Select Promote Milestone.Every issue and merge request can be assigned one milestone.
+The milestones are visible on every issue and merge request page, on the right sidebar.
+They are also visible in the issue board.To assign or unassign a milestone:View an issue or a merge request.On the right sidebar, next to Milestones, select Edit.In the Assign milestone list, search for a milestone by typing its name.
+You can select from both project and group milestones.Select the milestone you want to assign.You can also use the /assign quick action in a comment.From the project and group issue/merge request list pages, you can filter by both group and project milestones.From project issue boards, you can filter by both group milestones and project
+milestones in:Search and filter barIssue board configurationFrom group issue boards, you can filter by only group milestones in:Search and filter barIssue board configurationWhen filtering by milestone, in addition to choosing a specific project milestone or group milestone, you can choose a special milestone filter.
+None: Show issues or merge requests with no assigned milestone.
+Any: Show issues or merge requests that have an assigned milestone.
+Upcoming: Show issues or merge requests that have been assigned the open milestone and has the nearest due date in the future.
+Started: Show issues or merge requests that have an open assigned milestone with a start date that is before today.The milestone view shows the title and description.There are also tabs below these that show the following:
+Issues: Shows all issues assigned to the milestone. These are displayed in three columns named:
+
+Unstarted Issues (open and unassigned)
+Ongoing Issues (open and assigned)
+Completed Issues (closed)
+
+Unstarted Issues (open and unassigned)Ongoing Issues (open and assigned)Completed Issues (closed)
+Merge Requests: Shows all merge requests assigned to the milestone. These are displayed in four columns named:
+
+Work in progress (open and unassigned)
+Waiting for merge (open and assigned)
+Rejected (closed)
+Merged
+
+Work in progress (open and unassigned)Waiting for merge (open and assigned)Rejected (closed)Merged
+Participants: Shows all assignees of issues assigned to the milestone.
+Labels: Shows all labels that are used in issues assigned to the milestone.The milestone view contains a burndown and burnup chart,
+showing the progress of completing a milestone.The milestone sidebar on the milestone view shows the following:Percentage complete, which is calculated as number of closed issues divided by total number of issues.The start date and due date.The total time spent on all issues and merge requests assigned to the milestone.The total issue weight of all issues assigned to the milestone.
+
+
+
+
+
