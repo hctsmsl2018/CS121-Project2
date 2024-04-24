@@ -3,10 +3,11 @@ from pathlib import Path
 import re
 from urllib.parse import urlparse, urlunparse
 import urllib.robotparser
+import sys
 
 
 def scraper(url, resp, config, simhash):
-    if resp.raw_response is not None and resp.raw_response.content is not None:
+    if resp.raw_response is not None and resp.raw_response.content is not None and sys.getsizeof(resp.raw_response.content) <= 1000000:
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
         path = extract_text(url, resp, page)
@@ -21,9 +22,16 @@ def scraper(url, resp, config, simhash):
         links = extract_next_links(url, resp, page)
         url_parsed = urlparse(url)
 
+        curr = sys.getsizeof(resp.raw_response.content)
+
+        with open("content_size.txt", "a") as file:
+            file.write(str(curr) + "\n")
+
+
         return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
     else:
         return []
+    
 
 def extract_next_links(url, resp, page):
     # Implementation required.

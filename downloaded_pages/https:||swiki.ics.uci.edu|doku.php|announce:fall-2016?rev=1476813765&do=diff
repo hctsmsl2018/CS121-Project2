@@ -1,0 +1,357 @@
+
+skip to content
+
+
+
+
+
+          [[Fall Quarter 2016 Announcements]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+Differences
+
+
+This shows you the differences between two versions of the page.
+
+
+
+
+View differences: 
+Side by SideInline
+
+Go
+
+
+Link to this comparison view
+
+
+
+
+
+Both sides previous revision
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 
+
+Go
+
+Next revision
+
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 2016/10/17 14:25 Hans [Creating a Ticket] 2016/10/14 17:44 Hans [ICS Supported Operating Systems] 2016/10/14 17:26 Hans [Technology Purchases] 2016/10/14 17:20 Hans 2016/10/14 17:18 Hans [Take Attendance with CheckIn] 2016/10/14 17:18 Hans [Technology Purchases] 2016/10/14 17:17 Hans [Openlab Changes] 2016/10/14 17:17 Hans [ICS Supported Operating Systems] 2016/10/14 17:17 Hans [Software Updates] 2016/10/14 17:17 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:15 Hans [Creating a Ticket] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:14 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Data Center] 2016/10/14 17:10 Hans [Data Center] 2016/10/14 16:52 Hans [Data Center] 2016/10/14 16:45 Hans [Virtual Machines] 
+
+Go
+
+
+
+
+
+announce:fall-2016 [2016/10/18 11:02]Hans [Cloud Computing and Virtual Machines]  
+
+announce:fall-2016 [2016/11/29 13:49] (current)Hans [Instructional Scratch Space]  
+
+Line 19:
+Line 19:
+
+ More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]] More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]]
+  
+-==== Undergraduate ​Scratch Space ====+==== Instructional ​Scratch Space  ====
+  
+-Two (2) TB of space on the Bren School'​s filer have been set aside for undergraduate instruction scratch space. The space is available to both Windows (smb) and ICS-supported Linux (nfs) clients.+  * [[hardware:​storage:​ugrad_space|Undergraduate Instructional Scratch Space]] 
+ +  * [[hardware:​storage:​grad_space|Graduate Instructional Scratch Space]]
+  
+-From a Windows host, please use the smb path [[\\samba.ics.uci.edu\ugrad_space|\\samba.ics.uci.edu\ugrad_space]] and enter your ICS credentials when prompted. 
+- 
+-From an ICS-supported Linux host, the space may be accessed by this path:  /​auto/​ugrad_space. 
+  
+ ====   ==== ====   ====
+Line 146:
+Line 144:
+
+ ==== ICS Data Center Services ==== ==== ICS Data Center Services ====
+  
+-ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[:​vital_statistics|here]].+ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[services:​vital_statistics|here]].
+  
+ ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center. ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center.
+
+
+
+
+
+
+
+
+announce/fall-2016.1476813765.txt.gz · Last modified: 2016/10/18 11:02 by Hans 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [[Fall Quarter 2016 Announcements]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+Differences
+
+
+This shows you the differences between two versions of the page.
+
+
+
+
+View differences: 
+Side by SideInline
+
+Go
+
+
+Link to this comparison view
+
+
+
+
+
+Both sides previous revision
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 
+
+Go
+
+Next revision
+
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 2016/10/17 14:25 Hans [Creating a Ticket] 2016/10/14 17:44 Hans [ICS Supported Operating Systems] 2016/10/14 17:26 Hans [Technology Purchases] 2016/10/14 17:20 Hans 2016/10/14 17:18 Hans [Take Attendance with CheckIn] 2016/10/14 17:18 Hans [Technology Purchases] 2016/10/14 17:17 Hans [Openlab Changes] 2016/10/14 17:17 Hans [ICS Supported Operating Systems] 2016/10/14 17:17 Hans [Software Updates] 2016/10/14 17:17 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:15 Hans [Creating a Ticket] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:14 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Data Center] 2016/10/14 17:10 Hans [Data Center] 2016/10/14 16:52 Hans [Data Center] 2016/10/14 16:45 Hans [Virtual Machines] 
+
+Go
+
+
+
+
+
+announce:fall-2016 [2016/10/18 11:02]Hans [Cloud Computing and Virtual Machines]  
+
+announce:fall-2016 [2016/11/29 13:49] (current)Hans [Instructional Scratch Space]  
+
+Line 19:
+Line 19:
+
+ More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]] More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]]
+  
+-==== Undergraduate ​Scratch Space ====+==== Instructional ​Scratch Space  ====
+  
+-Two (2) TB of space on the Bren School'​s filer have been set aside for undergraduate instruction scratch space. The space is available to both Windows (smb) and ICS-supported Linux (nfs) clients.+  * [[hardware:​storage:​ugrad_space|Undergraduate Instructional Scratch Space]] 
+ +  * [[hardware:​storage:​grad_space|Graduate Instructional Scratch Space]]
+  
+-From a Windows host, please use the smb path [[\\samba.ics.uci.edu\ugrad_space|\\samba.ics.uci.edu\ugrad_space]] and enter your ICS credentials when prompted. 
+- 
+-From an ICS-supported Linux host, the space may be accessed by this path:  /​auto/​ugrad_space. 
+  
+ ====   ==== ====   ====
+Line 146:
+Line 144:
+
+ ==== ICS Data Center Services ==== ==== ICS Data Center Services ====
+  
+-ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[:​vital_statistics|here]].+ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[services:​vital_statistics|here]].
+  
+ ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center. ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center.
+
+
+
+
+
+
+
+
+announce/fall-2016.1476813765.txt.gz · Last modified: 2016/10/18 11:02 by Hans 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+          [[Fall Quarter 2016 Announcements]]
+        
+
+Support Wiki 
+
+          [[Fall Quarter 2016 Announcements]]
+        
+Support Wiki 
+Trace: Trace:
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+Show page 
+Recent ChangesSitemapLog In 
+Search Search
+
+This shows you the differences between two versions of the page.
+
+
+This shows you the differences between two versions of the page.
+
+
+View differences: 
+Side by SideInline
+
+Go
+
+
+Link to this comparison view
+
+
+View differences: 
+Side by SideInline
+
+Go
+View differences:
+Link to this comparison view
+Link to this comparison view
+
+
+Both sides previous revision
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 
+
+Go
+
+Next revision
+
+Previous revision
+
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 2016/10/17 14:25 Hans [Creating a Ticket] 2016/10/14 17:44 Hans [ICS Supported Operating Systems] 2016/10/14 17:26 Hans [Technology Purchases] 2016/10/14 17:20 Hans 2016/10/14 17:18 Hans [Take Attendance with CheckIn] 2016/10/14 17:18 Hans [Technology Purchases] 2016/10/14 17:17 Hans [Openlab Changes] 2016/10/14 17:17 Hans [ICS Supported Operating Systems] 2016/10/14 17:17 Hans [Software Updates] 2016/10/14 17:17 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:15 Hans [Creating a Ticket] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:14 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Data Center] 2016/10/14 17:10 Hans [Data Center] 2016/10/14 16:52 Hans [Data Center] 2016/10/14 16:45 Hans [Virtual Machines] 
+
+Go
+
+
+
+
+
+announce:fall-2016 [2016/10/18 11:02]Hans [Cloud Computing and Virtual Machines]  
+
+announce:fall-2016 [2016/11/29 13:49] (current)Hans [Instructional Scratch Space]  
+
+Line 19:
+Line 19:
+
+ More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]] More information on using [[:​services:​sun_grid_engine|Son of Grid Engine Queueing System (SGE)]]
+  
+-==== Undergraduate ​Scratch Space ====+==== Instructional ​Scratch Space  ====
+  
+-Two (2) TB of space on the Bren School'​s filer have been set aside for undergraduate instruction scratch space. The space is available to both Windows (smb) and ICS-supported Linux (nfs) clients.+  * [[hardware:​storage:​ugrad_space|Undergraduate Instructional Scratch Space]] 
+ +  * [[hardware:​storage:​grad_space|Graduate Instructional Scratch Space]]
+  
+-From a Windows host, please use the smb path [[\\samba.ics.uci.edu\ugrad_space|\\samba.ics.uci.edu\ugrad_space]] and enter your ICS credentials when prompted. 
+- 
+-From an ICS-supported Linux host, the space may be accessed by this path:  /​auto/​ugrad_space. 
+  
+ ====   ==== ====   ====
+Line 146:
+Line 144:
+
+ ==== ICS Data Center Services ==== ==== ICS Data Center Services ====
+  
+-ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[:​vital_statistics|here]].+ICS has a 1600-square-foot data center and manages 571 pieces of equipment in the data center, including 479 bare metal servers. ​ More statistics are available [[services:​vital_statistics|here]].
+  
+ ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center. ICS researchers may place [[:​services:​supported_hardware|supported hardware]] in the ICS data center free of recurring charges. ​ Researchers are expected to pay for any infrastructure costs associated with their equipment and are occasionally asked to help with general infrastructure costs for running the data center.
+
+Both sides previous revisionPrevious revision
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 
+
+Go
+Next revisionPrevious revision
+ 
+2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:49 Hans [Instructional Scratch Space] 2016/11/29 13:48 Hans [Undergraduate Scratch Space] 2016/11/06 08:56  Links adapted because of a move operation2016/10/18 11:02 Hans [Cloud Computing and Virtual Machines] 2016/10/18 10:53 Hans 2016/10/18 10:51 Hans 2016/10/18 10:50 Hans 2016/10/18 10:50 Hans 2016/10/18 10:49 Hans 2016/10/18 10:48 Hans 2016/10/18 10:46 wdcohen [Instructional Lab Updates] 2016/10/18 10:45 wdcohen 2016/10/18 09:51 Hans 2016/10/17 16:01 luciad [Cloud Computing and Virtual Machines] 2016/10/17 16:00 luciad [ICS Data Center Services] 2016/10/17 15:59 luciad [SSL Certificates for ICS Hosts] 2016/10/17 15:57 luciad [GitLab:  Git Repository Management @ICS] 2016/10/17 15:54 luciad [ICS Supported Operating Systems] 2016/10/17 15:51 luciad [Instructional Lab Updates] 2016/10/17 15:45 luciad [Technology Purchases] 2016/10/17 15:04 Hans [Certificates for ICS Hosts] 2016/10/17 15:04 Hans [Software Updates] 2016/10/17 15:03 Hans [Certificates for ICS Hosts] 2016/10/17 15:03 Hans [Data Center] 2016/10/17 15:01 Hans [GitLab] 2016/10/17 14:55 Hans [Instructional Lab Updates] 2016/10/17 14:54 Hans [Technology Purchases] 2016/10/17 14:53 Hans [Technology Purchases] 2016/10/17 14:26 Hans 2016/10/17 14:25 Hans [Creating a Ticket] 2016/10/14 17:44 Hans [ICS Supported Operating Systems] 2016/10/14 17:26 Hans [Technology Purchases] 2016/10/14 17:20 Hans 2016/10/14 17:18 Hans [Take Attendance with CheckIn] 2016/10/14 17:18 Hans [Technology Purchases] 2016/10/14 17:17 Hans [Openlab Changes] 2016/10/14 17:17 Hans [ICS Supported Operating Systems] 2016/10/14 17:17 Hans [Software Updates] 2016/10/14 17:17 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:16 Hans [Cloud Computing and Virtual Machines] 2016/10/14 17:15 Hans [Creating a Ticket] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:15 Hans [Certificates for ICS Hosts] 2016/10/14 17:14 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Certificates for ICS Hosts] 2016/10/14 17:13 Hans [Data Center] 2016/10/14 17:10 Hans [Data Center] 2016/10/14 16:52 Hans [Data Center] 2016/10/14 16:45 Hans [Virtual Machines] 
+
+Go
+Hans[Cloud Computing and Virtual Machines] Hans[Instructional Scratch Space] 
+
+
+
+announce/fall-2016.1476813765.txt.gz · Last modified: 2016/10/18 11:02 by Hans 
+
+
+announce/fall-2016.1476813765.txt.gz · Last modified: 2016/10/18 11:02 by Hans 
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+Show pageOld revisions 
+Media ManagerBack to top 
+
+
+
+
+

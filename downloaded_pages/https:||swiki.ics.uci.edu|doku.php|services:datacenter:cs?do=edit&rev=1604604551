@@ -1,0 +1,350 @@
+
+skip to content
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+==== Required for ICS Managed Systems ====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1604604551.txt.gz · Last modified: 2020/11/05 11:29 by hans 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+
+Trace: 
+
+
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+
+
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+==== Required for ICS Managed Systems ====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1604604551.txt.gz · Last modified: 2020/11/05 11:29 by hans 
+
+
+
+
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+          [[✎ ICS Primary Data Center]]
+        
+
+Support Wiki 
+
+          [[✎ ICS Primary Data Center]]
+        
+Support Wiki 
+Trace: Trace:
+
+Show page 
+
+Recent ChangesSitemapLog In 
+
+Show page 
+Recent ChangesSitemapLog In 
+This page is read only. You can view the source, but not change it. Ask your administrator if you think this is wrong.
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+==== Required for ICS Managed Systems ====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+
+
+====== Information and Computer Science Primary Data Center  ======
+
+Vital Statistics:
+
+  * Size:  1600 sqft
+  * HVAC:  3 Units
+  * Cabinets:
+  * Draw:
+
+==== Required for ICS Managed Systems ====
+
+[[https://swiki.ics.uci.edu/doku.php/services:supported_os|ICS Operating System Support]]
+
+
+==== Requirements for Equipment ====
+
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+
+  * **Rack mountable**:  The equipment must rack neatly and securely into a standard 19" cabinet.
+  * **Advanced Out of Band Management**:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should allowcomplete remote administration with a full console..
+  * **Airflow**:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. 
+  * **Proper Form Factor**:  Equipment must actually fit in a standard rack or a specialty rack must be provided.
+
+==== Provided ====
+
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+
+  * Up to 2 120V or 240V power connections per host.
+  * Up to 2 1Gb/s per node plus 1 OOB connections.
+  * Space in cabinet limited by availability and heat restrictions.
+
+
+==== Recommended ====
+
+The following lists out additional recommendations for servers in the ICS Datacenter:
+
+  * RAID 10/5/6 support.
+  * Redundant PSU
+  * 10Gb/s Network
+  * 5 year NBD warranty
+
+
+
+
+
+
+
+
+
+
+
+
+
+services/datacenter/cs.1604604551.txt.gz · Last modified: 2020/11/05 11:29 by hans 
+
+
+services/datacenter/cs.1604604551.txt.gz · Last modified: 2020/11/05 11:29 by hans 
+
+Show pageOld revisions 
+
+Media ManagerBack to top 
+
+Show pageOld revisions 
+Media ManagerBack to top 
+
+
+
+
+

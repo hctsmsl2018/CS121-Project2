@@ -1,0 +1,3216 @@
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+Explore
+
+
+
+
+Sign in
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+GitLab
+
+Explore
+
+Sign in
+
+
+
+
+
+
+
+
+
+
+
+Joshua Garcia heros
+
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Joshua Garcia heros
+
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Joshua Garcia heros
+
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+
+
+
+
+
+
+
+
+Joshua Garcia heros
+
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+
+
+
+
+
+
+Joshua Garcia heros
+
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+Joshua Garciaherosheros
+eb98a8569b4d675c4cca6c52c59a34a89463e3fb
+
+
+
+
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+
+
+
+
+
+
+heros
+
+
+src
+
+
+heros
+
+
+alias
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+
+heros
+
+src
+
+heros
+
+alias
+
+MethodAnalyzerImpl.java
+
+
+Find file
+
+
+
+
+Normal view
+
+
+
+History
+
+
+
+Permalink
+
+
+
+Find file
+
+
+Normal view
+
+History
+
+Permalink
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+
+MethodAnalyzerImpl.java
+
+
+
+
+1.98 KiB
+
+
+
+
+
+
+
+
+
+Newer
+
+
+
+
+
+
+
+
+
+
+Older
+NewerOlder
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+bidi solver
+
+
+bidi solver
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+
+12
+
+
+/*******************************************************************************
+ * Copyright (c) 2015 Johannes Lerch.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v2.1
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Johannes Lerch - initial API and implementation
+ ******************************************************************************/
+package heros.alias;
+
+
+/*******************************************************************************/******************************************************************************* * Copyright (c) 2015 Johannes Lerch. * Copyright (c) 2015 Johannes Lerch. * All rights reserved. This program and the accompanying materials * All rights reserved. This program and the accompanying materials * are made available under the terms of the GNU Lesser Public License v2.1 * are made available under the terms of the GNU Lesser Public License v2.1 * which accompanies this distribution, and is available at * which accompanies this distribution, and is available at * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html *  *  * Contributors: * Contributors: *     Johannes Lerch - initial API and implementation *     Johannes Lerch - initial API and implementation ******************************************************************************/ ******************************************************************************/package heros.alias;packageheros.alias;
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+
+13
+
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+
+
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+
+removed unnecessary merge code in access path
+
+ 
+
+removed unnecessary merge code in access path
+
+Johannes Lerch
+committed
+Mar 25, 2015
+
+
+13
+
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> 
+
+public class MethodAnalyzerImpl<Field,Fact, Stmt, Method> publicclassMethodAnalyzerImpl<Field,Fact,Stmt,Method>
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+
+
+
+
+
+bidi solver
+
+
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+
+bidi solver
+
+
+bidi solver
+
+Johannes Lerch
+committed
+Mar 20, 2015
+
+
+14
+
+
+15
+
+
+16
+
+
+17
+
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+
+26
+
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
+31
+
+
+32
+
+
+33
+
+
+34
+
+
+35
+
+
+36
+
+
+37
+
+
+38
+
+
+39
+
+
+40
+
+
+41
+
+
+42
+
+
+43
+
+
+44
+
+
+45
+
+
+46
+
+
+47
+
+
+48
+
+
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {
+
+	private Method method;
+	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = 
+			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {
+		@Override
+		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {
+			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);
+		}
+	};
+	private Context<Field, Fact, Stmt, Method> context;
+
+	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {
+		this.method = method;
+		this.context = context;
+	}
+	
+	@Override
+	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {
+		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();
+		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());
+		analyzer.bootstrapAtMethodStartPoints();
+		analyzer.addIncomingEdge(incEdge);
+	}
+
+	@Override
+	public void addInitialSeed(Stmt startPoint, Fact val) {
+		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);
+	}
+	
+	@Override
+	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {
+		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);
+	}
+}
+		implements MethodAnalyzer<Field, Fact, Stmt, Method> {implementsMethodAnalyzer<Field,Fact,Stmt,Method>{	private Method method;privateMethodmethod;	private CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>> perSourceAnalyzer = privateCacheMap<Fact,PerAccessPathMethodAnalyzer<Field,Fact,Stmt,Method>>perSourceAnalyzer=			new CacheMap<Fact, PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>>() {newCacheMap<Fact,PerAccessPathMethodAnalyzer<Field,Fact,Stmt,Method>>(){		@Override@Override		protected PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> createItem(Fact key) {protectedPerAccessPathMethodAnalyzer<Field,Fact,Stmt,Method>createItem(Factkey){			return new PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method>(method, key, context);returnnewPerAccessPathMethodAnalyzer<Field,Fact,Stmt,Method>(method,key,context);		}}	};};	private Context<Field, Fact, Stmt, Method> context;privateContext<Field,Fact,Stmt,Method>context;	MethodAnalyzerImpl(Method method, Context<Field, Fact, Stmt, Method> context) {MethodAnalyzerImpl(Methodmethod,Context<Field,Fact,Stmt,Method>context){		this.method = method;this.method=method;		this.context = context;this.context=context;	}}		@Override@Override	public void addIncomingEdge(IncomingEdge<Field, Fact, Stmt, Method> incEdge) {publicvoidaddIncomingEdge(IncomingEdge<Field,Fact,Stmt,Method>incEdge){		WrappedFact<Field, Fact, Stmt, Method> calleeSourceFact = incEdge.getCalleeSourceFact();WrappedFact<Field,Fact,Stmt,Method>calleeSourceFact=incEdge.getCalleeSourceFact();		PerAccessPathMethodAnalyzer<Field, Fact, Stmt, Method> analyzer = perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());PerAccessPathMethodAnalyzer<Field,Fact,Stmt,Method>analyzer=perSourceAnalyzer.getOrCreate(calleeSourceFact.getFact());		analyzer.bootstrapAtMethodStartPoints();analyzer.bootstrapAtMethodStartPoints();		analyzer.addIncomingEdge(incEdge);analyzer.addIncomingEdge(incEdge);	}}	@Override@Override	public void addInitialSeed(Stmt startPoint, Fact val) {publicvoidaddInitialSeed(StmtstartPoint,Factval){		perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);perSourceAnalyzer.getOrCreate(val).addInitialSeed(startPoint);	}}		@Override@Override	public void addUnbalancedReturnFlow(WrappedFactAtStatement<Field, Fact, Stmt, Method> target, Stmt callSite) {publicvoidaddUnbalancedReturnFlow(WrappedFactAtStatement<Field,Fact,Stmt,Method>target,StmtcallSite){		perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);perSourceAnalyzer.getOrCreate(context.zeroValue).scheduleUnbalancedReturnEdgeTo(target);	}}}}

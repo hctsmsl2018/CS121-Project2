@@ -1,0 +1,12891 @@
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+Toggle navigation
+
+Menu
+
+
+
+
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+Toggle navigation
+
+Menu
+
+
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+GitLab
+
+
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+Projects
+Groups
+Snippets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+Help
+
+
+
+
+
+Help
+
+
+Support
+
+
+Community forum
+
+
+
+Keyboard shortcuts
+?
+
+
+
+
+Submit feedback
+
+
+Contribute to GitLab
+
+
+
+
+
+Help
+
+Support
+
+Community forum
+
+
+Keyboard shortcuts
+?
+
+
+Submit feedback
+
+Contribute to GitLab
+
+
+
+Sign in
+
+
+Sign in
+Toggle navigation
+Menu
+
+Menu
+
+
+
+
+H
+
+
+heros
+
+
+
+
+
+
+Project information
+
+
+
+
+Project information
+
+
+
+
+Activity
+
+
+Labels
+
+
+Members
+
+
+
+
+
+
+
+Repository
+
+
+
+
+Repository
+
+
+
+
+Files
+
+
+Commits
+
+
+Branches
+
+
+Tags
+
+
+Contributors
+
+
+Graph
+
+
+Compare
+
+
+
+
+
+
+
+Issues
+
+0
+
+
+
+Issues
+
+0
+
+
+
+List
+
+
+Boards
+
+
+Service Desk
+
+
+Milestones
+
+
+
+
+
+
+
+Merge requests
+
+0
+
+
+
+Merge requests
+
+0
+
+
+
+
+
+
+CI/CD
+
+
+
+
+CI/CD
+
+
+
+
+Pipelines
+
+
+Jobs
+
+
+Schedules
+
+
+
+
+
+
+
+Deployments
+
+
+
+
+Deployments
+
+
+
+
+Environments
+
+
+Releases
+
+
+
+
+
+
+
+Monitor
+
+
+
+
+Monitor
+
+
+
+
+Incidents
+
+
+
+
+
+
+
+Analytics
+
+
+
+
+Analytics
+
+
+
+
+Value stream
+
+
+CI/CD
+
+
+Repository
+
+
+
+
+
+
+
+Wiki
+
+
+
+
+Wiki
+
+
+
+
+
+Activity
+
+
+Graph
+
+
+Create a new issue
+
+
+Jobs
+
+
+Commits
+
+
+Issue Boards
+
+
+
+
+Collapse sidebar
+
+
+Close sidebar
+
+
+
+
+
+
+
+
+Open sidebar
+
+
+
+Joshua Garcia heros
+
+Commits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+23 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+18 Dec, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+08 Dec, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+21 Oct, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+25 Sep, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+18 Sep, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+08 Aug, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+04 Aug, 2014
+3 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+29 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+26 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+24 Jul, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+25 Jun, 2014
+14 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+09 Jun, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+23 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+02 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+10 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+03 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+28 Feb, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+17 Jan, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+H
+
+
+heros
+
+
+
+
+
+
+Project information
+
+
+
+
+Project information
+
+
+
+
+Activity
+
+
+Labels
+
+
+Members
+
+
+
+
+
+
+
+Repository
+
+
+
+
+Repository
+
+
+
+
+Files
+
+
+Commits
+
+
+Branches
+
+
+Tags
+
+
+Contributors
+
+
+Graph
+
+
+Compare
+
+
+
+
+
+
+
+Issues
+
+0
+
+
+
+Issues
+
+0
+
+
+
+List
+
+
+Boards
+
+
+Service Desk
+
+
+Milestones
+
+
+
+
+
+
+
+Merge requests
+
+0
+
+
+
+Merge requests
+
+0
+
+
+
+
+
+
+CI/CD
+
+
+
+
+CI/CD
+
+
+
+
+Pipelines
+
+
+Jobs
+
+
+Schedules
+
+
+
+
+
+
+
+Deployments
+
+
+
+
+Deployments
+
+
+
+
+Environments
+
+
+Releases
+
+
+
+
+
+
+
+Monitor
+
+
+
+
+Monitor
+
+
+
+
+Incidents
+
+
+
+
+
+
+
+Analytics
+
+
+
+
+Analytics
+
+
+
+
+Value stream
+
+
+CI/CD
+
+
+Repository
+
+
+
+
+
+
+
+Wiki
+
+
+
+
+Wiki
+
+
+
+
+
+Activity
+
+
+Graph
+
+
+Create a new issue
+
+
+Jobs
+
+
+Commits
+
+
+Issue Boards
+
+
+
+
+Collapse sidebar
+
+
+Close sidebar
+
+
+H
+
+
+heros
+
+
+H
+H
+heros
+
+
+
+
+Project information
+
+
+
+
+Project information
+
+
+
+
+Activity
+
+
+Labels
+
+
+Members
+
+
+
+
+
+
+Project information
+
+
+Project information
+
+
+
+
+Project information
+
+
+Activity
+
+
+Activity
+
+Labels
+
+
+Labels
+
+Members
+
+
+Members
+
+
+
+
+Repository
+
+
+
+
+Repository
+
+
+
+
+Files
+
+
+Commits
+
+
+Branches
+
+
+Tags
+
+
+Contributors
+
+
+Graph
+
+
+Compare
+
+
+
+
+
+
+Repository
+
+
+Repository
+
+
+
+
+Repository
+
+
+Files
+
+
+Files
+
+Commits
+
+
+Commits
+
+Branches
+
+
+Branches
+
+Tags
+
+
+Tags
+
+Contributors
+
+
+Contributors
+
+Graph
+
+
+Graph
+
+Compare
+
+
+Compare
+
+
+
+
+Issues
+
+0
+
+
+
+Issues
+
+0
+
+
+
+List
+
+
+Boards
+
+
+Service Desk
+
+
+Milestones
+
+
+
+
+
+
+Issues
+0
+
+
+Issues
+
+0
+
+
+
+Issues
+
+0
+0
+
+List
+
+
+List
+
+Boards
+
+
+Boards
+
+Service Desk
+
+
+Service Desk
+
+Milestones
+
+
+Milestones
+
+
+
+
+Merge requests
+
+0
+
+
+
+Merge requests
+
+0
+
+
+
+
+
+Merge requests
+0
+
+
+Merge requests
+
+0
+
+
+
+Merge requests
+
+0
+0
+
+
+
+
+CI/CD
+
+
+
+
+CI/CD
+
+
+
+
+Pipelines
+
+
+Jobs
+
+
+Schedules
+
+
+
+
+
+
+CI/CD
+
+
+CI/CD
+
+
+
+
+CI/CD
+
+
+Pipelines
+
+
+Pipelines
+
+Jobs
+
+
+Jobs
+
+Schedules
+
+
+Schedules
+
+
+
+
+Deployments
+
+
+
+
+Deployments
+
+
+
+
+Environments
+
+
+Releases
+
+
+
+
+
+
+Deployments
+
+
+Deployments
+
+
+
+
+Deployments
+
+
+Environments
+
+
+Environments
+
+Releases
+
+
+Releases
+
+
+
+
+Monitor
+
+
+
+
+Monitor
+
+
+
+
+Incidents
+
+
+
+
+
+
+Monitor
+
+
+Monitor
+
+
+
+
+Monitor
+
+
+Incidents
+
+
+Incidents
+
+
+
+
+Analytics
+
+
+
+
+Analytics
+
+
+
+
+Value stream
+
+
+CI/CD
+
+
+Repository
+
+
+
+
+
+
+Analytics
+
+
+Analytics
+
+
+
+
+Analytics
+
+
+Value stream
+
+
+Value stream
+
+CI/CD
+
+
+CI/CD
+
+Repository
+
+
+Repository
+
+
+
+
+Wiki
+
+
+
+
+Wiki
+
+
+
+
+
+
+Wiki
+
+
+Wiki
+
+
+
+
+Wiki
+
+
+Activity
+
+Graph
+
+Create a new issue
+
+Jobs
+
+Commits
+
+Issue Boards
+Collapse sidebarClose sidebar
+
+
+
+
+Open sidebar
+
+
+
+Joshua Garcia heros
+
+Commits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+23 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+18 Dec, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+08 Dec, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+21 Oct, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+25 Sep, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+18 Sep, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+08 Aug, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+04 Aug, 2014
+3 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+29 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+26 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+24 Jul, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+25 Jun, 2014
+14 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+09 Jun, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+23 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+02 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+10 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+03 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+28 Feb, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+17 Jan, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open sidebar
+
+
+
+Joshua Garcia heros
+
+Commits
+
+
+
+
+
+
+
+Open sidebar
+
+
+
+Joshua Garcia heros
+
+Commits
+
+
+
+
+Open sidebar
+
+Joshua Garcia heros
+
+Commits
+
+
+Joshua Garciaherosheros
+Commits
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+23 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+18 Dec, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+08 Dec, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+21 Oct, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+25 Sep, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+18 Sep, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+08 Aug, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+04 Aug, 2014
+3 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+29 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+26 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+24 Jul, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+25 Jun, 2014
+14 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+09 Jun, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+23 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+02 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+10 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+03 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+28 Feb, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+17 Jan, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+23 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+18 Dec, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+08 Dec, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+21 Oct, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+25 Sep, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+18 Sep, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+08 Aug, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+04 Aug, 2014
+3 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+29 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+26 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+24 Jul, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+25 Jun, 2014
+14 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+09 Jun, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+23 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+02 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+10 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+03 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+28 Feb, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+17 Jan, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+
+heros
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+
+Switch branch/tag
+
+
+
+
+
+5b67f79daa363c52fd3b7c8dff9c2626001c80c4
+
+Switch branch/tag
+
+
+
+
+
+Switch branch/tag
+
+
+
+Switch branch/tagSwitch branch/tagheros
+
+
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+23 Jan, 2015
+1 commit
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+18 Dec, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+08 Dec, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+21 Oct, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+25 Sep, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+18 Sep, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+08 Aug, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+04 Aug, 2014
+3 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+29 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+26 Jul, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+24 Jul, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+25 Jun, 2014
+14 commits
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+09 Jun, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+23 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+02 Apr, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+10 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+03 Mar, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+28 Feb, 2014
+1 commit
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+17 Jan, 2014
+2 commits
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+25 Jan, 2015
+1 commit
+25 Jan, 20151 commit
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+Fix for a long outstanding bug in the value computation of the IDE phase if...
+
+·
+5b67f79d
+
+
+
+
+
+Eric Bodden authored Jan 25, 2015
+
+Fix for a long outstanding bug in the value computation of the IDE phase if followReturnPastSeeds is used. Looking at the original IDE paper, one will see that in phase II the algorithm does the following:
+1.) propagate values from all start nodes to call nodes and from call nodes to start nodes of callees (!!!)
+2.) propagate from all start nodes to all non call-start nodes
+In Heros, however, we do not propagate from *all* start nodes to call nodes but only from the initial seeds!
+The problem is now that with followReturnPastSeeds=true we have an unbalanced problem, in which we propagate into callers that have no calls ever processed. In result, propagating from initial seeds to calls is not enough, as this will only enable value computation in callees, but not in callers.
+The implemented fix memorizes all values propagated into callers in an unbalanced way as so-called "caller seeds" and then uses these also as seeds for value computation. This should fix the problem without having to compute values starting at any start node of any procedure of the program.
+
+·
+5b67f79d
+
+Eric Bodden authored Jan 25, 2015
+
+
+
+
+5b67f79d
+
+
+
+
+
+
+5b67f79d
+
+
+
+
+5b67f79d
+
+23 Jan, 2015
+1 commit
+23 Jan, 20151 commit
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+
+
+6939a472
+
+
+
+
+
+
+fix: 'bottom(id)' should return 'bottom' not 'id'. Thanks to Johannes Späth who found the bug.
+
+·
+6939a472
+
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+·
+6939a472
+
+Alexandre Bartel authored Jan 23, 2015
+
+
+
+
+6939a472
+
+
+
+
+
+
+6939a472
+
+
+
+
+6939a472
+
+18 Dec, 2014
+1 commit
+18 Dec, 20141 commit
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+fix to Kill function: should compare using equals, not ==
+
+·
+19cb6fbd
+
+
+Eric Bodden authored Dec 18, 2014
+
+
+·
+19cb6fbd
+
+Eric Bodden authored Dec 18, 2014
+
+
+
+
+19cb6fbd
+
+
+
+
+
+
+19cb6fbd
+
+
+
+
+19cb6fbd
+
+08 Dec, 2014
+2 commits
+08 Dec, 20142 commits
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+Merge pull request #9 from MarcMil/develop-marcmil
+
+·
+c3a0ebfe
+
+
+
+
+
+Steven Arzt authored Dec 08, 2014
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances...
+
+·
+c3a0ebfe
+
+Steven Arzt authored Dec 08, 2014
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+c3a0ebfe
+
+
+
+
+c3a0ebfe
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+
+
+
+
+d6231788
+
+
+
+
+
+
+Added SootThreadGroup which allows to distinguish various Soot instances on different threads.
+
+·
+d6231788
+
+
+Marc authored Dec 08, 2014
+
+
+·
+d6231788
+
+Marc authored Dec 08, 2014
+
+
+
+
+d6231788
+
+
+
+
+
+
+d6231788
+
+
+
+
+d6231788
+
+21 Oct, 2014
+1 commit
+21 Oct, 20141 commit
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+Make sure that we don't lose exceptions on the way
+
+·
+5b8180eb
+
+
+Steven Arzt authored Oct 21, 2014
+
+
+·
+5b8180eb
+
+Steven Arzt authored Oct 21, 2014
+
+
+
+
+5b8180eb
+
+
+
+
+
+
+5b8180eb
+
+
+
+
+5b8180eb
+
+25 Sep, 2014
+1 commit
+25 Sep, 20141 commit
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+
+
+ddde660b
+
+
+
+
+
+
+Introducing more abstract/flexible version of PathTrackingIFDSSolver
+
+·
+ddde660b
+
+
+Johannes Lerch authored Sep 26, 2014
+
+
+·
+ddde660b
+
+Johannes Lerch authored Sep 26, 2014
+
+
+
+
+ddde660b
+
+
+
+
+
+
+ddde660b
+
+
+
+
+ddde660b
+
+18 Sep, 2014
+2 commits
+18 Sep, 20142 commits
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+fixed typo
+
+·
+a0c1ce8b
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+·
+a0c1ce8b
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+a0c1ce8b
+
+
+
+
+a0c1ce8b
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+
+
+90913eba
+
+
+
+
+
+
+added source JAR file to build script
+
+·
+90913eba
+
+
+Steven Arzt authored Sep 18, 2014
+
+
+·
+90913eba
+
+Steven Arzt authored Sep 18, 2014
+
+
+
+
+90913eba
+
+
+
+
+
+
+90913eba
+
+
+
+
+90913eba
+
+08 Aug, 2014
+1 commit
+08 Aug, 20141 commit
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+opened up interface
+
+·
+6a296cfc
+
+
+Eric Bodden authored Aug 08, 2014
+
+
+·
+6a296cfc
+
+Eric Bodden authored Aug 08, 2014
+
+
+
+
+6a296cfc
+
+
+
+
+
+
+6a296cfc
+
+
+
+
+6a296cfc
+
+04 Aug, 2014
+3 commits
+04 Aug, 20143 commits
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+9d139d75
+
+
+
+
+
+
+Merge branch 'develop' of github.com:Sable/heros into develop
+
+·
+9d139d75
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+·
+9d139d75
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+9d139d75
+
+
+
+
+
+
+9d139d75
+
+
+
+
+9d139d75
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+put some automatically-generated folders on the git ignore list
+
+·
+42e5bb00
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+·
+42e5bb00
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+42e5bb00
+
+
+
+
+42e5bb00
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+
+
+2840032a
+
+
+
+
+
+
+added a build target for javadoc
+
+·
+2840032a
+
+
+Steven Arzt authored Aug 04, 2014
+
+
+·
+2840032a
+
+Steven Arzt authored Aug 04, 2014
+
+
+
+
+2840032a
+
+
+
+
+
+
+2840032a
+
+
+
+
+2840032a
+
+29 Jul, 2014
+1 commit
+29 Jul, 20141 commit
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+Update README.md
+
+·
+cc9f7c25
+
+
+Steven Arzt authored Jul 29, 2014
+
+
+·
+cc9f7c25
+
+Steven Arzt authored Jul 29, 2014
+
+
+
+
+cc9f7c25
+
+
+
+
+
+
+cc9f7c25
+
+
+
+
+cc9f7c25
+
+26 Jul, 2014
+1 commit
+26 Jul, 20141 commit
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+
+
+1563f019
+
+
+
+
+
+
+made compatible with java 6 source
+
+·
+1563f019
+
+
+Eric Bodden authored Jul 26, 2014
+
+
+·
+1563f019
+
+Eric Bodden authored Jul 26, 2014
+
+
+
+
+1563f019
+
+
+
+
+
+
+1563f019
+
+
+
+
+1563f019
+
+24 Jul, 2014
+2 commits
+24 Jul, 20142 commits
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+0be5207f
+
+
+
+
+
+
+added a classes.jar build step
+
+·
+0be5207f
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+·
+0be5207f
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+0be5207f
+
+
+
+
+
+
+0be5207f
+
+
+
+
+0be5207f
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+
+
+21e58c01
+
+
+
+
+
+
+added test runner to build script
+
+·
+21e58c01
+
+
+Steven Arzt authored Jul 24, 2014
+
+
+·
+21e58c01
+
+Steven Arzt authored Jul 24, 2014
+
+
+
+
+21e58c01
+
+
+
+
+
+
+21e58c01
+
+
+
+
+21e58c01
+
+25 Jun, 2014
+14 commits
+25 Jun, 201414 commits
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+10400953
+
+
+
+
+
+
+Merge branch 'tests/main' into develop
+
+·
+10400953
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+·
+10400953
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+10400953
+
+
+
+
+
+
+10400953
+
+
+
+
+10400953
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+Using LeakKey to identify leaks not only on the basis of equal source
+
+·
+dd4a3cde
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+statements, but also equal call sites to which the flow leaks.
+
+·
+dd4a3cde
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+dd4a3cde
+
+
+
+
+dd4a3cde
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+
+
+
+
+6fd38817
+
+
+
+
+
+
+Introducing wrapper method propagateUnbalancedReturnFlow, which by
+
+·
+6fd38817
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+default forwards to propagate, but is overridden in BiDi to enable
+pausing edges at the correct time.
+
+·
+6fd38817
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+6fd38817
+
+
+
+
+
+
+6fd38817
+
+
+
+
+6fd38817
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+removed unused imports
+
+·
+f1cee5b8
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+·
+f1cee5b8
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+f1cee5b8
+
+
+
+
+f1cee5b8
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+
+
+663aa65d
+
+
+
+
+
+
+Removed unnecessary call to decrement before reset.
+
+·
+663aa65d
+
+
+Johannes Lerch authored Jun 25, 2014
+
+
+·
+663aa65d
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+663aa65d
+
+
+
+
+
+
+663aa65d
+
+
+
+
+663aa65d
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+
+
+
+
+d7737fda
+
+
+
+
+
+
+Not removing keys of paused edges as it is not guaranteed that in the
+
+·
+d7737fda
+
+
+
+
+
+Johannes Lerch authored Jun 25, 2014
+
+meantime no other thread has added new entries to the set stored as
+value of the map.
+
+·
+d7737fda
+
+Johannes Lerch authored Jun 25, 2014
+
+
+
+
+d7737fda
+
+
+
+
+
+
+d7737fda
+
+
+
+
+d7737fda
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+
+
+6016a868
+
+
+
+
+
+
+Fixed some concurrency issues in the BiDiIFDSSolver and IDESolver
+
+·
+6016a868
+
+
+Johannes Lerch authored Jun 18, 2014
+
+
+·
+6016a868
+
+Johannes Lerch authored Jun 18, 2014
+
+
+
+
+6016a868
+
+
+
+
+
+
+6016a868
+
+
+
+
+6016a868
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+test case capturing that in the current implementation of BiDiIFDSSolver
+
+·
+40ad6af0
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+the time at which paused edges are resumed is wrong (they are resumed
+even if no fact abstractions are propagated to callers, as resuming
+happens before computing the return flow function)
+
+·
+40ad6af0
+
+Johannes Lerch authored Jun 13, 2014
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+40ad6af0
+
+
+
+
+40ad6af0
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+
+
+
+
+26b9e710
+
+
+
+
+
+
+store calling context in abstraction to enable context sensitive path
+
+·
+26b9e710
+
+
+
+
+
+Johannes Lerch authored Jun 13, 2014
+
+building
+
+·
+26b9e710
+
+Johannes Lerch authored Jun 13, 2014
+
+
+
+
+26b9e710
+
+
+
+
+
+
+26b9e710
+
+
+
+
+26b9e710
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+
+
+
+
+cbce681e
+
+
+
+
+
+
+Change to IDESolver to behave consistent in cases in which summaries can
+
+·
+cbce681e
+
+
+
+
+
+Johannes Lerch authored Jun 11, 2014
+
+be applied inside processCall and cases in which they are applied in
+processExit, i.e., in the latter computeReturnFlowFunction was called
+only once for multiple source values on the caller side.
+
+·
+cbce681e
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+cbce681e
+
+
+
+
+
+
+cbce681e
+
+
+
+
+cbce681e
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+65687218
+
+
+
+
+
+
+Additional tests for BiDiSolver
+
+·
+65687218
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+·
+65687218
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+65687218
+
+
+
+
+
+
+65687218
+
+
+
+
+65687218
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+c455fd16
+
+
+
+
+
+
+package restructuring & initial test for BiDiSolver
+
+·
+c455fd16
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+·
+c455fd16
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+c455fd16
+
+
+
+
+
+
+c455fd16
+
+
+
+
+c455fd16
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+test case for reusing a summary on caller side
+
+·
+5268a4c6
+
+
+Johannes Lerch authored Jun 11, 2014
+
+
+·
+5268a4c6
+
+Johannes Lerch authored Jun 11, 2014
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+5268a4c6
+
+
+
+
+5268a4c6
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+Tests for IDESolver
+
+·
+b8ca40b0
+
+
+Johannes Lerch authored May 07, 2014
+
+
+·
+b8ca40b0
+
+Johannes Lerch authored May 07, 2014
+
+
+
+
+b8ca40b0
+
+
+
+
+
+
+b8ca40b0
+
+
+
+
+b8ca40b0
+
+09 Jun, 2014
+2 commits
+09 Jun, 20142 commits
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+
+
+
+
+34d361d3
+
+
+
+
+
+
+Merge pull request #8 from sleepingpig/nullcheckofcachebuilder
+
+·
+34d361d3
+
+
+
+
+
+Eric Bodden authored Jun 09, 2014
+
+
+Add nullness check of CacheBuilder
+
+·
+34d361d3
+
+Eric Bodden authored Jun 09, 2014
+
+
+
+
+34d361d3
+
+
+
+
+
+
+34d361d3
+
+
+
+
+34d361d3
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+Add nullness check of CacheBuilder
+
+·
+c16c1f89
+
+
+sleepingpig authored Jun 09, 2014
+
+
+·
+c16c1f89
+
+sleepingpig authored Jun 09, 2014
+
+
+
+
+c16c1f89
+
+
+
+
+
+
+c16c1f89
+
+
+
+
+c16c1f89
+
+23 Apr, 2014
+1 commit
+23 Apr, 20141 commit
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+now caching the hash code of the Pair class
+
+·
+f3b1b1f1
+
+
+Steven Arzt authored Apr 23, 2014
+
+
+·
+f3b1b1f1
+
+Steven Arzt authored Apr 23, 2014
+
+
+
+
+f3b1b1f1
+
+
+
+
+
+
+f3b1b1f1
+
+
+
+
+f3b1b1f1
+
+02 Apr, 2014
+1 commit
+02 Apr, 20141 commit
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+generalized ICFG types
+
+·
+3d7cf977
+
+
+Steven Arzt authored Apr 02, 2014
+
+
+·
+3d7cf977
+
+Steven Arzt authored Apr 02, 2014
+
+
+
+
+3d7cf977
+
+
+
+
+
+
+3d7cf977
+
+
+
+
+3d7cf977
+
+10 Mar, 2014
+1 commit
+10 Mar, 20141 commit
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+
+
+c61a8806
+
+
+
+
+
+
+fixed the ant settings file
+
+·
+c61a8806
+
+
+Steven Arzt authored Mar 10, 2014
+
+
+·
+c61a8806
+
+Steven Arzt authored Mar 10, 2014
+
+
+
+
+c61a8806
+
+
+
+
+
+
+c61a8806
+
+
+
+
+c61a8806
+
+03 Mar, 2014
+1 commit
+03 Mar, 20141 commit
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+
+
+81655ff1
+
+
+
+
+
+
+Added missing restoreContext call in processCall
+
+·
+81655ff1
+
+
+Johannes Lerch authored Mar 03, 2014
+
+
+·
+81655ff1
+
+Johannes Lerch authored Mar 03, 2014
+
+
+
+
+81655ff1
+
+
+
+
+
+
+81655ff1
+
+
+
+
+81655ff1
+
+28 Feb, 2014
+1 commit
+28 Feb, 20141 commit
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+Enabling possibility to reuse summaries in callees by setting source
+
+·
+2c10ea10
+
+
+
+
+
+Johannes Lerch authored Feb 28, 2014
+
+statement to null and restoring original source statement when returning
+context sensitively.
+
+·
+2c10ea10
+
+Johannes Lerch authored Feb 28, 2014
+
+
+
+
+2c10ea10
+
+
+
+
+
+
+2c10ea10
+
+
+
+
+2c10ea10
+
+17 Jan, 2014
+2 commits
+17 Jan, 20142 commits
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+generalized some return types
+
+·
+4b76e92f
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+·
+4b76e92f
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+4b76e92f
+
+
+
+
+4b76e92f
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+caching hash value
+
+·
+3b6c322d
+
+
+Steven Arzt authored Jan 17, 2014
+
+
+·
+3b6c322d
+
+Steven Arzt authored Jan 17, 2014
+
+
+
+
+3b6c322d
+
+
+
+
+
+
+3b6c322d
+
+
+
+
+3b6c322d
+
+
+
+
+
+
