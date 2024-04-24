@@ -1,37 +1,36 @@
-from pathlib import Path
-from hashlib import sha256
-from collections import defaultdict
 import shelve
 from tokenizer import tokenize, computeWordFrequencies
 
 class Simhash:
     def __init__(self):
-        self._HASH_LEN = 256
-        self._THRESHOLD = 192
-        self._BUCKET_SIZE = 32
+        self._HASH_LEN = 64
+        self._THRESHOLD = 60
+        self._BUCKET_SIZE = 8
         self._BUCKET_POWER = 2 ** self._BUCKET_SIZE
-        self._lsh_container = [defaultdict(list) for _ in range(self._HASH_LEN // self._BUCKET_SIZE)]
+        self._lsh_container = [{} for _ in range(self._HASH_LEN // self._BUCKET_SIZE)]
         self._hash_memo = {}
 
-    def add_page(self, url, path_to_contents, config):
-        tokens, page_hash = self._get_toks_and_hash(path_to_contents, config)
+    def add_page(self, url, path_to_contents):
+        tokens, page_hash = self._get_toks_and_hash(path_to_contents)
 
         hash_for_component = page_hash
 
         if self._check_page_addable(page_hash):
             for bucket in self._lsh_container:
-                bucket[hash_for_component % self._BUCKET_POWER].append(page_hash)
+                ind = hash_for_component % self._BUCKET_POWER
+
+                if ind in bucket:
+                    bucket[ind].append(page_hash)
+                else:
+                    bucket[ind] = [page_hash]
 
                 hash_for_component >>= self._BUCKET_SIZE
 
-            with shelve.open(config.tokens_file) as shelf:
-                shelf[url] = tokens
-
-            return True
+            return tokens
         
-        return False
+        return []
             
-    def _get_toks_and_hash(self, path_to_contents, config):
+    def _get_toks_and_hash(self, path_to_contents):
         tokens = tokenize(path_to_contents)
         frequencies = computeWordFrequencies(tokens)
 
@@ -39,7 +38,7 @@ class Simhash:
 
         for tok, freq in frequencies.items():
             if tok not in self._hash_memo:
-                self._hash_memo[tok] = int(sha256(tok.encode("utf-8")).hexdigest(), 16)
+                self._hash_memo[tok] = hash(tok)
             
             tok_hash = self._hash_memo[tok]
 

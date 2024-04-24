@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 from urllib.parse import urlparse, urlunparse
 import urllib.robotparser
+import shelve
 
 
 def scraper(url, resp, config, simhash):
@@ -14,7 +15,12 @@ def scraper(url, resp, config, simhash):
         if path == None:
             return []
 
-        if not simhash.add_page(url, path, config):
+        page_tokens = simhash.add_page(url, path)
+
+        if page_tokens:
+            with shelve.open(config.tokens_file) as shelf:
+                shelf[url] = page_tokens
+        else:
             path.unlink()
             return []
 

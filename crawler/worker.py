@@ -6,7 +6,7 @@ from utils import get_logger
 import scraper
 import time
 
-
+# tmux running on 43
 class Worker(Thread):
     def __init__(self, worker_id, config, frontier, simhash):
         self.logger = get_logger(f"Worker-{worker_id}", "Worker")
