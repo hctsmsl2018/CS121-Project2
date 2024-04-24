@@ -4,7 +4,7 @@ from tokenizer import tokenize, computeWordFrequencies
 class Simhash:
     def __init__(self):
         self._HASH_LEN = 64
-        self._THRESHOLD = 60
+        self._THRESHOLD = 40
         self._BUCKET_SIZE = 8
         self._BUCKET_POWER = 2 ** self._BUCKET_SIZE
         self._lsh_container = [{} for _ in range(self._HASH_LEN // self._BUCKET_SIZE)]
@@ -28,6 +28,7 @@ class Simhash:
 
             return tokens
         
+        print(f"page not added: {url}")
         return []
             
     def _get_toks_and_hash(self, path_to_contents):
