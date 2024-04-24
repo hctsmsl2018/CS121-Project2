@@ -4,6 +4,9 @@ import re
 from urllib.parse import urlparse, urlunparse
 import urllib.robotparser
 
+# blacklist dictionary. keeps track of paths and their queries. Key: path. Value: list of queries. idk if I should check the queries instead of the paths?
+d = {}
+visited = set()
 
 def scraper(url, resp, config, simhash):
     if resp.raw_response is not None and resp.raw_response.content is not None:
@@ -62,6 +65,9 @@ def extract_next_links(url, resp, page):
             #for link in links:
             #    if not parse_robots(link):
             #        links.remove(link)
+
+            links = filtered_links(links)
+
             # Return the links
             return links
 
@@ -174,3 +180,64 @@ def parse_sitemap(resp):
 
 def check_freshness(date):
     return int(date[:4]) >= 2020
+
+
+def filter_links(links):
+    filtered_links = set()
+    for link in links:
+        parse = urlparse(link)
+        netpath = parse.netloc + parse.path
+
+    #     #if the link has a query, check if the netlock and path already are in that query
+        if parse.query:
+            # if parse.query in d:
+    #         #     if parse.netloc+parse.path in d[parse.query]:
+    #         #         continue
+    #         #     d[parse.query].add(parse.netloc + parse.path)
+    #         # else:
+    #         #     d[parse.query] = {parse.netloc + parse.path}
+
+
+    #         print(d)
+            # print(parse.query)
+
+            if netpath in d:
+                
+                if parse.query not in d[netpath]:
+                    d[netpath].add(parse.query)
+                    # filtered_links.add(link)
+            else:
+                d[netpath] = {parse.query}
+                # filtered_links.add(link)
+
+            # print(filtered_links)
+
+            
+            if len(d[parse.path]) < 10:
+                filtered_links.add(link)
+    #         else:
+    #             print(f"filtered out link path is: {parse.path} and query is: {parse.query}")
+
+
+    #     # jk idt we need this anymore but ig another measure to ensure same link doesnt get visited multiple times
+        else:
+            filtered_links.add(link)
+    #         if size(set) == 0 :
+    #             filtered_links.add(link)
+    #             visited.add(link)
+    #         else:
+
+    #             if urlparse(visited[0]).netloc == parse.netloc:
+    #                 if link not in visited:
+    #                     filtered_links.add(link)
+    #                     visited.add(link)
+    #             else:
+    #                 visited = {link}
+    #                 filtered_links.add(link)
+                    
+
+    # print(links)
+    # print(filtered_links)
+
+    # Return the links
+    return filtered_links
