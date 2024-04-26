@@ -1,0 +1,160 @@
+Number of unique pages - 9143
+
+Longest page by word count:
+ https://www.statistics.uci.edu
+
+50 Most common words:
+<Word> - <Frequency>
+1 <uci> - <179165>
+2 <research> - <168488>
+3 <ics> - <136375>
+4 <student> - <128087>
+5 <computer> - <125541>
+6 <new> - <123227>
+7 <students> - <112101>
+8 <science> - <107702>
+9 <public> - <105758>
+10 <information> - <101042>
+11 <school> - <85567>
+12 <return> - <85524>
+13 <news> - <83897>
+14 <data> - <81403>
+15 <graduate> - <77306>
+16 <will> - <75320>
+17 <software> - <72814>
+18 <policies> - <72430>
+19 <bren> - <71003>
+20 <can> - <69357>
+21 <2019> - <68503>
+22 <events> - <66420>
+23 <faculty> - <65486>
+24 <support> - <64409>
+25 <committed> - <64364>
+26 <undergraduate> - <58947>
+27 <import> - <58847>
+28 <projects> - <58043>
+29 <learning> - <57799>
+30 <2022> - <57401>
+31 <authored> - <57098>
+32 <course> - <55797>
+33 <calls> - <55404>
+34 <class> - <55089>
+35 <project> - <54662>
+36 <people> - <53739>
+37 <academic> - <53544>
+38 <university> - <53528>
+39 <method> - <53360>
+40 <file> - <52570>
+41 <2021> - <52424>
+42 <fact> - <52350>
+43 <community> - <52136>
+44 <heros> - <51690>
+45 <self> - <51216>
+46 <professor> - <51133>
+47 <physics> - <50272>
+48 <informatics> - <49966>
+49 <contact> - <49653>
+50 <irvine> - <49269>
+
+Unique subdomains in ics.uci.edu
+<Subdomain> - <frequency>
+<gitlab.ics.uci.edu> - <2747>
+<www.ics.uci.edu> - <1671>
+<wiki.ics.uci.edu> - <771>
+<www.cs.uci.edu> - <551>
+<www.physics.uci.edu> - <463>
+<physics.uci.edu> - <436>
+<www.informatics.uci.edu> - <423>
+<sli.ics.uci.edu> - <283>
+<ics.uci.edu> - <245>
+<swiki.ics.uci.edu> - <222>
+<vision.ics.uci.edu> - <203>
+<www.economics.uci.edu> - <198>
+<www.stat.uci.edu> - <126>
+<cbcl.ics.uci.edu> - <107>
+<futurehealth.ics.uci.edu> - <69>
+<mcs.ics.uci.edu> - <65>
+<acoi.ics.uci.edu> - <56>
+<linguistics.uci.edu> - <44>
+<seal.ics.uci.edu> - <31>
+<intranet.ics.uci.edu> - <30>
+<computableplant.ics.uci.edu> - <29>
+<student-council.ics.uci.edu> - <26>
+<emj.ics.uci.edu> - <24>
+<sdcl.ics.uci.edu> - <24>
+<jdsylab.physics.uci.edu> - <19>
+<mds.ics.uci.edu> - <19>
+<plrg.ics.uci.edu> - <16>
+<cyberclub.ics.uci.edu> - <15>
+<mhcid.ics.uci.edu> - <15>
+<cert.ics.uci.edu> - <13>
+<industryshowcase.ics.uci.edu> - <11>
+<flamingo.ics.uci.edu> - <10>
+<hobbes.ics.uci.edu> - <9>
+<mswe.ics.uci.edu> - <9>
+<transformativeplay.ics.uci.edu> - <8>
+<insite.ics.uci.edu> - <7>
+<create.ics.uci.edu> - <6>
+<nalini.ics.uci.edu> - <6>
+<sherlock.ics.uci.edu> - <6>
+<summeracademy.ics.uci.edu> - <6>
+<www-db.ics.uci.edu> - <6>
+<www.graphics.ics.uci.edu> - <6>
+<accessibility.ics.uci.edu> - <5>
+<hai.ics.uci.edu> - <5>
+<i-sensorium.ics.uci.edu> - <5>
+<asterix.ics.uci.edu> - <4>
+<economics.uci.edu> - <4>
+<hpi.ics.uci.edu> - <4>
+<isg.ics.uci.edu> - <4>
+<stairs.ics.uci.edu> - <4>
+<archive.ics.uci.edu> - <3>
+<checkin.ics.uci.edu> - <3>
+<cml.ics.uci.edu> - <3>
+<fr.ics.uci.edu> - <3>
+<helpdesk.ics.uci.edu> - <3>
+<informatics.uci.edu> - <3>
+<wics.ics.uci.edu> - <3>
+<code.ics.uci.edu> - <2>
+<elms.ics.uci.edu> - <2>
+<hub.ics.uci.edu> - <2>
+<iasl.ics.uci.edu> - <2>
+<keys.ics.uci.edu> - <2>
+<mondego.ics.uci.edu> - <2>
+<motifmap-rna.ics.uci.edu> - <2>
+<mse.ics.uci.edu> - <2>
+<oai.ics.uci.edu> - <2>
+<pgadmin.ics.uci.edu> - <2>
+<phpmyadmin.ics.uci.edu> - <2>
+<riscit.ics.uci.edu> - <2>
+<unite.ics.uci.edu> - <2>
+<Transformativeplay.ics.uci.edu> - <1>
+<chenli.ics.uci.edu> - <1>
+<containers.ics.uci.edu> - <1>
+<courselisting.ics.uci.edu> - <1>
+<cradl.ics.uci.edu> - <1>
+<cwicsocal18.ics.uci.edu> - <1>
+<duttgroup.ics.uci.edu> - <1>
+<evoke.ics.uci.edu> - <1>
+<grape.ics.uci.edu> - <1>
+<graphics.ics.uci.edu> - <1>
+<graphmod.ics.uci.edu> - <1>
+<ieee.ics.uci.edu> - <1>
+<informatics.mt-live.ics.uci.edu> - <1>
+<ipubmed.ics.uci.edu> - <1>
+<jgarcia.ics.uci.edu> - <1>
+<luci.ics.uci.edu> - <1>
+<motifmap.ics.uci.edu> - <1>
+<onboarding.ics.uci.edu> - <1>
+<pastebin.ics.uci.edu> - <1>
+<perennialpolycultures.ics.uci.edu> - <1>
+<psearch.ics.uci.edu> - <1>
+<redmiles.ics.uci.edu> - <1>
+<rstudio-hub.ics.uci.edu> - <1>
+<sourcerer.ics.uci.edu> - <1>
+<speedtest.ics.uci.edu> - <1>
+<statconsulting.ics.uci.edu> - <1>
+<support.ics.uci.edu> - <1>
+<tad.ics.uci.edu> - <1>
+<www.informatics.ics.uci.edu> - <1>
+<www.statistics.uci.edu> - <1>
