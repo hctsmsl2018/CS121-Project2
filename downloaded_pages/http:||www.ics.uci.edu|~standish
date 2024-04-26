@@ -1,0 +1,443 @@
+
+                                    
+
+
+
+Thomas A. Standish
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Professor
+  Emeritus
+Computer
+  Science Department
+
+
+
+
+Donald
+  Bren School of
+
+
+
+
+Information
+  and Computer Sciences
+
+
+
+
+University
+  of California, Irvine
+
+
+
+
+Irvine,
+  California 
+  92697-3435
+
+
+
+ 
+Education
+ 
+       B. S.
+(Mathematics, magna cum laude), Yale University, 1962.
+       Ph. D.
+(Computer Science), Carnegie Institute of Technology, 1967.
+ 
+Experience
+ 
+       Served
+previously on the computer science faculties of Carnegie-Mellon,
+             Harvard,
+and UC Irvine. (For more, see experience.pdf.)
+ 
+Research Interests
+ 
+       Data
+Structures, Algorithms, and Theoretical Computer Science;  
+             Software
+Semantics and Epistemology, Programming and Cognition, 
+             Software
+Comprehension. (For more, see list-of-presentations.pdf.)
+ 
+List of Eleven Ph.D.s and Eight Masters
+Students Supervised
+ 
+       At CMU,
+Harvard, and UC Irvine, I was privileged to chair the thesis
+             committees of nineteen graduates. (For more, see PhD-and-MS-list.pdf.)
+ 
+Publications
+ 
+       Author of five books on data structures and algorithms.
+Published widely 
+             in other venues in pursuit of other interests. (For more,
+see pubs.pdf.)
+       
+       One Publication
+of Possible Interest
+             I
+discovered an unusually efficient O(n) method for
+address-calculation
+             sorting, called ProxmapSort, and a
+companion O(1) searching technique,
+             called ProxmapSearch, that uses a proxmap
+to search for keys in an array 
+             that has already been sorted by ProxmapSort.
+If the keys are uniformly and 
+             randomly distributed, ProxmapSort
+sorts an array of n keys using only 
+             1.5 n
+– 0.5 unit operations. ProxmapSearch
+requires an average of only 
+             C
+= 1.5 – (1/2n) key comparisons for a successful search, and C′ ≅ 1.5 – 1/e
+             key comparisons for an unsuccessful search. 
+                     My
+co-author, Norman Jacobson, had considerable success using
+             proxmap searching and sorting to
+motivate his CS2 students to become 
+             interested in the theory of algorithms and data structures,
+and Norm pressed
+             me to write a paper with him for publication in Inroads
+– The SIGCSE Bulletin.
+             (SIGCSE
+is the ACM Special Interest Group on Computer Science Education.)
+                     A
+table of running times comparing ProxmapSort with
+other well-known 
+             sorting methods is given as follows, where the running times
+are in milliticks 
+             (60,000ths
+of a second) averaged over 100 trials:
+ 
+
+
+
+array size =
+
+
+64
+
+
+128
+
+
+256
+
+
+512
+
+
+1024
+
+
+
+
+QuickSort
+
+
+0.40
+
+
+0.98
+
+
+2.22
+
+
+4.94
+
+
+10.86
+
+
+
+
+HeapSort
+
+
+0.61
+
+
+1.43
+
+
+3.28
+
+
+7.43
+
+
+16.57
+
+
+
+
+ProxmapSort
+
+
+0.38
+
+
+0.75
+
+
+1.51
+
+
+3.00
+
+
+5.99
+
+
+
+
+ShellSort
+
+
+0.42
+
+
+1.04
+
+
+2.37
+
+
+5.44
+
+
+11.97
+
+
+
+
+BubbleSort
+
+
+2.76
+
+
+11.36
+
+
+46.42
+
+
+189.35
+
+
+766.22
+
+
+
+
+InsertionSort
+
+
+1.12
+
+
+4.47
+
+
+17.58
+
+
+69.89
+
+
+280.27
+
+
+
+
+SelectionSort
+
+
+1.40
+
+
+5.56
+
+
+22.18
+
+
+88.66
+
+
+354.48
+
+
+
+
+MergeSort
+
+
+0.99
+
+
+2.28
+
+
+5.13
+
+
+11.45
+
+
+25.11
+
+
+
+ 
+                     The
+paper was published in two parts and is available for download from the
+             ACM
+Digital Library, but, unfortunately, the proxmap
+diagrams in Parts I & II were
+             misprinted due to an unintended font change. (Interested
+readers can view original
+             pdf preprints of Part I  here and Part II here.)
+The full references are:
+ 
+             Thomas A. Standish and Norman Jacobson. 2005. Using O(n) ProxmapSort and 
+                     O(1) ProxmapSearch to Motivate CS2
+Students (Part I). SIGCSE Bull. 37,
+4, 
+                     (Dec. 2005), 41-44, and
+             Thomas
+A. Standish and Norman Jacobson. 2006. Using O(n) ProxmapSort
+and 
+                     O(1) ProxmapSearch to Motivate CS2
+Students (Part II). SIGCSE Bull. 38,
+2, 
+                     (June 2006), 29-32.
+ 
+ 
+For More Details
+ 
+       For a pdf of a more-detailed resume, click here (resume.pdf).
+ 
+                                                                                                            Thomas A. StandishThomas A. Standish    Professor
+  EmeritusProfessor
+  EmeritusComputer
+  Science DepartmentComputer
+  Science DepartmentDonald
+  Bren School ofDonald
+  Bren School ofInformation
+  and Computer SciencesInformation
+  and Computer SciencesUniversity
+  of California, IrvineUniversity
+  of California, IrvineIrvine,
+  California 
+  92697-3435Irvine,
+  California 
+  92697-3435California 
+  92697 
+    EducationEducation         B. S.
+(Mathematics, magna cum laude), Yale University, 1962.       B. S.
+(Mathematics, magna cum laude), Yale University, 1962.              Ph. D.
+(Computer Science), Carnegie Institute of Technology, 1967.       Ph. D.
+(Computer Science), Carnegie Institute of Technology, 1967.         ExperienceExperience         Served
+previously on the computer science faculties of Carnegie-Mellon,       Served
+previously on the computer science faculties of Carnegie-Mellon,                    Harvard,
+and UC Irvine. (For more, see experience.pdf.)             Harvard,
+and UC Irvine. (For more, see              experience.pdfexperience.pdf.)  Research InterestsResearch Interests         Data
+Structures, Algorithms, and Theoretical Computer Science;         Data
+Structures, Algorithms, and Theoretical Computer Science;                        Software
+Semantics and Epistemology, Programming and Cognition,              Software
+Semantics and Epistemology, Programming and Cognition,                           Software
+Comprehension. (For more, see list-of-presentations.pdf.)             Software
+Comprehension. (For more, see              list-of-presentations.pdfpresentations.pdf.)  List of Eleven Ph.D.s and Eight Masters
+Students SupervisedList of Eleven Ph.D.s and Eight Masters
+Students Supervised         At CMU,
+Harvard, and UC Irvine, I was privileged to chair the thesis       At CMU,
+Harvard, and UC Irvine, I was privileged to chair the thesis                    committees of nineteen graduates. (For more, see PhD-and-MS-list.pdf.)             committees of nineteen graduates. (For more, see              committeesPhD-and-MS-list.pdflist.pdf.)  PublicationsPublications         Author of five books on data structures and algorithms.
+Published widely        Author of five books on data structures and algorithms.
+Published widely        Author of five books on data structures and algorithms.             in other venues in pursuit of other interests. (For more,
+see pubs.pdf.)             in other venues in pursuit of other interests. (For more,
+see              inpubs.pdfpubs.pdf.)                            One Publication
+of Possible Interest       One Publication
+of Possible Interest                    I
+discovered an unusually efficient O(n) method for
+address-calculation             I
+discovered an unusually efficient O(n) method for
+address-calculation             O(             sorting, called ProxmapSort, and a
+companion O(1) searching technique,             sorting, called ProxmapSort, and a
+companion O(1) searching technique,             sortingProxmapSort             called ProxmapSearch, that uses a proxmap
+to search for keys in an array              called ProxmapSearch, that uses a proxmap
+to search for keys in an array              calledProxmapSearchproxmap             that has already been sorted by ProxmapSort.
+If the keys are uniformly and              that has already been sorted by ProxmapSort.
+If the keys are uniformly and              thatProxmapSort             randomly distributed, ProxmapSort
+sorts an array of n keys using only              randomly distributed, ProxmapSort
+sorts an array of n keys using only              randomlyProxmapSort             1.5 n
+– 0.5 unit operations. ProxmapSearch
+requires an average of only              1.5 n
+– 0.5 unit operations. ProxmapSearch
+requires an average of only              1.5 n
+– 0.5 unit operations.ProxmapSearch             C
+= 1.5 – (1/2n) key comparisons for a successful search, and C′ ≅ 1.5 – 1/e             C
+= 1.5 – (1/2n) key comparisons for a successful search, and C′              ≅ 1.5 – 1/e             key comparisons for an unsuccessful search.              key comparisons for an unsuccessful search.              key                     My
+co-author, Norman Jacobson, had considerable success using                     My
+co-author, Norman Jacobson, had considerable success using                                  proxmap searching and sorting to
+motivate his CS2 students to become              proxmap searching and sorting to
+motivate his CS2 students to become              proxmapproxmap             interested in the theory of algorithms and data structures,
+and Norm pressed             interested in the theory of algorithms and data structures,
+and Norm pressed             interested             me to write a paper with him for publication in Inroads
+– The SIGCSE Bulletin.             me to write a paper with him for publication in Inroads
+– The SIGCSE Bulletin.             me             (SIGCSE
+is the ACM Special Interest Group on Computer Science Education.)             (SIGCSE
+is the ACM Special Interest Group on Computer Science Education.)                                  A
+table of running times comparing ProxmapSort with
+other well-known                      A
+table of running times comparing ProxmapSort with
+other well-known                      ProxmapSortwell-known             sorting methods is given as follows, where the running times
+are in milliticks              sorting methods is given as follows, where the running times
+are in milliticks              sortingmilliticks             (60,000ths
+of a second) averaged over 100 trials:             (60,000ths
+of a second) averaged over 100 trials:               array size =arrayarray size =646412812825625651251210241024QuickSortQuickSortQuickSort0.400.400.980.982.222.224.944.9410.8610.86HeapSortHeapSortHeapSort0.610.611.431.433.283.287.437.4316.5716.57ProxmapSortProxmapSortProxmapSort0.380.380.750.751.511.513.003.005.995.99ShellSortShellSortShellSort0.420.421.041.042.372.375.445.4411.9711.97BubbleSortBubbleSortBubbleSort2.762.7611.3611.3646.4246.42189.35189.35766.22766.22InsertionSortInsertionSortInsertionSort1.121.124.474.4717.5817.5869.8969.89280.27280.27SelectionSortSelectionSortSelectionSort1.401.405.565.5622.1822.1888.6688.66354.48354.48MergeSortMergeSortMergeSort0.990.992.282.285.135.1311.4511.4525.1125.11                       The
+paper was published in two parts and is available for download from the                     The
+paper was published in two parts and is available for download from the                                  ACM
+Digital Library, but, unfortunately, the proxmap
+diagrams in Parts I & II were             ACM
+Digital Library, but, unfortunately, the proxmap
+diagrams in Parts I & II were             proxmapI             misprinted due to an unintended font change. (Interested
+readers can view original             misprinted due to an unintended font change. (Interested
+readers can view original             misprinted             pdf preprints of Part I  here and Part II here.)
+The full references are:             pdf preprints of              pdfpdfPart I  here   and Part II here.)
+The full references are:               Thomas A. Standish and Norman Jacobson. 2005. Using O(n) ProxmapSort and                           Thomas A. Standish and Norman Jacobson. 2005. Using O(n) ProxmapSort and O(ProxmapSort                     O(1) ProxmapSearch to Motivate CS2
+Students (Part I). SIGCSE Bull. 37,
+4,                      O(1) ProxmapSearch to Motivate CS2
+Students (Part I).                      O(ProxmapSearchSIGCSE Bull. 37,
+4,                      (Dec. 2005), 41-44, and                                          (Dec. 2005), 41-44, and             Thomas
+A. Standish and Norman Jacobson. 2006. Using O(n) ProxmapSort
+and              Thomas
+A. Standish and Norman Jacobson. 2006. Using O(n) ProxmapSort
+and              O(ProxmapSort                     O(1) ProxmapSearch to Motivate CS2
+Students (Part II). SIGCSE Bull. 38,
+2,                      O(1) ProxmapSearch to Motivate CS2
+Students (Part II).                      O(ProxmapSearchSIGCSE Bull. 38,
+2,                      (June 2006), 29-32.                                          (June 2006), 29-32., 29-32.    For More DetailsFor More Details         For a pdf of a more-detailed resume, click here (resume.pdf).       For a pdf of a more-detailed resume, click here (       pdfresume.pdfresume.pdf).  

@@ -1,0 +1,424 @@
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Seminar Series – Archive
+ Mohan Kankanhalli 
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+ this is a widget called second front page widget area
+this is a widget called second front page widget areaExplore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Explore
+
+Contact Us
+
+ExploreContact UsContact UsFacultyFacultyResearch
+
+Research Areas
+Research Centers
+
+ResearchResearch AreasResearch AreasResearch CentersResearch CentersGraduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+Graduate DegreesComputer Science ProgramsComputer Science ProgramsCurrent Graduate StudentsCurrent Graduate StudentsUndergraduate DegreesUndergraduate DegreesNews  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+News  & EventsNewsNewsSeminar SeriesSeminar SeriesDistinguished Lecture SeriesDistinguished Lecture SeriesResearch ShowcaseResearch ShowcaseApply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+Apply NowApply NowUndergraduate AdmissionsUndergraduate AdmissionsGraduate AdmissionsGraduate AdmissionsFaculty CandidatesFaculty CandidatesSeminar Series – Archive
+ Mohan Kankanhalli 
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+Return to Archived Seminars ListSeminar Series – Archive
+ Mohan Kankanhalli 
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+Return to Archived Seminars List Mohan Kankanhalli 
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+Return to Archived Seminars List Mohan Kankanhalli 
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+
+
+
+          School of Computing, National University of Singapore
+
+          
+
+          
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+
+December 13, 2021 
+          11:00am - 12:00pm 
+          Donald Bren Hall 6011 
+December 13, 2021
+Title:
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+
+            Privacy-aware Multimedia Analytics: Towards Digital Trust
+         
+Abstract:
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+
+
+          In this talk, we will start with our current research on privacy-aware multimedia analytics. We will first present three works covering different aspects of privacy & analytics. The first work is about privacy protection against machines. Utilizing machine learning and big data, algorithms often act as a tool for privacy violation, by automatically selecting content with sensitive information, such as photos with faces. To prevent this, the key idea is to perturb images using adversarial machine learning to protect image attributes privacy, while ensuring the images are not degraded. We conducted an experimental study to explore factors that influence human sensitivity to visual changes, which led to the concept of image-specific human sensitivity map. Using this map, an image perturbation model is developed that can subtly alter an image such that sensitive attributes like gender are misclassified. The second work concerns privacy-preserving analytics on images. Attributes such as gender or age in images and videos are important for many applications. Existing methods extract this information from faces in the images. However, faces raise serious privacy concerns as they reveal people’s identity. We first did an eye-tracking based human study of age, gender, and emotion prediction of people in images under various identity preserving scenarios - obfuscating eyes, lower face, head or the full face. Motivated by this study, we successfully developed a deep learning model for attributes prediction under privacy-preserving conditions and we present its results. The third work focuses on training machine learning models where data sets cannot be shared due to privacy regulations (e.g., from medical studies). Anonymized data synthesis can enable third parties to benefit from such valuable data. We propose learning implicitly from visually unrealistic, task-relevant stimuli, which are synthesized by exciting the neurons of a trained neural network. Neuronal excitation serves as a pseudo-generative model, and it can be extended to inhibit representations that are associated with specific individuals, thus providing privacy. The stimuli data is then used to train new classification models. Experiments on sleep apnea data show that these models can provide privacy protection. We will then give a brief summary of our work in fairness, explainability and robustness in machine learning. We will end the talk by discussing challenges and opportunities in trustworthy AI.
+ 
+
+Speaker Bio:
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+
+
+
+          Mohan Kankanhalli is Provost's Chair Professor of Computer Science at the National University of Singapore (NUS). He is also the Dean of NUS School of Computing. Before becoming the Dean in July 2016, he was the NUS Vice Provost (Graduate Education) during 2014-2016 and Associate Provost during 2011-2013. Mohan obtained his BTech from IIT Kharagpur and MS & PhD from the Rensselaer Polytechnic Institute. Mohan’s research interests are in Multimedia Computing, Computer Vision, Information Security & Privacy and Image/Video Processing. He has made many contributions in the area of multimedia & vision – image and video understanding, data fusion, visual saliency as well as in multimedia security – content authentication and privacy, multi-camera surveillance.
+He directs N-CRiPT (NUS Centre for Research in Privacy Technologies) which conducts research on privacy on structured as well as unstructured (multimedia, sensors, IoT) data. N-CRiPT looks at privacy at both individual and organizational levels along the entire data life cycle. N-CRiPT, which has been funded by Singapore’s National Research Foundation, works with many industry, government and academic partners. He earlier directed the SeSaMe (Sensor-enhanced Social Media) Centre during 2012-2018.  SeSaMe did fundamental exploration of social cyber-physical systems with applications in social sensing, sensor analytics and smart systems.
+Mohan is a Fellow of IEEE.
+ 
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+© 2022 UC RegentsFeedbackPrivacy Policy

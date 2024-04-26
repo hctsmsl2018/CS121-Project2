@@ -1,0 +1,719 @@
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+SDCL
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+
+
+Sponsors
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+
+
+
+We are grateful to the following organizations for their support of our work over the years.
+
+Accenture
+Air Force Office of Scientific Research
+Boeing
+Defense Advanced Research Projects Agency
+Hewlett-Packard
+Hitachi
+Intel Corporation
+IBM
+Microsoft
+NASA Jet Propulsion Laboratory
+NTT Software Innovation Center
+U.S. National Science Foundation
+UC Irvine
+U.S. Department of Education
+
+We are grateful to the following organizations for their support of our work over the years.AccentureAir Force Office of Scientific ResearchBoeingDefense Advanced Research Projects AgencyHewlett-PackardHitachiIntel CorporationIBMMicrosoftNASA Jet Propulsion LaboratoryNTT Software Innovation CenterU.S. National Science FoundationUC IrvineU.S. Department of Education
+
+ 
+ 
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+ 
+  
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+Anita SarmaDavid RedmilesMarian PetreShinobu SaitoThomas LaToza
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+HomeResearch
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+ChatbotsKnoCapPast projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+LighthouseCrowdDesignCrowd DebuggingCalicoCodeExchangeCode OrbCrowd DevelopmentPorchLightPapers
+
+Technical reports
+Dissertations
+Books
+
+Technical reportsDissertationsBooksOpportunitiesPeople
+
+Previous members
+
+Previous membersSponsorsContact
+
+Directions
+
+Directions
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+    
+
+
+    
+ 
+
+   
+
+
+   
+ Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress

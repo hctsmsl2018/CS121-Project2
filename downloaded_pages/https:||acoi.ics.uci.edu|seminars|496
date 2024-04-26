@@ -1,0 +1,2881 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions
+Home>Seminars>Hierarchical Clustering: Recent Progress and Open Questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions
+Home>Seminars>Hierarchical Clustering: Recent Progress and Open Questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+ACO Center @ UCI  
+
+ACO Center @ UCI  
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+Algorithms, Combinatorics and Optimization Algorithms, Combinatorics and Optimization
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+ Search
+
+
+
+ Search
+Search
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+Hierarchical Clustering: Recent Progress and Open Questions
+Home>Seminars>Hierarchical Clustering: Recent Progress and Open Questions
+Home>HomeHome>Seminars>Seminars>Hierarchical Clustering: Recent Progress and Open QuestionsHierarchical Clustering: Recent Progress and Open Questions
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+
+
+Date: October 28, 2021					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: Zoom					
+
+
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+
+
+				 (Standford University)					
+
+
+
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+Hierarchical Clustering: Recent Progress and Open Questions 
+
+
+Date: October 28, 2021					
+
+
+
+Date: October 28, 2021					
+
+Date: October 28, 2021					
+
+
+Time: 2:00 pm					
+
+
+
+Time: 2:00 pm					
+
+Time: 2:00 pm					
+
+
+Room: Zoom					
+
+
+
+Room: Zoom					
+
+Room: Zoom					
+
+
+Speaker: Vaggos Chatziafratis 					
+
+
+
+Speaker: Vaggos Chatziafratis 					
+
+Speaker: Vaggos Chatziafratis 					
+
+
+				 (Standford University)					
+
+
+
+				 (Standford University)					
+
+				 (Standford University)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+Abstract: Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+Hierarchical Clustering is an important tool for unsupervised learning whose goal is to construct a hierarchical decomposition of a given dataset describing relationships at all levels of granularity simultaneously. Despite its long history, Hierarchical Clustering was underdeveloped from a theoretical perspective, partly because of a lack of suitable objectives and algorithms with guarantees. In this talk, I want to tell you about the recent progress in the area with an emphasis on connections to approximation algorithms like Sparsest Cut and Balanced Cut, some hardness of approximation results, and also highlight some interesting open problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+Close Menu
+
+Close Menu
+
+
+
+
+
+
+
+
+Open toolbar
+
+ 
+
+Open toolbar
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+Accessibility Tools
+
+Increase Text 
+Increase Text
+
+Decrease Text 
+Decrease Text
+
+Grayscale 
+Grayscale
+
+High Contrast 
+High Contrast
+
+Negative Contrast 
+Negative Contrast
+
+Light Background 
+Light Background
+
+Links Underline 
+Links Underline
+
+Readable Font 
+Readable Font
+
+
+Reset
+
+Reset

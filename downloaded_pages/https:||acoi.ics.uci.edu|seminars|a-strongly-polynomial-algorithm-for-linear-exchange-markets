@@ -1,0 +1,2881 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets
+Home>Seminars>A Strongly Polynomial Algorithm for Linear Exchange Markets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets
+Home>Seminars>A Strongly Polynomial Algorithm for Linear Exchange Markets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+ACO Center @ UCI  
+
+ACO Center @ UCI  
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+Algorithms, Combinatorics and Optimization Algorithms, Combinatorics and Optimization
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+ Search
+
+
+
+ Search
+Search
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+A Strongly Polynomial Algorithm for Linear Exchange Markets
+Home>Seminars>A Strongly Polynomial Algorithm for Linear Exchange Markets
+Home>HomeHome>Seminars>Seminars>A Strongly Polynomial Algorithm for Linear Exchange MarketsA Strongly Polynomial Algorithm for Linear Exchange Markets
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+
+
+Date: May 16, 2019					
+
+
+
+
+
+Time: 2:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Jugal Garg 					
+
+
+
+
+
+				 (University of Illinois)					
+
+
+
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+A Strongly Polynomial Algorithm for Linear Exchange Markets 
+
+
+Date: May 16, 2019					
+
+
+
+Date: May 16, 2019					
+
+Date: May 16, 2019					
+
+
+Time: 2:00 pm					
+
+
+
+Time: 2:00 pm					
+
+Time: 2:00 pm					
+
+
+Room: DBH 4011					
+
+
+
+Room: DBH 4011					
+
+Room: DBH 4011					
+
+
+Speaker: Jugal Garg 					
+
+
+
+Speaker: Jugal Garg 					
+
+Speaker: Jugal Garg 					
+
+
+				 (University of Illinois)					
+
+
+
+				 (University of Illinois)					
+
+				 (University of Illinois)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+Abstract: In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+In this talk, I will present the first strongly polynomial algorithm for computing an equilibrium in exchange markets with linear utilities. The exchange market model has been extensively studied since its introduction by Walras in 1874. This problem has a non-separable convex flow formulation and the property that we can find an equilibrium in strongly polynomial time given its support, i.e., the flow variables which are non-zero. Using a variant of Duan and Mehlhorn (DM) algorithm, we gradually reveal new variables that are in the support of equilibrium. We show that a new variable can be revealed in strongly polynomial time if we start the DM algorithm with the best possible solution corresponding to the current revealed set. Finding the best solution can be reduced to solving a linear program (LP). Even though we are unable to solve this LP in strongly polynomial time, we show that it can be approximated by a simpler LP with two variables per inequality that is solvable in strongly polynomial time and it turns out to be good enough to make the overall algorithm run in strongly polynomial time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+Close Menu
+
+Close Menu
+
+
+
+
+
+
+
+
+Open toolbar
+
+ 
+
+Open toolbar
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+Accessibility Tools
+
+Increase Text 
+Increase Text
+
+Decrease Text 
+Decrease Text
+
+Grayscale 
+Grayscale
+
+High Contrast 
+High Contrast
+
+Negative Contrast 
+Negative Contrast
+
+Light Background 
+Light Background
+
+Links Underline 
+Links Underline
+
+Readable Font 
+Readable Font
+
+
+Reset
+
+Reset

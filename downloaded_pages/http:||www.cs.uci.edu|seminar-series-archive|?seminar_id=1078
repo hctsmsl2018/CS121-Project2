@@ -1,0 +1,403 @@
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Seminar Series – Archive
+ Kaidi Xu 
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+ this is a widget called second front page widget area
+this is a widget called second front page widget areaExplore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Explore
+
+Contact Us
+
+ExploreContact UsContact UsFacultyFacultyResearch
+
+Research Areas
+Research Centers
+
+ResearchResearch AreasResearch AreasResearch CentersResearch CentersGraduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+Graduate DegreesComputer Science ProgramsComputer Science ProgramsCurrent Graduate StudentsCurrent Graduate StudentsUndergraduate DegreesUndergraduate DegreesNews  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+News  & EventsNewsNewsSeminar SeriesSeminar SeriesDistinguished Lecture SeriesDistinguished Lecture SeriesResearch ShowcaseResearch ShowcaseApply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+Apply NowApply NowUndergraduate AdmissionsUndergraduate AdmissionsGraduate AdmissionsGraduate AdmissionsFaculty CandidatesFaculty CandidatesSeminar Series – Archive
+ Kaidi Xu 
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+Return to Archived Seminars ListSeminar Series – Archive
+ Kaidi Xu 
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+Return to Archived Seminars List Kaidi Xu 
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+Return to Archived Seminars List Kaidi Xu 
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+
+
+
+          Drexel
+
+          
+
+          
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+
+October 29, 2021 
+          11:00am - 12:00pm 
+          In-person 
+October 29, 2021
+Title:
+
+            Neural Networks with Provable Robustness Guarantees
+         
+
+            Neural Networks with Provable Robustness Guarantees
+         
+Abstract:
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+
+
+          Neural networks have become a crucial element in modern artificial intelligence. However, they are often black-boxes and can sometimes behave unpredictably and produce surprisingly wrong results. When applying neural networks to mission-critical systems such as autonomous driving and aircraft control, it is often desirable to formally verify their trustworthiness such as safety and robustness. Unfortunately, the complexity of neural networks has made the task of formally verifying their properties very challenging. To tackle this challenge, we first propose an efficient verification algorithm based on linear relaxations of neural networks, which produces guaranteed output bounds given bounded input perturbations. The algorithm propagates linear inequalities through the network efficiently in a backward manner and can be applied to arbitrary network architectures using our auto_LiRPA library. To reduce relaxation errors, we further develop an efficient optimization procedure that can tighten verification bounds rapidly on GPUs. Lastly, I discuss how to further empower the verifier with branch and bound by incorporating the additional branching constraints into the bound propagation procedure. The combination of these advanced neural network verification techniques leads to α,β-CROWN (alpha-beta-CROWN), a scalable, powerful and GPU-based neural network verifier that won the 2nd International Verification of Neural Networks Competition (VNN-COMP’21) with the highest total score. 
+
+Speaker Bio:
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+
+
+
+          Kaidi Xu is an assistant professor in the Department of Computer Science at Drexel University.  He obtained his Ph.D. from Northeastern University in 2021. Kaidi's primary research interest is the robustness of machine learning, including physical adversarial attacks and rigorous robustness verification. Kaidi has published in various top international conferences and his work 'Adversarial T-shirt' has received more than 200 media coverage. Kaidi with his team is also the global winner of the 2nd International Verification of Neural Networks Competition.
+Homepage: https://kaidixu.com/ 
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+© 2022 UC RegentsFeedbackPrivacy Policy

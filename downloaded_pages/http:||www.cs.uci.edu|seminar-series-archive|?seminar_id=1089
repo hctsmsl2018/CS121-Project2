@@ -1,0 +1,403 @@
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Seminar Series – Archive
+ Tanvir Ahmed Khan 
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+Title:
+
+            Rescuing Data Center Processors
+         
+
+
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+ this is a widget called second front page widget area
+this is a widget called second front page widget areaExplore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Explore
+
+Contact Us
+
+ExploreContact UsContact UsFacultyFacultyResearch
+
+Research Areas
+Research Centers
+
+ResearchResearch AreasResearch AreasResearch CentersResearch CentersGraduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+Graduate DegreesComputer Science ProgramsComputer Science ProgramsCurrent Graduate StudentsCurrent Graduate StudentsUndergraduate DegreesUndergraduate DegreesNews  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+News  & EventsNewsNewsSeminar SeriesSeminar SeriesDistinguished Lecture SeriesDistinguished Lecture SeriesResearch ShowcaseResearch ShowcaseApply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+Apply NowApply NowUndergraduate AdmissionsUndergraduate AdmissionsGraduate AdmissionsGraduate AdmissionsFaculty CandidatesFaculty CandidatesSeminar Series – Archive
+ Tanvir Ahmed Khan 
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+Title:
+
+            Rescuing Data Center Processors
+         
+
+
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+Return to Archived Seminars ListSeminar Series – Archive
+ Tanvir Ahmed Khan 
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+Title:
+
+            Rescuing Data Center Processors
+         
+
+
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+Return to Archived Seminars List Tanvir Ahmed Khan 
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+Title:
+
+            Rescuing Data Center Processors
+         
+
+
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+Return to Archived Seminars List Tanvir Ahmed Khan 
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+Title:
+
+            Rescuing Data Center Processors
+         
+
+
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+
+
+
+          University of Michigan
+
+          (Speaker Website) 
+
+          
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+
+January 14, 2022 
+          11:00am - 12:00pm 
+          Virtual on Zoom https://uci.zoom.us/j/8407453455 
+January 14, 2022
+Title:
+
+            Rescuing Data Center Processors
+         
+
+            Rescuing Data Center Processors
+         
+Abstract:
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+
+
+          To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google. 
+
+Speaker Bio:
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+
+
+
+          Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.
+ 
+Return to Archived Seminars List 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+© 2022 UC RegentsFeedbackPrivacy Policy

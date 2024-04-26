@@ -17,6 +17,7 @@ def scraper(url, resp, config, simhash):
         path = extract_text(url, resp, page)
 
         if path == None:
+
             return []
 
         page_tokens = simhash.add_page(url, path)
@@ -26,6 +27,7 @@ def scraper(url, resp, config, simhash):
                 shelf[url] = page_tokens
         else:
             path.unlink()
+
             return []
 
         links = extract_next_links(url, resp, page)
@@ -79,13 +81,14 @@ def extract_next_links(url, resp, page):
             #for link in links:
             #    if not parse_robots(link):
             #        links.remove(link)
-
-            links = filtered_links(links)
-
+            #print(len(links))
+            links = filter_links(links)
+            #print(len(links))
             # Return the links
             return links
 
-        except:
+        except Exception as e:
+            print(e)
             return []
     else:
         print(f'{resp.status}: {resp.error}')

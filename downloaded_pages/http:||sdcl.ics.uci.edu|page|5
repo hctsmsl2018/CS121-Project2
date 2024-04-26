@@ -1,0 +1,1698 @@
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+
+
+Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+ 
+
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+
+
+Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+ 
+
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+
+
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+
+
+Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+ 
+
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+
+SDCL Software Design and Collaboration Laboratory
+
+SDCL
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+
+
+Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+ 
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+
+
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+
+
+Chatbots
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+
+
+
+
+Sayme offers awareness of parallel work by informing developers of any emerging conflicts in real-time and helping them to resolve those conflicts.
+KnoCap
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+
+
+
+
+KnoCap is a tool that we are developing to collect important design bits from developers’ conversations during whiteboard design meetings.
+Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+ Welcome The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+The Software Design and Collaboration Laboratory focuses on understanding and advancing the roles of design, collaboration, and education in software development. We primarily employ a tool-driven methodology, exploring a broad range of research questions by designing and building novel software tools. Our work seeks to impact everyday practice by using empirical and field studies to inform tool design.
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+ 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+ 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+ 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+ 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+ 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+ 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+ 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+ 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+ 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+ 
+
+« Previous Page
+Next Page »
+
+
+
+
+
+Nov 1420
+Nick dissertation award!  
+
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+
+
+Nov 1420
+Nick dissertation award!  
+Nov 142020
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+
+Nick Mangano receives his ACM SIGSOFT Outstanding Dissertation Award at FSE 2014 in Hong Kong, and is supported by Lee and Thomas who are both there as well to present at the Context workshop.
+
+ Posted in News by andre.
+        Comments Off on Nick dissertation award!
+Posted inNewsandreComments Off on Nick dissertation award!Comments Off on Nick dissertation award! on Nick dissertation award! 
+
+Oct 1425
+PLATEAU 2014  
+
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+
+
+Oct 1425
+PLATEAU 2014  
+Oct 142525
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs.
+
+
+ Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+
+Thomas visited rainy Portland to co-chair the Fifth Workshop on the Evaluation and Usability of Programming Languages and Tools at SPLASH 2014. There were many great talks on topics ranging from making programming more social through newsfeeds to an analysis of how race detection tools benefit developers. Josh Bloch, designer of the Java collections framework and author of Effective Java, gave an awesome keynote on the history of the API, including one of the most prescient two page papers ever written. New this year was a track for hypotheses papers, explicitly detailing the expecting practical usability implications of language features and tools on the practice of programming. For example, Jonathan Aldrich gave a retrospective of his work on programming language design for protocols, detailing hypotheses about its practical benefits for developers. The day concluded with some animated group brainstorming on the usability effects of types, program analysis, API documentation, and IDEs. Posted in Uncategorized by andre.
+        Comments Off on PLATEAU 2014
+Posted inUncategorizedandreComments Off on PLATEAU 2014Comments Off on PLATEAU 2014 on PLATEAU 2014 
+
+Oct 148
+UIST 2014  
+
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+
+
+Oct 148
+UIST 2014  
+Oct 1488
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.
+SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition.
+
+ Posted in Travel by andre.
+        Comments Off on UIST 2014
+
+Thomas attended UIST 2014 in Honolulu, presenting his paper on Microtask programming: building software with a crowd. There were a number of interesting papers related to programming tools and crowdsourcing.SDCL also had an entry in the UIST 2014 Analog Fabrication Sandcastle Competition. Posted in Travel by andre.
+        Comments Off on UIST 2014
+Posted inTravelandreComments Off on UIST 2014Comments Off on UIST 2014 on UIST 2014 
+
+Oct 148
+Welcome Consuelo  
+
+
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+
+
+Oct 148
+Welcome Consuelo  
+Oct 1488
+Welcome Consuelo! 
+Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design.
+ Posted in News by andre.
+        Comments Off on Welcome Consuelo
+
+Welcome Consuelo! Consuelo Lopez is a new master student joining our research group. She has work experience in software quality and she is currently interested in developing tools for software design. Posted in News by andre.
+        Comments Off on Welcome Consuelo
+Posted inNewsandreComments Off on Welcome ConsueloComments Off on Welcome Consuelo on Welcome Consuelo 
+
+Sep 1415
+Welcome Arturo and Fabio  
+
+
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+
+
+Sep 1415
+Welcome Arturo and Fabio  
+Sep 141515
+Welcome Arturo Di Lecce and Fabio Ricci!
+Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design.
+ Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+
+Welcome Arturo Di Lecce and Fabio Ricci!Arturo and Fabio join us from Politecnico di Milano in Italy, where they are currently masters students. They’ll be visiting SDCL in sunny California for the next year and will be working on projects related to crowd programming and crowd design. Posted in News by andre.
+        Comments Off on Welcome Arturo and Fabio
+Posted inNewsandreComments Off on Welcome Arturo and FabioComments Off on Welcome Arturo and Fabio on Welcome Arturo and Fabio 
+
+Aug 1422
+Thesis Defense Congratulations  
+
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+
+
+Aug 1422
+Thesis Defense Congratulations  
+Aug 142222
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.
+The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.
+We are hard at work on a paper summarizing their findings.
+
+ Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+
+Micky and Lucy have graduated cum laude with their M.S. degrees from the University of Amsterdam.The research they performed in SDCL uncovered interesting aspects of crowdsourcing software design.We are hard at work on a paper summarizing their findings. Posted in News by andre.
+        Comments Off on Thesis Defense Congratulations
+Posted inNewsandreComments Off on Thesis Defense CongratulationsComments Off on Thesis Defense Congratulations on Thesis Defense Congratulations 
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+
+
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+
+
+Aug 1412
+CodeExchange – A new Java code search engine  
+Aug 141212
+Program Java? Checkout CodeExchange, our new code search engine.
+ Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+
+Program Java? Checkout CodeExchange, our new code search engine. Posted in News by andre.
+        Comments Off on CodeExchange – A new Java code search engine
+Posted inNewsandreComments Off on CodeExchange – A new Java code search engineComments Off on CodeExchange – A new Java code search engine on CodeExchange – A new Java code search engine 
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+
+
+Jul 1430
+Crowd Programming featured on ACM TechNews  
+Jul 143030
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net.
+ Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+
+Our work on Crowd Programming was also featured on ACM TechNews and Techwire.net. Posted in News by andre.
+        Comments Off on Crowd Programming featured on ACM TechNews
+Posted inNewsandreComments Off on Crowd Programming featured on ACM TechNewsComments Off on Crowd Programming featured on ACM TechNews on Crowd Programming featured on ACM TechNews 
+
+Jul 1424
+Press on Crowd Programming Grant  
+
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+
+
+Jul 1424
+Press on Crowd Programming Grant  
+Jul 142424
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology.
+ Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+
+Our work on crowd programming has been briefly featured in both the UC Irinve News and in Campus Technology. Posted in News by andre.
+        Comments Off on Press on Crowd Programming Grant
+Posted inNewsandreComments Off on Press on Crowd Programming GrantComments Off on Press on Crowd Programming Grant on Press on Crowd Programming Grant 
+
+Jul 1413
+Welcome Gleiph  
+
+
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+
+
+Jul 1413
+Welcome Gleiph  
+Jul 141313
+We have a new member in SDCL – Gleiph Ghiotto.
+Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories.
+ Posted in News by andre.
+        Comments Off on Welcome Gleiph
+
+We have a new member in SDCL – Gleiph Ghiotto.Gleiph is a 3rd year PhD student from Fluminense Federal University. His advisor is professor Leonardo Murta. Gleiph will spend six months in our lab investigating merging and diffing approaches in open source repositories. Posted in News by andre.
+        Comments Off on Welcome Gleiph
+Posted inNewsandreComments Off on Welcome GleiphComments Off on Welcome Gleiph on Welcome Gleiph 
+« Previous Page
+Next Page »
+
+« Previous PageNext Page »
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+
+
+Collaborators
+
+Anita Sarma
+David Redmiles
+Marian Petre
+Shinobu Saito
+Thomas LaToza
+
+Anita SarmaDavid RedmilesMarian PetreShinobu SaitoThomas LaToza
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+
+
+
+Home
+Research
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+
+Papers
+
+Technical reports
+Dissertations
+Books
+
+
+Opportunities
+People
+
+Previous members
+
+
+Sponsors
+Contact
+
+Directions
+
+
+
+HomeResearch
+
+Chatbots
+KnoCap
+Past projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+
+
+ChatbotsKnoCapPast projects
+
+Lighthouse
+CrowdDesign
+Crowd Debugging
+Calico
+CodeExchange
+Code Orb
+Crowd Development
+PorchLight
+
+LighthouseCrowdDesignCrowd DebuggingCalicoCodeExchangeCode OrbCrowd DevelopmentPorchLightPapers
+
+Technical reports
+Dissertations
+Books
+
+Technical reportsDissertationsBooksOpportunitiesPeople
+
+Previous members
+
+Previous membersSponsorsContact
+
+Directions
+
+Directions
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+
+ The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+The Software Design and Collaboration Laboratory is housed in the Department of Informatics in the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+
+    
+
+
+    
+ 
+
+   
+
+
+   
+ Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress |   
+                            Log In
+Copyright ©             
+            SDCL |   eDegree° Theme by Top Blog Formula on WordPress

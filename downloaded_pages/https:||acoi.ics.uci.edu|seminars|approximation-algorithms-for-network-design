@@ -1,0 +1,2911 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design
+Home>Seminars>Approximation Algorithms for Network Design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design
+Home>Seminars>Approximation Algorithms for Network Design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+
+
+ACO Center @ UCI  
+
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+
+ACO Center @ UCI  
+
+ACO Center @ UCI  
+
+
+Algorithms, Combinatorics and Optimization 
+
+
+
+Algorithms, Combinatorics and Optimization 
+
+Algorithms, Combinatorics and Optimization Algorithms, Combinatorics and Optimization
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+
+
+
+ Search
+
+
+
+
+
+
+ Search
+
+
+
+ Search
+Search
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+
+ Menu
+
+
+Home
+People
+Seminar Series
+Synergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+
+News
+Contact
+ 
+HomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+ Menu
+MenuHomePeopleSeminar SeriesSynergistic Units at UCI
+
+ICS
+Math
+Business School
+IMBS
+EECS
+Center for Algorithms and Theory of Computation
+
+ICSMathBusiness SchoolIMBSEECSCenter for Algorithms and Theory of ComputationNewsContact
+Approximation Algorithms for Network Design
+Home>Seminars>Approximation Algorithms for Network Design
+Home>HomeHome>Seminars>Seminars>Approximation Algorithms for Network DesignApproximation Algorithms for Network Design
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+Approximation Algorithms for Network Design 
+
+
+
+
+Date: September 9, 2022					
+
+
+
+
+
+Time: 3:00 pm					
+
+
+
+
+
+Room: DBH 4011					
+
+
+
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+
+
+				 (University of Waterloo)					
+
+
+
+
+Approximation Algorithms for Network Design 
+
+Approximation Algorithms for Network Design 
+
+
+Date: September 9, 2022					
+
+
+
+Date: September 9, 2022					
+
+Date: September 9, 2022					
+
+
+Time: 3:00 pm					
+
+
+
+Time: 3:00 pm					
+
+Time: 3:00 pm					
+
+
+Room: DBH 4011					
+
+
+
+Room: DBH 4011					
+
+Room: DBH 4011					
+
+
+Speaker: Joseph Cheriyan 					
+
+
+
+Speaker: Joseph Cheriyan 					
+
+Speaker: Joseph Cheriyan 					
+
+
+				 (University of Waterloo)					
+
+
+
+				 (University of Waterloo)					
+
+				 (University of Waterloo)					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+Abstract: Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.
+Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+Adjiashvili, Hommelsheim and M\”uhlenthaler (AHM, in IPCO 2020), introduced a new and “natural” model of network design called flexible graph connectivity: given a multi-graph G=(V,E) with non-negative costs on the edges and a partition of E into a set of safe edges and a set of unsafe edges, find a cheapest connected spanning subgraph H=(V,F) of G that stays connected even after the failure of one unsafe edge (that is, H-e is connected for each unsafe edge e in F). Recent research has focused on approximation algorithms for this model and its extensions, and this has raised perplexing questions. The talk will cover the AHM model and its extensions, as well as some approximation algorithms for these models.Time permitting, the second part of the talk will survey recent results on approximation algorithms for key special cases of the minimum-cost 2-edge connected spanning subgraph problem, focusing on the Matching Augmentation Problem (MAP).
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+Bio: Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+Joseph Cheriyan is a full professor in the world famous C&O department at the University of Waterloo (Canada) since 2003. His primary research interests are in Approximation Algorithms, Combinatorial Optimization, and Graph Theory.
+
+
+
+
+
+
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+
+ACO Center @ UCI • Privacy Policy • © 2022 UC Regents 
+
+Close Menu
+
+Close Menu
+
+
+
+
+
+
+
+
+Open toolbar
+
+ 
+
+Open toolbar
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+
+
+Accessibility Tools
+
+
+
+Increase Text 
+
+
+
+Decrease Text 
+
+
+
+Grayscale 
+
+
+
+High Contrast 
+
+
+
+Negative Contrast 
+
+
+
+Light Background 
+
+
+
+Links Underline 
+
+
+
+Readable Font 
+
+
+
+
+Reset
+
+
+
+Accessibility Tools
+
+Increase Text 
+Increase Text
+
+Decrease Text 
+Decrease Text
+
+Grayscale 
+Grayscale
+
+High Contrast 
+High Contrast
+
+Negative Contrast 
+Negative Contrast
+
+Light Background 
+Light Background
+
+Links Underline 
+Links Underline
+
+Readable Font 
+Readable Font
+
+
+Reset
+
+Reset
