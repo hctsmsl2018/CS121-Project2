@@ -10,7 +10,10 @@ import sys
 d = {}
 visited = set()
 
-def scraper(url, resp, config, simhash):
+def scraper(url, resp, config, simhash) -> list:
+    '''
+    Initial scraper function before extracting text, checks for dead webpages, missing raw_response, and too big of content sizes
+    '''
     if resp.raw_response is not None and resp.raw_response.content is not None and sys.getsizeof(resp.raw_response.content) <= 1000000:
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
@@ -33,10 +36,10 @@ def scraper(url, resp, config, simhash):
         links = extract_next_links(url, resp, page)
         url_parsed = urlparse(url)
 
-        curr = sys.getsizeof(resp.raw_response.content)
-
-        with open("content_size.txt", "a") as file:
-            file.write(str(curr) + "\n")
+        #for data purposes only, not for program functionality:
+        #curr = sys.getsizeof(resp.raw_response.content)
+        #with open("content_size.txt", "a") as file:
+        #    file.write(str(curr) + "\n")
 
 
         return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
@@ -44,7 +47,7 @@ def scraper(url, resp, config, simhash):
         return []
     
 
-def extract_next_links(url, resp, page):
+def extract_next_links(url, resp, page) -> list:
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -96,7 +99,10 @@ def extract_next_links(url, resp, page):
     return []
 
 
-def extract_text(url, response, page):
+def extract_text(url, response, page) -> Path:
+    """
+    Extract text from webpage and write it to a file
+    """
     # Commonly used tags for text in HTML, may be more
     text_tags = ['p', 'div', 'span', 'li']
     # Creates path to where the downloaded page text should be stored
@@ -142,8 +148,10 @@ def complete_url(extracted, src_parsed):
     return urlunparse(extracted_parsed)
 
 
-def is_valid(url, config):
-    # Decide whether to crawl this url or not. 
+def is_valid(url, config) -> bool:
+    """
+    Decide whether to crawl this url or not.
+    """
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
@@ -181,11 +189,17 @@ def is_valid(url, config):
 
 
 def parse_robots(url):
+    """
+    Parse robot.txt file to check whether crawler has permission or not
+    """
     rp = urllib.robotparser.RobotFileParser()
     return rp.can_fetch('*', url)
 
 
-def parse_sitemap(resp):
+def parse_sitemap(resp) -> dict:
+    """
+    Parses the  sitemap
+    """
     xml_dict = {}
     xml = resp.content
     xml_page = BeautifulSoup(xml, 'html.parser')
@@ -195,7 +209,10 @@ def parse_sitemap(resp):
     return xml_dict
 
 
-def check_freshness(date):
+def check_freshness(date) -> int:
+    """
+    Checks the freshness of the webpage, i.e. how modern/current it is
+    """
     return int(date[:4]) >= 2020
 
 

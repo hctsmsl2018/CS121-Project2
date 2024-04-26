@@ -93,7 +93,7 @@ def main():
     report.write('Longest page by word count:\n ' + longest_page(file_tokens) + '\n')
     write_common_words(common_words(file_tokens), report)
     write_unique_sub_domains(unique_sub_domains(file_tokens.keys()), report)
-    find_avg_content_size('content_size.txt', report) #can comment out for submission, is for data use
+    #find_avg_content_size('content_size.txt', report) #can comment out for submission, is for data use
     report.close()
 
 
