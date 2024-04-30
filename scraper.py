@@ -148,12 +148,12 @@ def is_valid(url, config) -> bool:
 
         # Check if authority is within required domains
         if parsed.netloc:
-            auth_split = parsed.netloc.split('.', maxsplit=1)
-            if auth_split[0] == 'www':
-                auth_check = auth_split[1]
-            else:
-                auth_check = parsed.netloc
-            if auth_check not in config.seed_url_auths:
+            auth_split = parsed.netloc.rsplit('.', 3)
+
+            if len(auth_split) < 3:
+                return False
+
+            if '.'.join(auth_split[-3:]) not in config.seed_url_auths:
                 return False
 
         # Check if URL is not only a fragment
