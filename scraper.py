@@ -10,7 +10,8 @@ def scraper(url, resp, config, simhash) -> list:
     '''
     Initial scraper function before extracting text, checks for dead webpages, missing raw_response, and too big of content sizes
     '''
-    if resp.raw_response is not None and resp.raw_response.content is not None and sys.getsizeof(resp.raw_response.content) <= 1000000:
+    if resp.raw_response is not None and resp.raw_response.content is not None and sys.getsizeof(
+            resp.raw_response.content) <= 1000000:
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
         path = extract_text(url, resp, page)
@@ -25,16 +26,15 @@ def scraper(url, resp, config, simhash) -> list:
         links = extract_next_links(url, resp, page)
         url_parsed = urlparse(url)
 
-        #for data purposes only, not for program functionality:
-        #curr = sys.getsizeof(resp.raw_response.content)
-        #with open("content_size.txt", "a") as file:
+        # for data purposes only, not for program functionality:
+        # curr = sys.getsizeof(resp.raw_response.content)
+        # with open("content_size.txt", "a") as file:
         #    file.write(str(curr) + "\n")
-
 
         return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
     else:
         return []
-    
+
 
 def extract_next_links(url, resp, page) -> list:
     # Implementation required.
@@ -53,7 +53,7 @@ def extract_next_links(url, resp, page) -> list:
                 links = []
                 xml_dict = parse_sitemap(resp.raw_response)
                 for link in xml_dict:
-                    #if check_freshness(xml_dict[link]):
+                    # if check_freshness(xml_dict[link]):
                     links.append(link)
                 return links
             else:
@@ -70,7 +70,7 @@ def extract_next_links(url, resp, page) -> list:
             links = [link['href'] for link in links]
             if site_map:
                 links += site_map
-            #for link in links:
+            # for link in links:
             #    if not parse_robots(link):
             #        links.remove(link)
             # Return the links
@@ -98,7 +98,7 @@ def extract_text(url, response, page) -> Path:
             # Checks for https
             url = url.replace('/', '|')
             path = Path(cache_dir + '/' + url)
-            
+
             out_file = path.open('w', encoding='utf-8')
 
             for con in page.find_all(text_tags):
@@ -148,7 +148,8 @@ def is_valid(url, config) -> bool:
 
         # Check if authority is within required domains
         if parsed.netloc:
-            if parsed.netloc not in config.seed_url_auths:
+            auth_split = parsed.netloc.split('.', maxsplit=1)
+            if auth_split[1] not in config.seed_url_auths:
                 return False
 
         # Check if URL is not only a fragment
