@@ -148,9 +148,8 @@ def is_valid(url, config) -> bool:
 
         # Check if authority is within required domains
         if parsed.netloc:
-            for auth in config.seed_url_auths:
-                if parsed.netloc.endswith(auth):
-                    break
+            if parsed.netloc in config.seed_url_auths:
+                break
             else:
                 return False
 
