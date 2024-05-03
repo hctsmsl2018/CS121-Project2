@@ -12,18 +12,25 @@ def scraper(url, resp, config, simhash) -> list:
     '''
     if resp.raw_response is not None and resp.raw_response.content is not None and sys.getsizeof(
             resp.raw_response.content) <= 1000000:
+        # Get HTML representation of page
         page = BeautifulSoup(resp.raw_response.content, "html.parser")
 
+        # Extract text from page and save path of extracted text
         path = extract_text(url, resp, page)
 
+        # If text was not extracted, return no links
         if path == None:
             return []
 
+        # If page is too similar to another, delete it from the saved pages
         if not simhash.add_page(url, path, config):
             path.unlink()
             return []
 
+        # Get links on page
         links = extract_next_links(url, resp, page)
+
+        # Parse URL
         url_parsed = urlparse(url)
 
         # for data purposes only, not for program functionality:
@@ -31,6 +38,7 @@ def scraper(url, resp, config, simhash) -> list:
         # with open("content_size.txt", "a") as file:
         #    file.write(str(curr) + "\n")
 
+        # Return links
         return [complete_url(link, url_parsed) for link in links if is_valid(link, config)]
     else:
         return []
@@ -50,6 +58,7 @@ def extract_next_links(url, resp, page) -> list:
     if resp.status == 200 and resp.raw_response:
         try:
             if url[-4:] == '.xml':
+                # Get links on sitemap
                 links = []
                 xml_dict = parse_sitemap(resp.raw_response)
                 for link in xml_dict:
